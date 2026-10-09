@@ -9,9 +9,9 @@ class CreateUserRequest(TypedDict):
     """
     email: str
     password: str
-    first_name: str
-    last_name: str
-    middle_name: str
+    firstName: str
+    lastName: str
+    middleName: str
 
 class PublicUsersClient(APIClient):
     """
@@ -20,7 +20,7 @@ class PublicUsersClient(APIClient):
     def create_user_api(self, request: CreateUserRequest) -> Response:
         """
         Метод создает нового пользователя
-        :param request: Словарь с email, password, first_name, last_name, middle_name
+        :param request: Словарь с email, password, firstName, lastName, middleName
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.post("/api/v1/users", json=request)
