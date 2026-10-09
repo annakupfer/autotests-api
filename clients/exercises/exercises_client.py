@@ -24,7 +24,7 @@ class CreateExerciseRequestDict(TypedDict):
 
 class UpdateExerciseRequestDict(TypedDict):
     """
-    Описание структуры запроса на обновление заданияупражнения
+    Описание структуры запроса на обновление задания
     """
     title: str | None
     maxScore: int | None
