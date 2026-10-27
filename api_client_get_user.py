@@ -2,19 +2,12 @@ from clients.private_http_builder import AuthenticationUserSchema
 from clients.users.private_users_client import get_private_users_client
 from clients.users.public_users_client import get_public_users_client
 from clients.users.user_schema import CreateUserRequestSchema
-from tools.fakers import get_random_email
 
 # Инициализируем клиент PublicUsersClient
 public_users_client = get_public_users_client()
 
 # Инициализируем запрос на создание пользователя
-create_user_request = CreateUserRequestSchema(
-    email=get_random_email(),
-    password="string",
-    last_name="string",
-    first_name="string",
-    middle_name="string"
-)
+create_user_request = CreateUserRequestSchema()
 # Используем метод create_user
 create_user_response = public_users_client.create_user(create_user_request)
 print('Create user data:', create_user_response)
@@ -22,8 +15,8 @@ print('Create user data:', create_user_response)
 
 # Инициализируем пользовательские данные для аутентификации
 authentication_user = AuthenticationUserSchema(
-    email=create_user_request['email'],
-    password=create_user_request['password']
+    email=create_user_request.email,
+    password=create_user_request.password
 )
 # Инициализируем клиент PrivateUsersClient
 private_users_client = get_private_users_client(authentication_user)
