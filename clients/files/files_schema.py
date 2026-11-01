@@ -7,6 +7,7 @@ class FileSchema(BaseModel):
     Описание структуры файла.
     """
     id: str
+    filename: str
     url: HttpUrl
     directory: str
 
@@ -27,4 +28,10 @@ class CreateFileResponseSchema(BaseModel):
     """
     file: FileSchema
 
-print(CreateFileRequestSchema(upload_file = "./testdata/files/image.png"))
+
+class GetFileResponseSchema(BaseModel):
+    """
+    Описание структуры ответа на запрос на получение файла
+    """
+    file: FileSchema
+
