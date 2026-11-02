@@ -4,7 +4,7 @@ import pytest
 
 from clients.exercises.exercises_client import ExercisesClient
 from clients.exercises.exercises_schema import CreateExerciseRequestSchema, CreateExerciseResponseSchema, \
-    GetExerciseQuerySchema, GetExerciseResponseSchema
+    GetExerciseResponseSchema
 from fixtures.courses import CourseFixture
 from fixtures.exercises import ExerciseFixture
 from tools.assertions.base import assert_status_code
