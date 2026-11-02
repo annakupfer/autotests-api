@@ -2,12 +2,8 @@
 from httpx import Response
 
 from clients.api_client import APIClient
-from clients.courses.courses_schema import (
-    GetCoursesQuerySchema,
-    CreateCourseRequestSchema,
-    CreateCourseResponseSchema,
-    UpdateCourseRequestSchema,
-)
+from clients.courses.courses_schema import GetCoursesQuerySchema, CreateCourseRequestSchema, UpdateCourseRequestSchema, \
+    CreateCourseResponseSchema
 from clients.private_http_builder import AuthenticationUserSchema, get_private_http_client
 
 
@@ -44,15 +40,6 @@ class CoursesClient(APIClient):
         """
         return self.post("/api/v1/courses", json=request.model_dump(by_alias=True))
 
-    def create_course(self, request: CreateCourseRequestSchema) -> CreateCourseResponseSchema:
-        """
-        Метод создания курса, возвращающий json ответа
-        :param request: Словарь с title, maxScore, minScore, description, estimatedTime, previewFileId, createdByUserId
-        :return: Словарь с данными созданного курса, полученными от сервера
-        """
-        response = self.create_course_api(request)
-        return CreateCourseResponseSchema.model_validate_json(response.text)
-
     def update_course_api(self, course_id: str, request: UpdateCourseRequestSchema) -> Response:
         """
         Метод обновления курса.
@@ -61,7 +48,10 @@ class CoursesClient(APIClient):
         :param request: Словарь с title, maxScore, minScore, description, estimatedTime.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.patch(f"/api/v1/courses/{course_id}", json=request.model_dump(by_alias=True, exclude_unset=True))
+        return self.patch(
+            f"/api/v1/courses/{course_id}",
+            json=request.model_dump(by_alias=True)
+        )
 
     def delete_course_api(self, course_id: str) -> Response:
         """
@@ -72,8 +62,11 @@ class CoursesClient(APIClient):
         """
         return self.delete(f"/api/v1/courses/{course_id}")
 
+    def create_course(self, request: CreateCourseRequestSchema) -> CreateCourseResponseSchema:
+        response = self.create_course_api(request)
+        return CreateCourseResponseSchema.model_validate_json(response.text)
 
-# Добавляем builder для CoursesClient
+
 def get_courses_client(user: AuthenticationUserSchema) -> CoursesClient:
     """
     Функция создаёт экземпляр CoursesClient с уже настроенным HTTP-клиентом.
@@ -81,8 +74,3 @@ def get_courses_client(user: AuthenticationUserSchema) -> CoursesClient:
     :return: Готовый к использованию CoursesClient.
     """
     return CoursesClient(client=get_private_http_client(user))
-
-
-
-
-
