@@ -3,7 +3,7 @@ from clients.files.files_schema import CreateFileRequestSchema, CreateFileRespon
     GetFileResponseSchema
 
 from tools.assertions.base import assert_equal
-from tools.assertions.errors import assert_validation_error_response
+from tools.assertions.errors import assert_validation_error_response, assert_internal_error_response
 
 
 def assert_create_file_response(request: CreateFileRequestSchema, response: CreateFileResponseSchema):
@@ -74,19 +74,6 @@ def assert_create_file_with_empty_directory_response(actual: ValidationErrorResp
         ]
     )
     assert_validation_error_response(actual, expected)
-
-def assert_internal_error_response(
-        actual: InternalErrorResponseSchema,
-        expected: InternalErrorResponseSchema
-):
-    """
-    Функция для проверки внутренней ошибки. Например, ошибки 404 (File not found).
-
-    :param actual: Фактический ответ API.
-    :param expected: Ожидаемый ответ API.
-    :raises AssertionError: Если значения полей не совпадают.
-    """
-    assert_equal(actual.details, expected.details, "details")
 
 def assert_file_not_found_response(actual: InternalErrorResponseSchema):
     """
