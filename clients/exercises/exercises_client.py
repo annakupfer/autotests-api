@@ -3,7 +3,7 @@ from httpx import Response
 
 from clients.api_client import APIClient
 from clients.exercises.exercises_schema import (
-    GetExerciseQuerySchema,
+    GetExercisesQuerySchema,
     GetExerciseResponseSchema,
     CreateExerciseRequestSchema,
     CreateExerciseResponseSchema,
@@ -19,7 +19,7 @@ class ExercisesClient(APIClient):
     Клиент для работы с api/v1/exercises/
     """
 
-    def get_exercises_api(self, query: GetExerciseQuerySchema) -> Response:
+    def get_exercises_api(self, query: GetExercisesQuerySchema) -> Response:
         """
         Метод получения списка заданий
 
@@ -28,7 +28,7 @@ class ExercisesClient(APIClient):
         """
         return self.get("/api/v1/exercises", params=query.model_dump(by_alias=True))
 
-    def get_exercises(self, query: GetExerciseQuerySchema) -> GetExercisesResponseSchema:
+    def get_exercises(self, query: GetExercisesQuerySchema) -> GetExercisesResponseSchema:
         """
         Метод получения списка заданий в виде словаря
 
@@ -84,7 +84,7 @@ class ExercisesClient(APIClient):
         :param request: Словарь с title, maxScore, minScore, orderIndex, description, estimatedTime
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.patch(f"/api/v1/exercises/{exercise_id}", json=request.model_dump(by_alias=True))
+        return self.patch(f"/api/v1/exercises/{exercise_id}", json=request.model_dump(by_alias=True ))
     
     def update_exercise(self, exercise_id: str, request: UpdateExerciseRequestSchema) -> UpdateExerciseResponseSchema:
         """

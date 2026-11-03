@@ -18,7 +18,7 @@ class ExerciseSchema(BaseModel):
     description: str
     estimated_time: str = Field(alias="estimatedTime")
 
-class GetExerciseQuerySchema(BaseModel):
+class GetExercisesQuerySchema(BaseModel):
     """
     Описание структуры запроса на получение списка заданий
     """
