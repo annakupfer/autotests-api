@@ -8,7 +8,7 @@ def create_allure_environment_file():
     # Создаем список из элементов в формате {key}={value}
     items = [f'{key}={value}' for key, value in settings.model_dump().items()]
     # Добавляем информацию об операционной системе
-    items.append(f'os_info={platform.system()} {platform.release()}')
+    items.append(f'os_info={platform.system()}, {platform.release()}')
     # Добавляем информацию о версии python
     items.append(f'python_version={sys.version}')
 
