@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIxOjI0OjM1LjAwODczNSIsInVzZXJfaWQiOiIxODVlZjlkNC03MTM3LTQzZjEtOTJkNi00Y2NmYzEwOTZjMDkifQ.wDGSZjrYXcjh981WNa-wSuHPkF7QhyCH4CvfbWK2Z3A' \
+  -H 'content-length: 428' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Maybe agree argue tonight as as ball near.","maxScore":58,"minScore":13,"description":"Collection small far past three it compare. Next do doctor example civil.\nWear political where use. Society rock large suddenly old. Yourself require our above simply identify outside great.","estimatedTime":"6 weeks","previewFileId":"3cc57ad2-28a7-4f09-a952-16532b2263bb","createdByUserId":"185ef9d4-7137-43f1-92d6-4ccfc1096c09"}'

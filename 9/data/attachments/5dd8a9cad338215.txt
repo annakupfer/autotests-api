@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/ee766ddf-ff5b-4ee3-b08c-38f506b657ba' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIxOjI0OjM1LjAwODczNSIsInVzZXJfaWQiOiIxODVlZjlkNC03MTM3LTQzZjEtOTJkNi00Y2NmYzEwOTZjMDkifQ.wDGSZjrYXcjh981WNa-wSuHPkF7QhyCH4CvfbWK2Z3A' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hit pick may million often community.","courseId":"02cba636-9afb-45c0-a922-ac2cf6ce83b6","maxScore":61,"minScore":11,"orderIndex":24,"description":"Baby another left range government. Style sea travel yard.\nSuggest stay hospital just return finally avoid. Five trial whatever describe Democrat mean.","estimatedTime":"4 weeks"}'

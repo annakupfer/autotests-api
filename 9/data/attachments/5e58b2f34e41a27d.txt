@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIxOjI0OjMzLjk0Mjk3MyIsInVzZXJfaWQiOiJkNTY1N2E3ZC0yMmIwLTQ2MDMtOTFiOS02YWYwNjUxOTEzZTYifQ.w7_qtZ4Fdg8x5W2fPca4qjIwT4Z6ReIHsOEvg6QbXZM' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Soon fall road decision market.","maxScore":86,"minScore":30,"description":"Now hour health painting big lawyer might.\nNor when open prove task. Participant clearly material course direction. Determine glass production respond forget water.\nFly hotel action system actually.","estimatedTime":"9 weeks","previewFileId":"736db739-d0a1-45fc-ae16-d6a1a4550d61","createdByUserId":"d5657a7d-22b0-4603-91b9-6af0651913e6"}'

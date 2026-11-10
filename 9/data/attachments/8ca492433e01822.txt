@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIxOjI0OjMyLjM4MjcyNSIsInVzZXJfaWQiOiI4Yzg2ZDBjOS0wMTJkLTQ5YzgtYjgzYi03NTk2NGY4NjMyM2UifQ.BhbN3FZczDMpz1uho9MEHik4VfQOeedVe-SpeGpzIb4' \
+  -H 'content-length: 321' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Important yet area anything.","maxScore":65,"minScore":5,"description":"Avoid article himself create. Ago might fly poor sister. Something set conference operation camera.","estimatedTime":"8 weeks","previewFileId":"c49b00a4-5c9a-49a8-a66d-c85825795d62","createdByUserId":"8c86d0c9-012d-49c8-b83b-75964f86323e"}'

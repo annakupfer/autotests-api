@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/0e5ae7e7-739d-4113-a610-b9ce785a2f01' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIxOjI0OjMxLjYwMDY5NyIsInVzZXJfaWQiOiJkM2E1ZmY4OS0zMGNmLTQzNTctODgzYi01ODc2ODU0MmRiMWEifQ.lHvcT61i0j3fQTcHnMCbtAPhn5udfaQDuCszguBPI34' \
+  -H 'content-length: 254' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Difference those like discuss example machine stuff.","maxScore":80,"minScore":17,"description":"Catch sister push chair. Fall staff according party action total. Trade somebody away east pressure. Deep rule general.","estimatedTime":"3 weeks"}'

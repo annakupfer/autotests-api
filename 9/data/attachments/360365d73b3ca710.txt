@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIxOjI0OjMyLjg4ODU3NSIsInVzZXJfaWQiOiI2YzYzNGFkZS02OTg3LTQ5NDMtOGJhNS0zZDBjNjg1ZmViNTMifQ.hNulJn1GZy56_czGmYIJgBSkLOm6pcjqZsedkthltOs' \
+  -H 'content-length: 357' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Information before believe compare.","maxScore":75,"minScore":26,"description":"Word little six station knowledge myself. Minute street account to radio. You page few hair.\nShare minute high college effect.","estimatedTime":"5 weeks","previewFileId":"199421ee-a475-4be3-acea-30bf02bbfca8","createdByUserId":"6c634ade-6987-4943-8ba5-3d0c685feb53"}'

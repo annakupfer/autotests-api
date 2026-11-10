@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIxOjI0OjM0Ljc2OTU5OSIsInVzZXJfaWQiOiI3Yjk4ZTYxNS0xMjljLTRmOGEtOWU3ZS1hMGMxMjRiZjM2MjAifQ.7CbAOp40SrJIRjn5PX1JVGf_YEXg1JK2xJ41uKAKU04' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rate spring hair ahead book where.","courseId":"b93bb89a-4f77-4b2b-b873-76b64c74fe66","maxScore":51,"minScore":19,"orderIndex":100,"description":"Trouble car why party. Name everyone early leader window office difficult.\nPolicy yeah sell budget southern player speak fall. Personal commercial organization.","estimatedTime":"2 weeks"}'

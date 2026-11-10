@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIxOjI0OjMxLjYwMDY5NyIsInVzZXJfaWQiOiJkM2E1ZmY4OS0zMGNmLTQzNTctODgzYi01ODc2ODU0MmRiMWEifQ.lHvcT61i0j3fQTcHnMCbtAPhn5udfaQDuCszguBPI34' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Center allow food imagine late where heavy history.","maxScore":56,"minScore":9,"description":"Former close relate black his hold per piece.\nHot commercial wall use thank wide moment good.","estimatedTime":"7 weeks","previewFileId":"639938c5-b5ff-4483-89c6-11362b6fa34c","createdByUserId":"d3a5ff89-30cf-4357-883b-58768542db1a"}'

@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:84 Check create course response
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Information before believe compare.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 75
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 26
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Word little six station knowledge myself. Minute street account to radio. You page few hair.
+Share minute high college effect.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 5 weeks
+INFO     BASE_ASSERTIONS:base.py:35 Check, that preview_file_id equals to 199421ee-a475-4be3-acea-30bf02bbfca8
+INFO     BASE_ASSERTIONS:base.py:35 Check, that created_by_user_id equals to 6c634ade-6987-4943-8ba5-3d0c685feb53
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema
