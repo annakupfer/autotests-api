@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDE5OjQ1OjIyLjg2NDIxOCIsInVzZXJfaWQiOiJlNjk1YWRjNy03OGVhLTQ0YjctYjJjZS1lNDRmMzk2OTE5OTIifQ.0-n7kYSDh4RQtSsM7D32IJsaOScDEFxeUkDKkc7g64Y' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Born name either practice study.","maxScore":99,"minScore":23,"description":"Bring daughter before heavy prove can want. Draw decision tax once. Sometimes guy result natural law.\nBoth until Democrat support detail. Blue against send class dog rise professional.","estimatedTime":"10 weeks","previewFileId":"65d3aac1-3133-42a4-8c11-fb02bf0605fe","createdByUserId":"e695adc7-78ea-44b7-b2ce-e44f39691992"}'

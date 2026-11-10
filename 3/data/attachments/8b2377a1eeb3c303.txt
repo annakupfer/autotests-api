@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDE5OjQ1OjI0LjA1MjAwNiIsInVzZXJfaWQiOiI2ZTk1NGRmYy05NjRmLTQxMDEtYjMxMC1hOTUxYjY4YmM1M2EifQ.ti44vDKIcEaDDJugmNcEY09L5jGWVfcckDx7yPd78Ic' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Safe bit can ahead community.","maxScore":59,"minScore":2,"description":"Remember fact you ago style myself. Onto soldier story.\nFinish individual when spend research listen. Difference something art. Lay mean piece executive.","estimatedTime":"3 weeks","previewFileId":"23f19613-13f2-4662-a384-33b27a7419c4","createdByUserId":"6e954dfc-964f-4101-b310-a951b68bc53a"}'

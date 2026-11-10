@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDE5OjQ1OjIyLjI4NDk5NSIsInVzZXJfaWQiOiI4NGI1MjQzYy1mMWU2LTQ2NjEtOTFmMC1mYTgxNDE2NmZkNWMifQ.KHTc_0fbPmdo7BfzGluP1imSvuw_E5yt6HlQGNiAR9A' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Artist food energy produce fear.","maxScore":54,"minScore":2,"description":"Whatever name reality. Office policy game around choose best pressure. Black store process region difference matter model take.","estimatedTime":"9 weeks","previewFileId":"98000a16-fe07-4514-9119-949d4ff47f4e","createdByUserId":"84b5243c-f1e6-4661-91f0-fa814166fd5c"}'

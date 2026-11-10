@@ -1,0 +1,32 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make GETrequest to http://localhost:8000/api/v1/courses?userId=84b5243c-f1e6-4661-91f0-fa814166fd5c
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:65 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:71 Check, that length of courses equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:41 Check course
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to 49337fe0-0d3a-4202-9f64-2b04756f22ec
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Artist food energy produce fear.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 54
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 2
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Whatever name reality. Office policy game around choose best pressure. Black store process region difference matter model take.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 9 weeks
+INFO     FILES_ASSERTIONS:files.py:40 Check file
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to 98000a16-fe07-4514-9119-949d4ff47f4e
+INFO     BASE_ASSERTIONS:base.py:35 Check, that url equals to http://localhost:8000/static/tests/eeb402bf-1374-46c9-9dd7-39a149a400d2.png
+INFO     BASE_ASSERTIONS:base.py:35 Check, that filename equals to eeb402bf-1374-46c9-9dd7-39a149a400d2.png
+INFO     BASE_ASSERTIONS:base.py:35 Check, that directory equals to tests
+INFO     USERS_ASSERTIONS:users.py:39 Check user
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to 84b5243c-f1e6-4661-91f0-fa814166fd5c
+INFO     BASE_ASSERTIONS:base.py:35 Check, that email equals to deankristy@example.org
+INFO     BASE_ASSERTIONS:base.py:35 Check, that last_name equals to White
+INFO     BASE_ASSERTIONS:base.py:35 Check, that first_name equals to Kara
+INFO     BASE_ASSERTIONS:base.py:35 Check, that middle_name equals to Amanda
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

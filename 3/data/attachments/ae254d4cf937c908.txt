@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDE5OjQ1OjI1LjAwMTEwNCIsInVzZXJfaWQiOiI1NjY3OWMwNS01N2I2LTQyYjQtOGY0ZS0zYzEzMDMxNzMzYzQifQ.dschB_PR3KyC4Ie6WIFBTLKh0rcxkdRrp-QUhQFuSgQ' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Clear list safe truth.","courseId":"49980044-0456-42d5-9269-419f90b1ab00","maxScore":50,"minScore":23,"orderIndex":27,"description":"Career defense vote fund figure well explain play. Could manage draw possible president citizen above. Check able stay old reveal likely.\nEconomy nature plan wonder.","estimatedTime":"4 weeks"}'

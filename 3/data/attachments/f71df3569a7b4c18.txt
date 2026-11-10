@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDE5OjQ1OjI2LjI3MzI0MiIsInVzZXJfaWQiOiI3ODBmNGVmYi1lZTQ0LTRiNWYtYWZmOS1lYWU0YjdhODAxZTAifQ.hiXMCmYq0W7opfA36tbDdXutWjhEZljNZ6NyZ8OpysY' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Couple imagine area official fly anything beautiful color.","maxScore":50,"minScore":29,"description":"Party than my total poor decade. Computer news draw trade talk simply. Week I whole technology career skin have.","estimatedTime":"5 weeks","previewFileId":"21a28f62-1081-4304-bd9c-305e9418795b","createdByUserId":"780f4efb-ee44-4b5f-aff9-eae4b7a801e0"}'

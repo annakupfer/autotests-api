@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDE5OjQ1OjI1LjAwMTEwNCIsInVzZXJfaWQiOiI1NjY3OWMwNS01N2I2LTQyYjQtOGY0ZS0zYzEzMDMxNzMzYzQifQ.dschB_PR3KyC4Ie6WIFBTLKh0rcxkdRrp-QUhQFuSgQ' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Feel tree woman eight grow.","maxScore":58,"minScore":26,"description":"Billion water into network.\nNature how media go avoid. Case moment for travel.\nWriter east mission here none site approach. Spend listen site. Glass modern option of.","estimatedTime":"1 weeks","previewFileId":"eb5edbf3-cf91-4d8b-bddd-a4135c36ed41","createdByUserId":"56679c05-57b6-42b4-8f4e-3c13031733c4"}'

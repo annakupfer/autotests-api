@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/baa83142-538a-4720-9391-3018c11c73a9' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDE5OjQ1OjIxLjM4ODI3MyIsInVzZXJfaWQiOiI3Mzk5MGFmNC03MmFmLTQyNjMtOWRkYS0xYWE2MDhkOTJjY2MifQ.BDNoOaiq2F3eaTvq0gfxv2DenGRcJ5XB2R-TTN92SAc' \
+  -H 'content-length: 297' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tv increase nothing international available.","maxScore":64,"minScore":8,"description":"Picture detail statement. Focus meeting she win fund home about.\nNotice health newspaper himself. Truth ground culture meet house.\nOld story theory clear say be answer.","estimatedTime":"10 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDE5OjQ1OjIxLjM4ODI3MyIsInVzZXJfaWQiOiI3Mzk5MGFmNC03MmFmLTQyNjMtOWRkYS0xYWE2MDhkOTJjY2MifQ.BDNoOaiq2F3eaTvq0gfxv2DenGRcJ5XB2R-TTN92SAc' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mention trouble range visit.","maxScore":50,"minScore":19,"description":"Activity source term information report order inside. Just partner Mr.\nWater state economic but cultural perform look. Girl again always rock.","estimatedTime":"10 weeks","previewFileId":"97d60f47-7a1c-4991-963e-ad48fff5cfae","createdByUserId":"73990af4-72af-4263-9dda-1aa608d92ccc"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDE5OjQ1OjI1LjI3NTk5NSIsInVzZXJfaWQiOiI4YmVmODEzNy02MzdlLTRmYTUtYjY4NC00ODI2YmRkZGJiZjkifQ.r7yC8TKNgP43k-_krUH_VJpUuC8DNNrNeOWYaWsJ73Y' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Surface yet someone lot apply foot boy whole.","maxScore":99,"minScore":10,"description":"Mean card least. Show southern trip program smile.\nItem camera where crime few care professional box. Chair then speech cell care beautiful.","estimatedTime":"10 weeks","previewFileId":"5b24be0b-5cb8-4e20-8d00-a2e5df5ab903","createdByUserId":"8bef8137-637e-4fa5-b684-4826bdddbbf9"}'
