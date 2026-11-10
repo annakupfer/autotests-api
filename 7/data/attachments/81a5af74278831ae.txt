@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIwOjM5OjU1Ljc0MTMyMSIsInVzZXJfaWQiOiI5ZmJmNzBkZS0xNGViLTRmYjktODc5Yy0wNGMzZGQ4ZTMyZTcifQ.SdphhHkqOE6I10wWfSgBK01Nl1X6YcCx3c7ru_irQdI' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"He away forget meeting as.","maxScore":62,"minScore":8,"description":"Certainly eye learn fact could number. Clear defense after heavy. White specific mouth ever mention.\nDifferent follow exist establish full feeling stuff. Hot factor rather main carry ahead property.","estimatedTime":"5 weeks","previewFileId":"fe1a8e3e-c420-4ff9-a70e-62fe06f29009","createdByUserId":"9fbf70de-14eb-4fb9-879c-04c3dd8e32e7"}'

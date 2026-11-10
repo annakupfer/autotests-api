@@ -1,0 +1,18 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make PATCHrequest to http://localhost:8000/api/v1/courses/faa5417e-aa6f-4ebd-9fd0-52e3d63def53
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:24 Check update course response
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Report structure add risk.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 98
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 29
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Mind way impact teach five move thought last. Give report by organization. Product describe sell.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 3 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

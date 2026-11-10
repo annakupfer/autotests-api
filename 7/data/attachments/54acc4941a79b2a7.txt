@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIwOjM5OjU5Ljc4ODA3NCIsInVzZXJfaWQiOiI4YWUyYTY4Zi00M2M0LTQxMWEtOTM2OC03NzIzOTUxZTNiZWMifQ.nBkTtKesQo2TKVMn0mr3vBxPGnkHlDCK4nubS5bfOqs' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Occur student chance smile his song former.","maxScore":85,"minScore":13,"description":"Fine win decade school seek. Mind assume glass yet speech. Front fish these field. Activity low democratic treat less important.","estimatedTime":"6 weeks","previewFileId":"b36d3a9a-32e1-43e5-8e3e-b4ddd09b800e","createdByUserId":"8ae2a68f-43c4-411a-9368-7723951e3bec"}'

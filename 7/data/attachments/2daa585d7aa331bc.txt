@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIwOjM5OjU3LjU4NjEzNyIsInVzZXJfaWQiOiIxMTYzNWIyYy0wZjk5LTQzMWQtYTAyMS1mZDcwZjI2YTYwMmUifQ.JjQNkMfAFnF0d15imwQwkoOvaaunZT-ZJPuLmrczKWI' \
+  -H 'content-length: 260' \
+  -H 'content-type: application/json' \
+  -d '{"title":"After final economy course medical.","courseId":"5868beca-3809-4088-958d-d2deaad71ea8","maxScore":55,"minScore":4,"orderIndex":24,"description":"It position car mission board yet. Bill onto send official political however.","estimatedTime":"3 weeks"}'

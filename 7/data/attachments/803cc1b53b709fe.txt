@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/98ed90be-9161-427e-987d-2a4aed18ffe8' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIwOjM5OjU5Ljc4ODA3NCIsInVzZXJfaWQiOiI4YWUyYTY4Zi00M2M0LTQxMWEtOTM2OC03NzIzOTUxZTNiZWMifQ.nBkTtKesQo2TKVMn0mr3vBxPGnkHlDCK4nubS5bfOqs' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thought arrive they open stock model.","courseId":"5121b875-3e33-4e5e-af73-64ade1027f1d","maxScore":85,"minScore":24,"orderIndex":10,"description":"See me effort fear clear company page. Official interest eight message particularly year air sure.\nSeveral American soon player mean in. Medical home kind really consumer.","estimatedTime":"5 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIwOjM5OjU4LjgxMjI5MSIsInVzZXJfaWQiOiIxMzI2ZGY3Zi02YWQ2LTQzZDMtYWFjYS1kM2EyNDRkZjFjZWYifQ.DnCLhbCkyNzSNjpkFwP0NAwMem9O7nQlHt8hsFRQ2Ik' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ability meet friend keep.","courseId":"a77c1b7e-60b6-42bb-86f3-56fdb8e3221c","maxScore":78,"minScore":4,"orderIndex":79,"description":"For light forget wish election teacher little. Difficult itself join rock also spend spring. Once international direction.\nResult company thank wonder. Various catch after eye.","estimatedTime":"2 weeks"}'

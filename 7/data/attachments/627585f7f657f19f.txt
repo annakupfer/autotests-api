@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/faa5417e-aa6f-4ebd-9fd0-52e3d63def53' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIwOjM5OjU1Ljc0MTMyMSIsInVzZXJfaWQiOiI5ZmJmNzBkZS0xNGViLTRmYjktODc5Yy0wNGMzZGQ4ZTMyZTcifQ.SdphhHkqOE6I10wWfSgBK01Nl1X6YcCx3c7ru_irQdI' \
+  -H 'content-length: 206' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Report structure add risk.","maxScore":98,"minScore":29,"description":"Mind way impact teach five move thought last. Give report by organization. Product describe sell.","estimatedTime":"3 weeks"}'

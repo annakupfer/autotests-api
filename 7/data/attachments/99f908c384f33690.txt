@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIwOjQwOjAwLjA2MjI3OSIsInVzZXJfaWQiOiJjZGQ4Mzk0OS0yMTRmLTQ1MGYtYmJlNS01ZjdlZTZmMzhjYWQifQ.BR3_9fKAK8wl69EjnUHmikC-nPthwdhfZACpXFi38S8' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stop month medical.","maxScore":64,"minScore":8,"description":"Want movie eight take million minute why situation. Charge seven wind act create deal black cover. Bad sign street short answer painting use third.","estimatedTime":"9 weeks","previewFileId":"33615014-47b0-4518-a3b6-0c7c02380438","createdByUserId":"cdd83949-214f-450f-bbe5-5f7ee6f38cad"}'

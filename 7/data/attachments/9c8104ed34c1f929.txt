@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIwOjM5OjU3LjU4NjEzNyIsInVzZXJfaWQiOiIxMTYzNWIyYy0wZjk5LTQzMWQtYTAyMS1mZDcwZjI2YTYwMmUifQ.JjQNkMfAFnF0d15imwQwkoOvaaunZT-ZJPuLmrczKWI' \
+  -H 'content-length: 431' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Low free south economic require rate ask.","maxScore":70,"minScore":15,"description":"Section for any audience sound resource late. Popular open wall only find number. No growth nature happen.\nKnowledge myself information their quite performance same peace. Against main cultural.","estimatedTime":"3 weeks","previewFileId":"f4aefd01-150f-4d20-9ebd-8ce7a868bf80","createdByUserId":"11635b2c-0f99-431d-a021-fd70f26a602e"}'

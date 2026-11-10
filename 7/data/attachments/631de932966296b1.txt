@@ -1,0 +1,18 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:84 Check create course response
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Mrs week sure Mr type.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 99
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 15
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Walk run require listen. Send young hard southern now pressure. Technology change establish opportunity well.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 3 weeks
+INFO     BASE_ASSERTIONS:base.py:35 Check, that preview_file_id equals to f5c0395b-505e-4df7-a1f5-934ec8180ebf
+INFO     BASE_ASSERTIONS:base.py:35 Check, that created_by_user_id equals to 3d3133dd-f8a7-44c8-ab09-e43e6fd94f04
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

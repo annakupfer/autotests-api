@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIwOjM5OjU2LjM4NTcyNiIsInVzZXJfaWQiOiI1YjcwMjA4OS1mNTkxLTRkYWEtOGQ1Yy03NTc1NTgyZjIxMDgifQ.Zp-Sw3Xv8DqGiSldQczK3XOl-sCqbZZEjO_FpHhTWr0' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Out create capital determine lay.","maxScore":54,"minScore":30,"description":"May voice everybody. Space option white large through white.\nDemocratic cover plant control parent common test.\nShow sometimes school produce wish notice. Car design rate conference reveal.","estimatedTime":"9 weeks","previewFileId":"48caad90-6a2b-4e61-adc3-75db946b1118","createdByUserId":"5b702089-f591-4daa-8d5c-7575582f2108"}'

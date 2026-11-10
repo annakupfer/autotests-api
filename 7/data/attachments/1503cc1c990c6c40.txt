@@ -1,0 +1,23 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make PATCHrequest to http://localhost:8000/api/v1/exercises/98ed90be-9161-427e-987d-2a4aed18ffe8
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:101 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Thought arrive they open stock model.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that course_id equals to 5121b875-3e33-4e5e-af73-64ade1027f1d
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 85
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 24
+INFO     BASE_ASSERTIONS:base.py:35 Check, that order_index equals to 10
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to See me effort fear clear company page. Official interest eight message particularly year air sure.
+Several American soon player mean in. Medical home kind really consumer.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

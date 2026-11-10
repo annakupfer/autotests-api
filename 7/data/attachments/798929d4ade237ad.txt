@@ -1,0 +1,27 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make GETrequest to http://localhost:8000/api/v1/exercises?courseId=a2d3429a-1258-4255-8f98-b175df47aacc
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:82 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:71 Check, that length of exercises equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:43 Check exercise
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to 6c025877-bf68-4331-8044-c5cedb9b6f25
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Real could where poor.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that course_id equals to a2d3429a-1258-4255-8f98-b175df47aacc
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 84
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 27
+INFO     BASE_ASSERTIONS:base.py:35 Check, that order_index equals to 99
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Assume accept able pay administration second.
+Little hand any control. Charge deal science walk see.
+Direction day off service politics again social school. Side trial matter lawyer special.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 10 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

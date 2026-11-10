@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIwOjM5OjU4LjgxMjI5MSIsInVzZXJfaWQiOiIxMzI2ZGY3Zi02YWQ2LTQzZDMtYWFjYS1kM2EyNDRkZjFjZWYifQ.DnCLhbCkyNzSNjpkFwP0NAwMem9O7nQlHt8hsFRQ2Ik' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Skill many own through as.","maxScore":67,"minScore":17,"description":"Among no compare down whether magazine. Star various record sit reveal wide meeting.\nOften whom vote mission before five. Lot detail watch only.","estimatedTime":"10 weeks","previewFileId":"61ed4ac6-d418-4c4b-b150-a01f3448e54a","createdByUserId":"1326df7f-6ad6-43d3-aaca-d3a244df1cef"}'
