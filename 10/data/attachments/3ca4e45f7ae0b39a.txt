@@ -1,0 +1,18 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make PATCHrequest to http://localhost:8000/api/v1/courses/22c39f83-23e8-448f-af48-246db2527a52
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:24 Check update course response
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Dog house green Mr soldier.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 94
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 5
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Modern spring make. Operation week experience. Body management life difference.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 7 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

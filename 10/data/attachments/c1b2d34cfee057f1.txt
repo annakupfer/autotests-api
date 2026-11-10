@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIxOjI4OjMzLjI4MTA1MCIsInVzZXJfaWQiOiI0NGU0Yzg2NC1iOWVkLTQ2MjMtOTc1Yi0yM2E4MTkxNTFjZDMifQ.bX_NXwhEF8Sf-ZUuHVRWo-xvhAurlyC-bKxVA1V-goQ' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Down crime imagine several save man.","maxScore":90,"minScore":15,"description":"Life pressure option interview detail difficult. Least note him relationship good can former. Important thousand participant cell.","estimatedTime":"6 weeks","previewFileId":"ae8bca31-36b1-4948-a0b0-a9234e5c80b2","createdByUserId":"44e4c864-b9ed-4623-975b-23a819151cd3"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/22c39f83-23e8-448f-af48-246db2527a52' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIxOjI4OjI5Ljg4OTQzNiIsInVzZXJfaWQiOiIwOGUzZTY5OC0xNTcyLTQzNmUtODQxMi0zYjkxYzZiNjY4ZjEifQ.dKcsPeGTc656GG7mURhIzovEHHvYdcfIK7JbLIVnV8o' \
+  -H 'content-length: 188' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Dog house green Mr soldier.","maxScore":94,"minScore":5,"description":"Modern spring make. Operation week experience. Body management life difference.","estimatedTime":"7 weeks"}'

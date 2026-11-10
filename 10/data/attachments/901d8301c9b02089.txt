@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIxOjI4OjMxLjE2OTIzMCIsInVzZXJfaWQiOiI4ODEyYmU0My1jZjI4LTRjNDQtODU5ZC01OGFlMjgwZjRjZmEifQ.Rh-0b-y_ICBJVAl-mZJzGEhoMf98ss1Kq-hqdjIb7VI' \
+  -H 'content-length: 322' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Visit join common outside nature across.","maxScore":75,"minScore":25,"description":"Guess minute ago study. Success sign hand there strategy.\nIndustry computer much tend.","estimatedTime":"7 weeks","previewFileId":"3bed54a3-ee1c-41aa-a790-554cde83485f","createdByUserId":"8812be43-cf28-4c44-859d-58ae280f4cfa"}'

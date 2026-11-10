@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIxOjI4OjMwLjY2NTk5MSIsInVzZXJfaWQiOiI1OWEyZWNlYS05MzRlLTRlMzYtYWEyMC0yODU3MGYzYWExMTUifQ.1enoZokwT4UyyEw9ocFKK3G_v7FYPWUT1JaXVLpSOe4' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nothing treatment international record paper beyond.","maxScore":81,"minScore":21,"description":"Career water listen bank. Capital paper newspaper man.\nExecutive safe power a reflect. Health low customer teach great item. Military indicate common inside.","estimatedTime":"8 weeks","previewFileId":"cdc072bd-6a3e-4599-a06d-3e6d107bfb9b","createdByUserId":"59a2ecea-934e-4e36-aa20-28570f3aa115"}'

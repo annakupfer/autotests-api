@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIxOjI4OjMyLjIxNzI5MSIsInVzZXJfaWQiOiJmMDRmZTM3ZC0yZmQ1LTRkYzUtODY5NS0xMjJiNzk3OGQ0YmUifQ.P4X4wIVc3GlgemlfJNt7EHivB3Klb9W6ahnHBHcK8cw' \
+  -H 'content-length: 328' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Live report own trial back.","maxScore":87,"minScore":20,"description":"Military artist support effort. Development general event owner. Church best particularly TV bill doctor.","estimatedTime":"10 weeks","previewFileId":"acb568d7-0e98-490e-9aad-db0d8ee592bf","createdByUserId":"f04fe37d-2fd5-4dc5-8695-122b7978d4be"}'

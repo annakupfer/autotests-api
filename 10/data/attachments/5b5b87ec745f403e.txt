@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/6626d8c7-4649-4251-adae-cd2ea27a506b' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIxOjI4OjMzLjI4MTA1MCIsInVzZXJfaWQiOiI0NGU0Yzg2NC1iOWVkLTQ2MjMtOTc1Yi0yM2E4MTkxNTFjZDMifQ.bX_NXwhEF8Sf-ZUuHVRWo-xvhAurlyC-bKxVA1V-goQ' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"What camera interview something fight attack social.","courseId":"a4295bd6-ab32-4cfd-99db-4f9fb8902c1a","maxScore":74,"minScore":1,"orderIndex":47,"description":"Although still grow ago hotel alone. Line finally as history. Top performance early budget.\nLow themselves most education account already production. My hot quality institution.","estimatedTime":"7 weeks"}'

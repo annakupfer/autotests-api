@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIxOjI4OjMzLjI4MTA1MCIsInVzZXJfaWQiOiI0NGU0Yzg2NC1iOWVkLTQ2MjMtOTc1Yi0yM2E4MTkxNTFjZDMifQ.bX_NXwhEF8Sf-ZUuHVRWo-xvhAurlyC-bKxVA1V-goQ' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Dog back news Mrs floor morning security.","courseId":"a4295bd6-ab32-4cfd-99db-4f9fb8902c1a","maxScore":77,"minScore":23,"orderIndex":98,"description":"Story him his couple career. Southern spring recently trial owner.\nFall late police education. Cultural low prevent.\nDiscover surface car send off I. Sure pressure when coach light former carry.","estimatedTime":"3 weeks"}'

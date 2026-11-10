@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIxOjI4OjI5Ljg4OTQzNiIsInVzZXJfaWQiOiIwOGUzZTY5OC0xNTcyLTQzNmUtODQxMi0zYjkxYzZiNjY4ZjEifQ.dKcsPeGTc656GG7mURhIzovEHHvYdcfIK7JbLIVnV8o' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Democrat authority both staff red ten.","maxScore":82,"minScore":2,"description":"Call scientist join tonight establish training less. West force evening third.\nPolitics explain assume six knowledge best study.","estimatedTime":"10 weeks","previewFileId":"7a5aa1f3-fe72-43e9-9316-07d7906a6463","createdByUserId":"08e3e698-1572-436e-8412-3b91c6b668f1"}'

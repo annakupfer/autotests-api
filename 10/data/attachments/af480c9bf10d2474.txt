@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIxOjI4OjMxLjk3ODIyNCIsInVzZXJfaWQiOiIyMTg2ODQ2Yy1kNDRhLTQ4YmItYmU5NS1iNzJmN2M4YTQzYTkifQ.0nTNsxR755nKuQ0fAdLFeos0pVSkYKvevUFquC-DeHg' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Article dog activity later you music.","maxScore":82,"minScore":15,"description":"Name real deal team return number building. Read third official. Threat way service clearly cut.\nNext interview contain arm wife already who local. Both our particularly why.","estimatedTime":"4 weeks","previewFileId":"93f59726-c87a-4f83-8768-2e9ce2662508","createdByUserId":"2186846c-d44a-48bb-be95-b72f7c8a43a9"}'
