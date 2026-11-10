@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDE5OjU3OjMyLjE2MDA1MyIsInVzZXJfaWQiOiJlNGRmNmJlMi05YTAxLTRiMWMtYTJhZi0xZGZjOGE4MDdkOTUifQ.usDTE1Ymr3IUTMe6OJpm6Y8rsSSAdu4Yca-uEsDmQgA' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"From state spring skill.","maxScore":89,"minScore":2,"description":"Put allow reach fact enter usually. Ready different condition think.\nWar catch week or debate. Deep fight these far maybe food find outside. Bit present consumer western hair kitchen option.","estimatedTime":"5 weeks","previewFileId":"b95995cb-73e9-4ee3-ad92-334548550e51","createdByUserId":"e4df6be2-9a01-4b1c-a2af-1dfc8a807d95"}'

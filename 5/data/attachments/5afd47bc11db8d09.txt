@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDE5OjU3OjM0LjU2MTM5MiIsInVzZXJfaWQiOiJkYTE0Zjg3Yy1hYjU5LTQ2MDItOGViZi0wZjVjYWZkMTg1MGUifQ.dzOB0jrkL0CA6zEE5AHe14kE47TGd5RHO85cJQU9r64' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Area debate truth pressure across TV city question.","maxScore":57,"minScore":24,"description":"Director people window others. Test rather thank. Possible rule third article. President probably condition that.\nLetter maybe man local bit.","estimatedTime":"10 weeks","previewFileId":"f32c1857-4bc6-436b-9374-00b1efa94036","createdByUserId":"da14f87c-ab59-4602-8ebf-0f5cafd1850e"}'

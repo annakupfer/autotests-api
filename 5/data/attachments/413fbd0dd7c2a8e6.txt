@@ -1,0 +1,20 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make PATCHrequest to http://localhost:8000/api/v1/courses/6c8c2342-e2d3-48fc-8852-8c29354197b9
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:24 Check update course response
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Sound hotel mean son face television time.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 77
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 15
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to To style lay always hot high central. Edge age stage tough arm indicate.
+Study fund during pull government. People everybody sing hold. Exist least no help.
+Back despite physical create.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 9 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

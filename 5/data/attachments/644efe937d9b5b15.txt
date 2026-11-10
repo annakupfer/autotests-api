@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDE5OjU3OjMzLjM1NTIzOCIsInVzZXJfaWQiOiJlZDI0Y2JmMC05NDlkLTRkNDItODFiMS1mYWM5MjJhOThkYTMifQ.6OyAtT_OeRtz_JUQS6mO0IJeKMGbAD0jw0PC88OvW-w' \
+  -H 'content-length: 330' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Right really back institution spring similar often.","maxScore":95,"minScore":4,"description":"Today far father. Table together draw hot. Hard ago medical time unit some old never.","estimatedTime":"3 weeks","previewFileId":"5fe11095-72f3-4c60-833b-c1abd949116d","createdByUserId":"ed24cbf0-949d-4d42-81b1-fac922a98da3"}'

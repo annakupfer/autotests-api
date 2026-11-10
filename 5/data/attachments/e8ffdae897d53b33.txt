@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDE5OjU3OjM1Ljc4NzA0OCIsInVzZXJfaWQiOiI3MWE5ZTFiMS1hNmJlLTQ3OTUtOGUzMC1hMDUyMTE3ZTFhYWUifQ.8F4uoQvFoCEzZYRfhBA4tgl5OweVhgevs0-Jk3oY_Ow' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Defense best good top.","maxScore":50,"minScore":21,"description":"Take machine this assume happen movie. Single risk whether by join might others force.\nHelp fill carry executive. Traditional level staff measure air with drive discuss.","estimatedTime":"2 weeks","previewFileId":"b455c623-a84c-4fcd-8c54-ca46a9ff5085","createdByUserId":"71a9e1b1-a6be-4795-8e30-a052117e1aae"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/6c8c2342-e2d3-48fc-8852-8c29354197b9' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDE5OjU3OjMxLjU1NjgxNyIsInVzZXJfaWQiOiI1NGViOTViOC00N2YyLTQ5OWQtYjVmYi1lNjgzM2JlZWEyNTMifQ.eIWVyesWVSvnsa1O1G98hTykbIoOlG_23k4a0SaqWds' \
+  -H 'content-length: 313' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sound hotel mean son face television time.","maxScore":77,"minScore":15,"description":"To style lay always hot high central. Edge age stage tough arm indicate.\nStudy fund during pull government. People everybody sing hold. Exist least no help.\nBack despite physical create.","estimatedTime":"9 weeks"}'

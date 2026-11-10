@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDE5OjU3OjM1LjUxMTkwNiIsInVzZXJfaWQiOiI2M2RkNTM1YS1kYzlkLTQ2NDItOTdmYy0yMTQxOTExZjI4ZDIifQ.Ic_Ylqm_YjPKJnnrX0WIQhFOpUoRP6693DI3AIUtows' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Charge news color must.","courseId":"c0ce2579-bc41-494e-8379-21a8b48f5a2e","maxScore":57,"minScore":24,"orderIndex":100,"description":"Behind similar by organization. Hit under occur certainly. Successful forward do movement down draw study. Part space rest.\nRole cost main plan act week effort professor. Tv team be loss beyond life.","estimatedTime":"9 weeks"}'

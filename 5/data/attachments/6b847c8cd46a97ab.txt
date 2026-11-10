@@ -1,0 +1,27 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make GETrequest to http://localhost:8000/api/v1/exercises?courseId=64c1ff4a-52cf-40d4-89eb-485ce04e923a
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:82 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:71 Check, that length of exercises equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:43 Check exercise
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to e3e04cc6-714a-47aa-a775-a2606be50b43
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Someone institution level himself.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that course_id equals to 64c1ff4a-52cf-40d4-89eb-485ce04e923a
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 74
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 20
+INFO     BASE_ASSERTIONS:base.py:35 Check, that order_index equals to 91
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Teach paper likely charge.
+Instead cause best man such let. Gas chance wide significant.
+Compare contain day director fund together. Stock large section program light sit six their.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 10 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

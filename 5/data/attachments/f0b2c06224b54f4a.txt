@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDE5OjU3OjM1LjUxMTkwNiIsInVzZXJfaWQiOiI2M2RkNTM1YS1kYzlkLTQ2NDItOTdmYy0yMTQxOTExZjI4ZDIifQ.Ic_Ylqm_YjPKJnnrX0WIQhFOpUoRP6693DI3AIUtows' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Huge series them first everybody bag.","maxScore":93,"minScore":5,"description":"Everyone magazine data along. Region similar these represent.\nSome American purpose health wait money. Grow difficult game life other say season. Goal bag detail job set.","estimatedTime":"7 weeks","previewFileId":"0539330c-3bc8-4be2-bd7a-91b8b0920a8e","createdByUserId":"63dd535a-dc9d-4642-97fc-2141911f28d2"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDE5OjU3OjM0LjI4NzY5MSIsInVzZXJfaWQiOiI5ODNkY2Y2Yy00MmE1LTQ2YmUtYjU0ZS1hODZlODI3NmJkMGMifQ.BBxNJ9tvp8dmGzPGgISHCYPLReMnISZzCIRcEbsVcpA' \
+  -H 'content-length: 443' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hair dark candidate development or parent others.","maxScore":71,"minScore":6,"description":"Amount third member newspaper read value. Building serious federal develop dinner general anyone.\nEasy drive right popular.\nDirection would husband explain poor firm. Party this left me fire almost.","estimatedTime":"4 weeks","previewFileId":"88c39e3e-16e8-4c4e-b271-b4c22f30f2ef","createdByUserId":"983dcf6c-42a5-46be-b54e-a86e8276bd0c"}'

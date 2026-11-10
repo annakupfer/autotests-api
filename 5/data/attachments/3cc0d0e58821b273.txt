@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/30078125-ce56-40fa-93d9-1a104720e6ee' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDE5OjU3OjM1LjUxMTkwNiIsInVzZXJfaWQiOiI2M2RkNTM1YS1kYzlkLTQ2NDItOTdmYy0yMTQxOTExZjI4ZDIifQ.Ic_Ylqm_YjPKJnnrX0WIQhFOpUoRP6693DI3AIUtows' \
+  -H 'content-length: 323' \
+  -H 'content-type: application/json' \
+  -d '{"title":"However bad paper key.","courseId":"c0ce2579-bc41-494e-8379-21a8b48f5a2e","maxScore":99,"minScore":15,"orderIndex":11,"description":"Heart serious television claim campaign. Concern final common never mean garden.\nStuff skill beyond. Change election positive foreign their middle art.","estimatedTime":"8 weeks"}'

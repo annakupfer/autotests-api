@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDE5OjU3OjMzLjA4MDU1OSIsInVzZXJfaWQiOiJiMzRkNzYwMi1kMDU0LTRjZTktYTZmNi0wYTkyNWRkZTBlZWIifQ.F4bBJNMcICikHAWj9bsNq3wk8P-Rmman9QZpOGca-XA' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Analysis truth white agent.","maxScore":72,"minScore":7,"description":"Leg develop yet factor. Tree vote pass something.\nModern technology parent spend score join. Yes range science sport. Close meet much stop baby early window.","estimatedTime":"10 weeks","previewFileId":"8ba5ee7a-6623-4bec-b0cf-8b0394eb609c","createdByUserId":"b34d7602-d054-4ce9-a6f6-0a925dde0eeb"}'

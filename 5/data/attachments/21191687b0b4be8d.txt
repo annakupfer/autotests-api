@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDE5OjU3OjMxLjU1NjgxNyIsInVzZXJfaWQiOiI1NGViOTViOC00N2YyLTQ5OWQtYjVmYi1lNjgzM2JlZWEyNTMifQ.eIWVyesWVSvnsa1O1G98hTykbIoOlG_23k4a0SaqWds' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Affect six chair manage.","maxScore":91,"minScore":10,"description":"Camera action without decade dinner economy. Live establish budget system general large. Lawyer with hope.\nProgram window science too example. Shake change response street stand appear civil.","estimatedTime":"8 weeks","previewFileId":"5fff3fcf-9ba3-4e42-b61a-217c106d55bf","createdByUserId":"54eb95b8-47f2-499d-b5fb-e6833beea253"}'
