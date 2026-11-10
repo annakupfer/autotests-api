@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIwOjUxOjE4LjcwMDE3MyIsInVzZXJfaWQiOiJjODUyYzljZS1lZjZiLTQ1ZmEtYmMwNS1iNGZlNjU5ZTFkZTMifQ.-7qEXj_q7OHqqfhVfXLA8tJ6AK1t5NY4UmwxBr1rwL4' \
+  -H 'content-length: 427' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hit two often learn guy possible hair beyond.","maxScore":94,"minScore":23,"description":"Imagine soon point training compare. Work still risk member whose ahead.\nSome he government boy politics mother. Scene positive book.\nLife street against question full. I mind us green.","estimatedTime":"5 weeks","previewFileId":"b8dfae8c-3010-4164-91f0-315ec0d27361","createdByUserId":"c852c9ce-ef6b-45fa-bc05-b4fe659e1de3"}'

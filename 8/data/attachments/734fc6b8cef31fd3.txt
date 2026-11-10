@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIwOjUxOjE5LjI5MTcxMyIsInVzZXJfaWQiOiIzOWZhZDFjNy0yZWQ5LTQ4NjQtYmI5OC1jNTMyMDc3MWUwNjUifQ.DqUu5eKIDJl1HsA6KetmTtUI_rziFMGTSN8J6WuCVso' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Effort important western.","maxScore":56,"minScore":15,"description":"Beyond catch onto when guess identify himself force. Admit environment feeling himself herself their seat through. Body peace goal course recognize better think.","estimatedTime":"3 weeks","previewFileId":"0c7bf740-9dfa-4d11-988e-2d5ded9ec3d9","createdByUserId":"39fad1c7-2ed9-4864-bb98-c5320771e065"}'

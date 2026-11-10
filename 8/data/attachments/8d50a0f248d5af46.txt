@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/93f5eeb2-595e-4953-a074-eacf64839d05' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIwOjUxOjE0LjkyMDkxOSIsInVzZXJfaWQiOiI1NWUyNWJiZS03YWM3LTQ4YzAtODlhYS1kNDgxMTNlZjFhMzEifQ.b12ztkPyaCwUOxHL-qUUKdPBQlaLRuDz2mw48MqXQp0' \
+  -H 'content-length: 250' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Card standard stay third.","maxScore":70,"minScore":29,"description":"Behind section dinner out. Business across she whatever.\nLike page really describe. Arrive move yourself. Thousand position structure inside.","estimatedTime":"2 weeks"}'

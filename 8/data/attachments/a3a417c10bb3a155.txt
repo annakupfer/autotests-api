@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIwOjUxOjE2LjczNjE3MyIsInVzZXJfaWQiOiI2MmVhOTg1ZC05ZGVmLTRmZjMtOGQ2OC0zZjU1YjYyZjUzYTUifQ.5cjfaO6S0sGAWHDpQRwBTmX0d1BtJ5hjZaXXkYN1iYQ' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Skill your too piece.","maxScore":100,"minScore":19,"description":"Natural part cell. Next set science rest.\nAge degree section mention. Stock smile keep film top type yard.\nImage director while receive month off growth. Trial music despite nor let science.","estimatedTime":"8 weeks","previewFileId":"74bbb2a4-2b3b-49da-a802-fb0443bae127","createdByUserId":"62ea985d-9def-4ff3-8d68-3f55b62f53a5"}'

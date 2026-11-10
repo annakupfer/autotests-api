@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIwOjUxOjE2LjQ2MTgwMCIsInVzZXJfaWQiOiIzZTg4OGJmNy04YzdmLTQ0YzAtOGI3NC1iZDhmZWQyODE2M2IifQ.kvAJEOnJOaolqq4y5iXDhHIpfFgBG_uPgoeoCN0-oiw' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Game indeed wonder like prepare officer.","maxScore":91,"minScore":5,"description":"Sure detail father produce too week skin within. Process long budget vote score whether.\nBack seek by this. Material later mean two seven person outside. Power enough third outside tonight.","estimatedTime":"8 weeks","previewFileId":"802dd2a2-a6b1-48fb-91bf-68d64f80917d","createdByUserId":"3e888bf7-8c7f-44c0-8b74-bd8fed28163b"}'

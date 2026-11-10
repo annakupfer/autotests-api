@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIwOjUxOjE1LjUyNDA1MCIsInVzZXJfaWQiOiJkZTk4MmE0ZC1mNjY2LTRkYTQtOGFlMy00OTA1YjFhMGIwYTUifQ.23ySN6iZRXsn6KjgM8DlBLuFJzJOXFGQwkJxcqjzN5M' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Region science take determine.","maxScore":53,"minScore":28,"description":"Before at feel though. Front safe follow buy where discussion it identify. Remain amount time deep strategy current director.","estimatedTime":"7 weeks","previewFileId":"809567c1-3d91-483e-9808-e254f313b11a","createdByUserId":"de982a4d-f666-4da4-8ae3-4905b1a0b0a5"}'

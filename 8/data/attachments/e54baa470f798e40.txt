@@ -1,0 +1,25 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make GETrequest to http://localhost:8000/api/v1/exercises/6fa04a2e-b4e5-4e50-883b-93afe9dd45e0
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:66 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:43 Check exercise
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to 6fa04a2e-b4e5-4e50-883b-93afe9dd45e0
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Door main save own seven short.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that course_id equals to 68462de8-aea2-44fa-a6a2-a8227a2ce1c0
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 69
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 5
+INFO     BASE_ASSERTIONS:base.py:35 Check, that order_index equals to 76
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to During season quickly scientist win significant mean.
+Camera with cell fish without tonight fight. Somebody street reach without anyone book nor. Friend manage various modern five strong operation.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 10 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

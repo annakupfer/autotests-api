@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIwOjUxOjE0LjkyMDkxOSIsInVzZXJfaWQiOiI1NWUyNWJiZS03YWM3LTQ4YzAtODlhYS1kNDgxMTNlZjFhMzEifQ.b12ztkPyaCwUOxHL-qUUKdPBQlaLRuDz2mw48MqXQp0' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Charge more most student weight bit.","maxScore":93,"minScore":9,"description":"Cost effort image personal staff politics environment. At development paper interest plan save he.\nAgain lay customer scientist glass.","estimatedTime":"1 weeks","previewFileId":"50f4b874-b895-4146-bde4-94a641ab38f5","createdByUserId":"55e25bbe-7ac7-48c0-89aa-d48113ef1a31"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIwOjUxOjE3LjcxMTAxMyIsInVzZXJfaWQiOiIyOGIwYTMzOS1hY2E5LTRmM2YtODBmNS05MjBhMThmMjNiOTAifQ.mcmenOAWrHjvT6hfpjnfEN86e3niqQZrgq3rA8ybgmM' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Entire poor these top area understand evidence.","maxScore":82,"minScore":27,"description":"Strategy road reveal media protect fish. Little moment some development wall coach. Difference right able red notice.\nSeveral apply college must cut individual nearly.","estimatedTime":"7 weeks","previewFileId":"f6ffe05d-0c0f-4d4f-8e6b-a6fb193bee73","createdByUserId":"28b0a339-aca9-4f3f-80f5-920a18f23b90"}'

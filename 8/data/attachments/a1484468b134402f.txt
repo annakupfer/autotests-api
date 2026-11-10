@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/804aef51-5430-433a-b381-96f881b10a2f' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIwOjUxOjE4LjcwMDE3MyIsInVzZXJfaWQiOiJjODUyYzljZS1lZjZiLTQ1ZmEtYmMwNS1iNGZlNjU5ZTFkZTMifQ.-7qEXj_q7OHqqfhVfXLA8tJ6AK1t5NY4UmwxBr1rwL4' \
+  -H 'content-length: 270' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Standard me everyone hotel.","courseId":"1ff11e15-7f2e-414c-ac5d-3027785373f7","maxScore":72,"minScore":7,"orderIndex":20,"description":"Hot middle focus road statement. Market position oil certain generation say. Mean which person.","estimatedTime":"9 weeks"}'

@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:84 Check create course response
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Game indeed wonder like prepare officer.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 91
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 5
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Sure detail father produce too week skin within. Process long budget vote score whether.
+Back seek by this. Material later mean two seven person outside. Power enough third outside tonight.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 8 weeks
+INFO     BASE_ASSERTIONS:base.py:35 Check, that preview_file_id equals to 802dd2a2-a6b1-48fb-91bf-68d64f80917d
+INFO     BASE_ASSERTIONS:base.py:35 Check, that created_by_user_id equals to 3e888bf7-8c7f-44c0-8b74-bd8fed28163b
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema
