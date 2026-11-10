@@ -1,0 +1,25 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make GETrequest to http://localhost:8000/api/v1/exercises/36ba9a45-e278-417a-88f6-5e50698bf938
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:66 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:43 Check exercise
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to 36ba9a45-e278-417a-88f6-5e50698bf938
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Himself assume pick.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that course_id equals to 25d80ebb-5a55-49ad-bbf9-986e68bc87c1
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 64
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 8
+INFO     BASE_ASSERTIONS:base.py:35 Check, that order_index equals to 49
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Simply front sea hair. Age role east teacher kitchen. Point if relationship really skin usually social.
+Accept garden high rather final. Job light recognize group.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 4 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

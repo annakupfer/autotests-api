@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIwOjExOjM2LjE3MDYwOSIsInVzZXJfaWQiOiJmMmMxZGRmZi01MGE5LTQ4YjYtOGExMy0wODM1NDRjMWM5MWEifQ.EPwasPlCTiSJgR-tPUnKtldBhh-bblK4QShWS0Q5LYA' \
+  -H 'content-length: 333' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Window you though writer single.","maxScore":56,"minScore":6,"description":"Interesting film those really security miss. Build which ahead toward player what.\nOccur blue all husband.","estimatedTime":"8 weeks","previewFileId":"6af964f5-3cb7-47b8-b31b-dae9e31a1873","createdByUserId":"f2c1ddff-50a9-48b6-8a13-083544c1c91a"}'

@@ -1,0 +1,34 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make GETrequest to http://localhost:8000/api/v1/courses?userId=702f8684-c1e8-43cf-b401-ba455fe48e2f
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:65 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:71 Check, that length of courses equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:41 Check course
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to 61a50cf0-f19b-4c58-bc1e-d5905c23c68e
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Onto foot notice recently.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 83
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 18
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to True north police campaign bring class one environment.
+High wonder popular it. Kitchen enough training easy onto.
+Per financial require nor least. Nearly success now back.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 7 weeks
+INFO     FILES_ASSERTIONS:files.py:40 Check file
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to 1c497ed2-9769-4875-bc96-9fb19b574a6a
+INFO     BASE_ASSERTIONS:base.py:35 Check, that url equals to http://localhost:8000/static/tests/f88b6731-569d-4c08-81ec-4358795b596b.png
+INFO     BASE_ASSERTIONS:base.py:35 Check, that filename equals to f88b6731-569d-4c08-81ec-4358795b596b.png
+INFO     BASE_ASSERTIONS:base.py:35 Check, that directory equals to tests
+INFO     USERS_ASSERTIONS:users.py:39 Check user
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to 702f8684-c1e8-43cf-b401-ba455fe48e2f
+INFO     BASE_ASSERTIONS:base.py:35 Check, that email equals to ryan69@example.com
+INFO     BASE_ASSERTIONS:base.py:35 Check, that last_name equals to Johnson
+INFO     BASE_ASSERTIONS:base.py:35 Check, that first_name equals to Brent
+INFO     BASE_ASSERTIONS:base.py:35 Check, that middle_name equals to Gregory
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

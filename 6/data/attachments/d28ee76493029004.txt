@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIwOjExOjMyLjQ1MDYzNyIsInVzZXJfaWQiOiJjNjg5YmFmMC0wMjNhLTRiOTctOGE4Zi1jZTg3M2U1YzU0MWYifQ.Ed3bWDBjZmy1DzAlNscZY73VsFKlXCLdv_kIrJr51Pg' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Off natural page short.","maxScore":84,"minScore":30,"description":"Plant movie act would stock defense policy. Chair fund guy lot someone.\nManage budget agent speak agent actually western. Strong agent life sing long into modern. Huge protect early cover.","estimatedTime":"8 weeks","previewFileId":"f4ba4b37-c753-4c19-abf0-4d071de2704a","createdByUserId":"c689baf0-023a-4b97-8a8f-ce873e5c541f"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIwOjExOjM1LjE5NDU0NSIsInVzZXJfaWQiOiI2ZDIyM2RjYy01YTgyLTQ2ZjYtYjYwZS05NWVhNjE1MGEyOWUifQ.u2NJkYdgMnqQmIiKnFPwtZh_jKi43G1X5aa92PFG8Rw' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Have low draw social item.","maxScore":80,"minScore":13,"description":"Building create upon scientist. Everyone television debate evening measure score interest fight.\nThus long never job skin gas fight up. Word thus cause represent.","estimatedTime":"3 weeks","previewFileId":"ec456941-5b7f-429b-8b30-77f483e97c55","createdByUserId":"6d223dcc-5a82-46f6-b60e-95ea6150a29e"}'

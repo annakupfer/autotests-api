@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/bb0511de-a007-4e81-a8ef-8bbf3a9395c0' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIwOjExOjM2LjE3MDYwOSIsInVzZXJfaWQiOiJmMmMxZGRmZi01MGE5LTQ4YjYtOGExMy0wODM1NDRjMWM5MWEifQ.EPwasPlCTiSJgR-tPUnKtldBhh-bblK4QShWS0Q5LYA' \
+  -H 'content-length: 310' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Always hard face standard sure.","courseId":"027367f4-e7c7-4c57-80f0-ccfa27e55de7","maxScore":70,"minScore":3,"orderIndex":16,"description":"How world above forward serve. Continue somebody bar least. Control see Mrs modern which sense remain benefit. Gas door term their.","estimatedTime":"5 weeks"}'

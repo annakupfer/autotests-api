@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIwOjExOjM0LjI1NjMxMyIsInVzZXJfaWQiOiJhN2Y3MGU1Mi1lNDUwLTQ4YjEtYTYzNS1mMTQwYjE2MzU2MTEifQ.4RKesvjtrk-oJ5TZbJ7wKfgsKXP6dYRC0A18WZbFN80' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tonight specific number today boy.","maxScore":89,"minScore":15,"description":"Far month brother life although. Certain on garden hard. Local other read research.\nBad cause in sit economic much. Inside oil raise little.","estimatedTime":"6 weeks","previewFileId":"3aae871a-be49-4baa-af1f-ebd603c6cdc8","createdByUserId":"a7f70e52-e450-48b1-a635-f140b1635611"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/516bbe76-d7a0-409e-831a-c7ff2d52703a' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIwOjExOjMyLjQ1MDYzNyIsInVzZXJfaWQiOiJjNjg5YmFmMC0wMjNhLTRiOTctOGE4Zi1jZTg3M2U1YzU0MWYifQ.Ed3bWDBjZmy1DzAlNscZY73VsFKlXCLdv_kIrJr51Pg' \
+  -H 'content-length: 308' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Between administration pretty you black our agree next.","maxScore":61,"minScore":20,"description":"Majority behavior woman market suggest about. Off candidate factor image government.\nMost resource reality scene. Economy throughout there American marriage off budget.","estimatedTime":"10 weeks"}'

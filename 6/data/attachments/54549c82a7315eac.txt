@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIwOjExOjMzLjk4MTk5NSIsInVzZXJfaWQiOiJiZTA4MDVkMC03YThmLTRjN2QtYWQ0Yy1lMjE4NmU5Y2UxNjUifQ.yLNRz7rLRndEsWZhZA0WtqKlV8lDRcIEwLhGTCku3jU' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"All high attention.","maxScore":57,"minScore":5,"description":"Herself maybe job choose. Sure expect among.\nWhether line hour. Seat learn air. Free remember or act prove side clearly.\nBe upon strong cover seek newspaper suddenly.","estimatedTime":"7 weeks","previewFileId":"e0fd7ef1-1c72-4632-900b-6dd37d72f792","createdByUserId":"be0805d0-7a8f-4c7d-ad4c-e2186e9ce165"}'

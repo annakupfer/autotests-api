@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIwOjExOjM1LjQ2ODk4NSIsInVzZXJfaWQiOiIwNjIzN2JlYS1kNTcyLTRhZWUtYjdjNS05ZDI1NGQyNzE0YjYifQ.r_6pBWZPdwKZDrMs8xqLtNtMYwIN6eWYEY-kjThidMs' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"During know mention.","maxScore":59,"minScore":9,"description":"Always truth increase sea two lead election.\nTrue later PM candidate capital gun news account. Interesting community air woman analysis hold include.","estimatedTime":"3 weeks","previewFileId":"cfb81405-9be9-4fac-933a-03d0e5a0034c","createdByUserId":"06237bea-d572-4aee-b7c5-9d254d2714b6"}'

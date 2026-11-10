@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDIwOjExOjM2Ljc1NTEzNSIsInVzZXJfaWQiOiJkYWJiNjlhNC0wZDRjLTQyMGYtOThiOC1kZjdlMWM0NGM0YzYifQ.Y8a8kZ3tcYUQFQS8p5XTzuaVWfIlrT_onFFxN8rWiAw' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Card its stuff cup parent between notice.","maxScore":74,"minScore":21,"description":"Medical remain experience action what whether help. Minute great process class she article physical.","estimatedTime":"8 weeks","previewFileId":"22c3c4f9-63f3-4eeb-be22-661d4ea37a06","createdByUserId":"dabb69a4-0d4c-420f-98b8-df7e1c44c4c6"}'
