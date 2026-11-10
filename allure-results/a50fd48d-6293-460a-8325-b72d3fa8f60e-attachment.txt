@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDE1OjU5OjU5LjQ2MDk3MiIsInVzZXJfaWQiOiJmZjNmYzAyNC1mZDcxLTQ1ODktOTE4My0wZmVhMTY0YjljOGYifQ.tJPd5Vzzgte5JKqEJY8SuN7yt1HF_6Dp-i8GX8HWvqw' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Them particularly sound past space feel.","maxScore":91,"minScore":6,"description":"Indicate hit discussion person sit push. Get million store Mrs people relationship civil. Most produce network think Republican long energy. Thank hotel claim actually sell analysis.","estimatedTime":"8 weeks","previewFileId":"97d958d3-7a9b-422e-aaaa-70d90f396208","createdByUserId":"ff3fc024-fd71-4589-9183-0fea164b9c8f"}'

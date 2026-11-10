@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDE4OjIxOjQ2LjIwNTU1OCIsInVzZXJfaWQiOiI5YjQ0Nzk4ZC0yMTJhLTRkYTQtYjU5Yy0wYzkzZmM5ODI3ZjQifQ.O_Xihm2E2zhCGeE-okpxTtybc_pQ2cHzvC0yEtqoAlc' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Idea phone study many.","courseId":"f3db29bc-c977-43ac-8af2-f35d264b22e0","maxScore":75,"minScore":30,"orderIndex":63,"description":"Care shoulder first suggest them away. Writer set prepare even street rate ten whom. Put leader attack listen me situation. Including for meeting kid send dream truth.","estimatedTime":"4 weeks"}'

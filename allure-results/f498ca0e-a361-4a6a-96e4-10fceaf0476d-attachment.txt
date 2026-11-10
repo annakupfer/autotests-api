@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA3VDE0OjAwOjEyLjcwOTU4NSIsInVzZXJfaWQiOiIwNzE2NWMyNi0wOGUyLTRjNDQtYTQ0NS1lNzBlY2ViMDc3MTMifQ.mcC2SAYm-PU1rgfq6uT5t-w3AN3b3c6lOTcXklSriGs' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"True three probably onto society trial.","maxScore":96,"minScore":18,"description":"Peace hospital clearly risk politics old. Today less should save as practice. Thus party every mind key teacher city.\nPay energy nation station live continue skill.","estimatedTime":"10 weeks","previewFileId":"1904705c-7f00-4434-9bb9-40c71c923dba","createdByUserId":"07165c26-08e2-4c44-a445-e70eceb07713"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDEyOjUwOjAyLjM1OTA4NyIsInVzZXJfaWQiOiJhNWJjNTMzNC05OGQ0LTRhMTUtODkwYi04MDA1ZmE3MmE2MzIifQ.b19BxQ016NWAN3lJrguq80dzS5TpXUGPbumuGHuIvDY' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Chair clearly piece never.","maxScore":92,"minScore":18,"description":"You pay late consider recent represent. Heart another conference feel help.\nReduce reveal letter soldier. Administration note after you own research responsibility.","estimatedTime":"9 weeks","previewFileId":"8fe41018-f6b2-497c-b21a-88ac464a65fd","createdByUserId":"a5bc5334-98d4-4a15-890b-8005fa72a632"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDEyOjQ2OjQyLjM4NjM4OCIsInVzZXJfaWQiOiJhYzhiNWFjMy02Yzk2LTQwMzgtOTIyNy0wOWE3ZTYyZjZkNTUifQ.AqnOxkJ3I1UitJ-PvwiKH1Pmz43HG7cZLhq_D-VMZto' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"North sell tough front media.","maxScore":57,"minScore":19,"description":"Hard heart although since. Yet end stay friend compare sea away. Brother bill southern relate hair sound.\nQuestion Congress should shake night none. Western us raise majority.","estimatedTime":"1 weeks","previewFileId":"75b4993a-aced-42d5-89bc-268ede07502d","createdByUserId":"ac8b5ac3-6c96-4038-9227-09a7e62f6d55"}'

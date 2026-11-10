@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDEzOjA1OjI3LjAzNDA5NiIsInVzZXJfaWQiOiIwYjBkZDFmYy03MzU3LTQxNzgtYjVhMy1hNTZjMmY2YzQyMjAifQ.jy5P-2Gfg71CrmFtpS-wnCUd7J308Bn0Q0js68Q7XGk' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Base among service product only item.","maxScore":54,"minScore":20,"description":"Itself national family. Institution her fly whom. Huge me military charge business.\nGrowth human window. Project develop exist page.","estimatedTime":"3 weeks","previewFileId":"c1ffe34e-e782-4058-8053-7ce07f761231","createdByUserId":"0b0dd1fc-7357-4178-b5a3-a56c2f6c4220"}'

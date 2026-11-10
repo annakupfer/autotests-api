@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDE1OjU0OjQ5LjE4NTA3MiIsInVzZXJfaWQiOiI2NWZkMWY3Yy1lZTAwLTQ2MzMtOWEzNC03NmFiMGQwMmE3NGIifQ.3xtp3NB1mN2YmNv5BppotprUSLSmrUnXMHeBGwOEQzk' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Situation enough others deal style close glass.","maxScore":97,"minScore":26,"description":"Response wind exactly prepare me. Cost ground receive at sit scientist people weight. Back student avoid form outside third subject.\nIt Democrat kid agent nothing develop.","estimatedTime":"6 weeks","previewFileId":"8556ce87-09df-41cf-8517-fefcdede8b4a","createdByUserId":"65fd1f7c-ee00-4633-9a34-76ab0d02a74b"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDEyOjQ2OjQwLjgxMjA4MyIsInVzZXJfaWQiOiJlMTgwNDFmNC1lNjNiLTQ5YWQtOGQxOS01MDVmZGUzM2U5YWIifQ.1yt8-OwQD73dFMG4A1OdxGAj1GQxsDb1jLe5zK2nXfI' \
+  -H 'content-length: 431' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Conference TV special since cut draw agree meeting.","maxScore":90,"minScore":2,"description":"Finally suffer among way minute. Stage full different different production tend.\nAccording event people energy company provide. Design blood day everything husband action exactly maybe.","estimatedTime":"3 weeks","previewFileId":"0529744c-464b-4e05-874d-ef9eefcec023","createdByUserId":"e18041f4-e63b-49ad-8d19-505fde33e9ab"}'

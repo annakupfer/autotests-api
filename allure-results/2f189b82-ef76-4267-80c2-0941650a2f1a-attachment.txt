@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA3VDE4OjE2OjIzLjEwMTM1NSIsInVzZXJfaWQiOiIwMTU1Y2ZkYy0wYzVhLTQ0OGEtOTBmZC1mMzc2Y2UyYTEzYzgifQ.U-1GruDcadNr7hsvlLX-T9bpFaHJUUgb_FKCJ_MQ24k' \
+  -H 'content-length: 429' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Drive human economic up serious give red.","maxScore":61,"minScore":10,"description":"May hand product care. Add develop herself station.\nHear light guy. Local road bar community inside.\nBed partner little me international measure plan. Focus result easy firm born kid compare.","estimatedTime":"2 weeks","previewFileId":"651406f1-f90d-4b3b-908b-f4c7ba665abe","createdByUserId":"0155cfdc-0c5a-448a-90fd-f376ce2a13c8"}'

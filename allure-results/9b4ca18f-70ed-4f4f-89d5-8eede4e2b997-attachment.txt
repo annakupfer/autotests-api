@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDE4OjIxOjQ2LjIwNTU1OCIsInVzZXJfaWQiOiI5YjQ0Nzk4ZC0yMTJhLTRkYTQtYjU5Yy0wYzkzZmM5ODI3ZjQifQ.O_Xihm2E2zhCGeE-okpxTtybc_pQ2cHzvC0yEtqoAlc' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Recognize boy mention tough later near point.","maxScore":77,"minScore":6,"description":"Spring father college half memory positive require. Onto new before not out. Agree father choose fight current.","estimatedTime":"3 weeks","previewFileId":"e5e3c23d-f21f-4fe8-9c8c-a8485405c95c","createdByUserId":"9b44798d-212a-4da4-b59c-0c93fc9827f4"}'

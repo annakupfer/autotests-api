@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA3VDE0OjAwOjEzLjUyNTk3NiIsInVzZXJfaWQiOiI3ZTNmZWI0YS05MjFhLTQyN2ItYTNjYy03NDQ4OTRkNDhmZDcifQ.Ipb3yDS5hLmvT1FBaH76-NeztQNHQiI98Xs_CbtIz38' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Your whether western by move company.","maxScore":78,"minScore":7,"description":"Them hope major side. Friend method meet dream. Work if within exist man choice agree. House cold success key energy civil light think.","estimatedTime":"4 weeks","previewFileId":"982de136-57ee-4bdb-9a2f-abe8edac8edb","createdByUserId":"7e3feb4a-921a-427b-a3cc-744894d48fd7"}'

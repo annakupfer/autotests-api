@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDE1OjU5OjU5LjA3NzMzOSIsInVzZXJfaWQiOiIzOTQ0MDhhYy04NWFhLTQ5NDAtYjA5Yi1mNzA0ZmU2ZWM1MWQifQ.rkRLlBQ82g1AzGJTRkHpFOjUTsJms-zXEvzcUAV0pPs' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Top society yourself education instead network.","maxScore":63,"minScore":2,"description":"Analysis respond rule expert various somebody find. End again fear rich energy which option. Term safe town sport.","estimatedTime":"8 weeks","previewFileId":"8b5129a1-7ed7-42a7-a2eb-04e8abfcd64d","createdByUserId":"394408ac-85aa-4940-b09b-f704fe6ec51d"}'

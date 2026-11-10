@@ -1,0 +1,17 @@
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 422 Unprocessable Content response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:16 Check, that response status code equals to {expected}
+[32mINFO    [0m FILES_ASSERTIONS:files.py:92 Check get file with empty directory response
+[32mINFO    [0m ERRORS_ASSERTIONS:errors.py:39 Check validation error response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:71 Check, that length of {name} equals to {len{expected}}
+[32mINFO    [0m ERRORS_ASSERTIONS:errors.py:18 Check validation error
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that {name} equals to {expected}
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that {name} equals to {expected}
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that {name} equals to {expected}
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that {name} equals to {expected}
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that {name} equals to {expected}
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

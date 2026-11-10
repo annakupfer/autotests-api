@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDE1OjM2OjE1LjkwNjk4NyIsInVzZXJfaWQiOiI0NGMzMDgxZi01NmYyLTRlNjEtYWU2Ni03ZjQyYmIyYjMwNzkifQ.bmw3MCszVsBO8K2zsCbdtuYHhbD6YgcfzJyTs9c-2ZM' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Show five child teacher outside.","maxScore":70,"minScore":14,"description":"Believe stock card reveal. Must according real team enough particular too.\nSubject serve enter bill mind administration military. Or exactly thank very better together design. Girl this ready be.","estimatedTime":"3 weeks","previewFileId":"f8613a8e-09f0-482c-8390-7aa414d55d60","createdByUserId":"44c3081f-56f2-4e61-ae66-7f42bb2b3079"}'

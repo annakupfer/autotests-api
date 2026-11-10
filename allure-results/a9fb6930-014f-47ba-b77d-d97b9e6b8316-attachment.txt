@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDE1OjUwOjEwLjcwNTY4MyIsInVzZXJfaWQiOiJhYmY1ZmMyNy0xMDdkLTQ0ZDMtYTY4YS0xYTEzNGM4ODBmMDIifQ.KZ3k7wLZJQGjVpo9OWIVBAzFKi_pwyhXP5NQaSYLSvo' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"It perform out action central network book outside.","maxScore":67,"minScore":3,"description":"Always minute system these determine. Perform consider painting join amount value get.","estimatedTime":"6 weeks","previewFileId":"551ca561-1482-45ca-b7bd-907f839bfb4b","createdByUserId":"abf5fc27-107d-44d3-a68a-1a134c880f02"}'

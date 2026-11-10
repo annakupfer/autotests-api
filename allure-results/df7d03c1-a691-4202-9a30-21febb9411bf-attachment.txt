@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDE4OjIxOjQzLjg2MjczMCIsInVzZXJfaWQiOiJiZjZhN2FlYS1lOTc3LTQxMGQtODRmMi1kMzc2MzdiYmVlYjIifQ.4IecioUlOFcB2Y9bwki9XTRRxJhhzGrDgv_vJT10yck' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Individual entire hour return.","maxScore":88,"minScore":18,"description":"Population process tend break energy. Official guess brother near stock peace heart again. Mrs together listen save action.\nCost treat stage. Daughter medical order teach.","estimatedTime":"10 weeks","previewFileId":"9bfc25be-e4c9-4d8a-8f3c-473473b89893","createdByUserId":"bf6a7aea-e977-410d-84f2-d37637bbeeb2"}'

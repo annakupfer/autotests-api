@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDEzOjA1OjI4LjIwNzE2OCIsInVzZXJfaWQiOiI2MjdjY2E3My1mNDliLTRhZGEtOTU3Mi03NTU1ZTQyMDlkYjYifQ.hO0GhW1DVjOoHjHou9mc0ZeHqt01bzTysj501GXXRm4' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"West ok daughter full audience per.","maxScore":98,"minScore":25,"description":"Keep believe yes product. Last as challenge across reduce statement friend.\nPerformance together throw explain heavy. Ability above act traditional image.","estimatedTime":"1 weeks","previewFileId":"2a351300-bd4d-4fc8-a976-e301f6638967","createdByUserId":"627cca73-f49b-4ada-9572-7555e4209db6"}'

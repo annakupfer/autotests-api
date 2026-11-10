@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA3VDE0OjAwOjEzLjEzMzIyNSIsInVzZXJfaWQiOiI4NjI5NjM3Zi1lODFmLTRlOTYtODk1Ni1hYTg4ZWE3NTFhN2EifQ.sQbLO0ZhXXRz5oGsD8DaxZQGm1KVd41nqNtrLWOkhPs' \
+  -H 'content-length: 313' \
+  -H 'content-type: application/json' \
+  -d '{"title":"To Democrat capital large president attention.","maxScore":68,"minScore":16,"description":"Who what include deep despite buy pretty. Military yet professor budget.","estimatedTime":"7 weeks","previewFileId":"39871574-8637-4c59-ab4b-04e91fa3a113","createdByUserId":"8629637f-e81f-4e96-8956-aa88ea751a7a"}'

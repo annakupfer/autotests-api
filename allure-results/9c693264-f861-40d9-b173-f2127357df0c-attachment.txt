@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDEyOjQ2OjQxLjk4MzQzOSIsInVzZXJfaWQiOiJhY2QwYmNkYy0wOWMzLTQ5YzctYmE2OS0yMDk3NDVjNmFlZGMifQ.meoP9hsc8MGxnkZ3DRDLD5pb2Q8ALh_VCnd-GCc7e_A' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pretty apply word mention drug place able.","maxScore":81,"minScore":16,"description":"Become pressure subject campaign research drop anything. Candidate human single protect life.\nShort large step west near fall all. Score together write.","estimatedTime":"8 weeks","previewFileId":"eb3f985e-b8d8-4d4b-b4b5-0c9c93442326","createdByUserId":"acd0bcdc-09c3-49c7-ba69-209745c6aedc"}'

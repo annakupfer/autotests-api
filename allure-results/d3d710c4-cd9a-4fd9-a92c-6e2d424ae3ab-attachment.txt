@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDE1OjU5OjU4LjI5MzU0MiIsInVzZXJfaWQiOiJlMjNiY2QzNC0wNzVlLTQ0M2UtYmE1Ny1jNDBlMWUxOTk2YmYifQ.8s3-EHhSBdB8dDPn_0C7vCmS-XTzekvuQbxMxH_A5Ns' \
+  -H 'content-length: 357' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Drop between under suffer and result half.","maxScore":81,"minScore":20,"description":"More place force point toward feeling game tonight. Eye take new term operation blood. Hospital born sort hotel herself.","estimatedTime":"3 weeks","previewFileId":"f139b661-01de-479c-b8aa-32bc44a99d31","createdByUserId":"e23bcd34-075e-443e-ba57-c40e1e1996bf"}'

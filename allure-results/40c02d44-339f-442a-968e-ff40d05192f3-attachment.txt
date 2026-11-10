@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDEyOjUwOjAzLjUxNDU3MSIsInVzZXJfaWQiOiJmNDM2Yzk5Ni0yZGZmLTQzYTAtYjBjMC0yYmRmYmM0OThhNTUifQ.ABy4QepHyC5uGmEtOgsjhHDwMaFTnIPPs_kgXG4e_3o' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Opportunity consider good low.","maxScore":87,"minScore":2,"description":"Difficult exactly information way practice example north.\nItself television source pass stuff personal. Talk only some office join as national understand.","estimatedTime":"1 weeks","previewFileId":"634d43a7-1b37-4a09-b25d-7590dc474b15","createdByUserId":"f436c996-2dff-43a0-b0c0-2bdfbc498a55"}'

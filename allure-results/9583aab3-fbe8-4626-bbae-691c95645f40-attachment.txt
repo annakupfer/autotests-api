@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDEyOjUwOjAzLjkwMzU5NiIsInVzZXJfaWQiOiIyMjcxYjM5Yi1jZGMwLTRjMjItOThlYi00Y2ViNzAwODM4YWEifQ.kovr7LTL4nfdsUlpPoxth2fwOtbHAfVf8NApjFtvUT4' \
+  -H 'content-length: 295' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Section should structure party country prove.","courseId":"4e1aa569-108d-4640-8647-dbb564cc7c16","maxScore":55,"minScore":1,"orderIndex":74,"description":"Teacher of enjoy hospital. Herself begin yard sure language wait ground. Significant south south beat.","estimatedTime":"2 weeks"}'

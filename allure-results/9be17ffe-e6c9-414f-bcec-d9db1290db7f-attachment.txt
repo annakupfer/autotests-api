@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDE1OjU0OjUxLjU0Mzc5MiIsInVzZXJfaWQiOiI3ZWQwYTZkMi0yNWViLTQ3ZjktYThmZC1jZWQxMjdhOGVmNmUifQ.vzh5q3ulImbxMeh3hkO5tMwMzmp8YBT5hLC7CUH3LTU' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Than three least evidence send.","maxScore":91,"minScore":21,"description":"Official miss hope safe page. Condition major what.\nSocial black receive a. Enter option maybe ready.\nOver his right court culture walk. Collection training determine report walk nice describe.","estimatedTime":"1 weeks","previewFileId":"86448e8f-2895-4872-8cd7-d53568b2408d","createdByUserId":"7ed0a6d2-25eb-47f9-a8fd-ced127a8ef6e"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDE1OjM2OjE1LjEzNTYxNCIsInVzZXJfaWQiOiIyYTIxMGYwOC1mMmVmLTQxYTMtODcwNC0xMjNiZTI4MDNlMzEifQ.oDUM0-eQMw1ddFZIiKGjNq8666T8hTcH2Fjldxlbso8' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Eye thank here season yourself open.","maxScore":80,"minScore":27,"description":"Say change air its take. Space operation interest stop international management.\nTotal minute process coach week. Difficult newspaper technology election.","estimatedTime":"7 weeks","previewFileId":"53ed8e11-7596-40a2-b868-854498beb32b","createdByUserId":"2a210f08-f2ef-41a3-8704-123be2803e31"}'

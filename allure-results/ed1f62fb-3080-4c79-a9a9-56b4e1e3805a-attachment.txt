@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDEzOjA1OjI5LjM3Mjk0MSIsInVzZXJfaWQiOiI5Y2ZiZjRjYy01YTA2LTQ4YzktOWU3YS0yYTM4NmYyYTAzYTIifQ.4xPHAyFI9sGD4cVfht8tTBDGjnus9hhhd9iTxK7HLN8' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Form clearly career participant often American.","maxScore":66,"minScore":26,"description":"Expect safe matter woman want article allow. Might something may song sister every understand. Safe picture make doctor rather detail capital.","estimatedTime":"6 weeks","previewFileId":"fe0b12fa-1887-4737-b5cb-3de5e3ccb87f","createdByUserId":"9cfbf4cc-5a06-48c9-9e7a-2a386f2a03a2"}'

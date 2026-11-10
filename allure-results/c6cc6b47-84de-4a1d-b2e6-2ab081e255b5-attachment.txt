@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDE1OjUwOjExLjA5MTQ4MSIsInVzZXJfaWQiOiI1MTY4ZWNiMi04ODE1LTQwOTYtOTVkNy1hZmQzMDdmODc1M2IifQ.jSiyTx-PF5ak43TxpI6ys2DXe5MXnbYgp9hHSVD04mQ' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Type present cultural actually explain.","maxScore":57,"minScore":22,"description":"One we present. Dog support trouble sea window.\nAccept first season worry police election garden space. Family impact agent debate subject.","estimatedTime":"2 weeks","previewFileId":"fc780ede-b2e5-4c90-82c5-dd924e9ed449","createdByUserId":"5168ecb2-8815-4096-95d7-afd307f8753b"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/2192f881-33cb-44fd-9ce9-6030094fdfbb' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDE1OjM2OjE0LjM2MzQyNSIsInVzZXJfaWQiOiJmMjczYzlhYi04NzAwLTRiZDQtYjA5Yi00MWU3OWE2OGFjYjkifQ.30dT1nn-DzD6MbvuYE9ivYFqlPWtfUeGlJ1JFQ9pyQ0' \
+  -H 'content-length: 291' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Certainly above case first whose realize although.","maxScore":57,"minScore":17,"description":"Ok guy reduce happy baby economy. Crime far western central.\nServe wife its minute admit. Read get weight heavy meet family cover simply. Form deal easy bag.","estimatedTime":"7 weeks"}'

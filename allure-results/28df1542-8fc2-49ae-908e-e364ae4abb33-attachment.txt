@@ -1,0 +1,19 @@
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+[32mINFO    [0m COURSES_ASSERTIONS:courses.py:84 Check create course response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that title equals to Stop safe southern analysis.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 88
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 29
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that description equals to Behind society might view. Go avoid blood sure.
+History foreign small property wall. Reflect skin here nor manager.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 2 weeks
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that preview_file_id equals to c665a375-32c2-44ca-9dbe-aa98b1d73371
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that created_by_user_id equals to ffbf9cd1-c965-46b4-87e1-50a794a2e4fb
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

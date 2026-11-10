@@ -1,0 +1,26 @@
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make GETrequest to http://localhost:8000/api/v1/exercises?courseId=dba5d9aa-1f15-4c34-9de0-6f6bb860285c
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+[32mINFO    [0m EXERCISES_ASSERTIONS:exercises.py:82 Check get exercises response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:71 Check, that length of exercises equals to 1
+[32mINFO    [0m EXERCISES_ASSERTIONS:exercises.py:43 Check exercise
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that id equals to e85830e6-a8d1-498e-ba17-f58bb4da8ad6
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that title equals to Individual American pattern rich.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that course_id equals to dba5d9aa-1f15-4c34-9de0-6f6bb860285c
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 85
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 17
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that order_index equals to 66
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that description equals to City reveal drive maintain protect sometimes election lead. Wonder area defense enjoy full plant dog.
+System expert water few field. Scene three light for us inside between.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 4 weeks
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

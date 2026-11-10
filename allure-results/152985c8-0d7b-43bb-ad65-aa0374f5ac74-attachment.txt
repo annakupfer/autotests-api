@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA3VDE0OjAwOjE0LjI5MTA2NSIsInVzZXJfaWQiOiIzMDg3ZGVkZi04ZjE0LTQ1YmUtOTgzZC0wM2NjMTY2YmI3MjAifQ.kZHtesW5rBpFFJ5zpT0sPbpuUSN7__gO80xoZ85jG1c' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Provide political build.","maxScore":88,"minScore":25,"description":"Any above true member. Consumer low sister population.\nYourself common early price myself thought out. Ability generation while attention economic involve walk.\nArticle make chair power.","estimatedTime":"4 weeks","previewFileId":"8e84ece8-fddd-421c-859c-a2c7727c600a","createdByUserId":"3087dedf-8f14-45be-983d-03cc166bb720"}'

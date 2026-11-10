@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDE1OjM2OjE2LjI5NzMwMSIsInVzZXJfaWQiOiJkZmJiNzVlYi04ZmFjLTRlOWYtOGNhYy1iZWQxZjM1ZGUyNWMifQ.LnN6wagjVk3hNnEivGrngdR1PSZXNh36S9V2H5K3hWU' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Inside news day friend suffer for.","maxScore":84,"minScore":4,"description":"Office outside onto.\nOften carry various resource degree return style sell. Indeed gun worker service billion. Alone military miss himself member successful key.\nStreet against serious into as.","estimatedTime":"2 weeks","previewFileId":"167c4605-7bdd-4355-a323-f674958dc91e","createdByUserId":"dfbb75eb-8fac-4e9f-8cac-bed1f35de25c"}'

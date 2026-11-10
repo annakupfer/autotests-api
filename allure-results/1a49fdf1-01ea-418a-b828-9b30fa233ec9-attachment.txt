@@ -1,0 +1,10 @@
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make DELETErequest to http://localhost:8000/api/v1/files/308a2ae2-fb5e-44bf-87b2-8a79e120b5a3
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make GETrequest to http://localhost:8000/api/v1/files/308a2ae2-fb5e-44bf-87b2-8a79e120b5a3
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 404 Not Found response

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDE1OjM2OjE1LjUxOTc3NiIsInVzZXJfaWQiOiIxYjJjNThmNi0xZGFjLTQ5MzMtODUxYS0zMzFiNTA3NDcwMDcifQ._E8JYBEQT8VDoW22zniGzNakixnwq46i1WuJBEhC7xg' \
+  -H 'content-length: 431' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fund individual foot treatment education stuff west.","maxScore":55,"minScore":22,"description":"Computer place kind couple. Beyond how itself.\nNearly with provide information professional sport. Particular many free the lead newspaper level. Stay themselves answer situation lot.","estimatedTime":"4 weeks","previewFileId":"16a4351e-3853-4f0c-b7c0-a75c9e915736","createdByUserId":"1b2c58f6-1dac-4933-851a-331b50747007"}'

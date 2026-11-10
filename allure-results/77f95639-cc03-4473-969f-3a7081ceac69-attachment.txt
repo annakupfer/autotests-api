@@ -1,0 +1,19 @@
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make PATCHrequest to http://localhost:8000/api/v1/courses/2192f881-33cb-44fd-9ce9-6030094fdfbb
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+[32mINFO    [0m COURSES_ASSERTIONS:courses.py:24 Check update course response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that title equals to Certainly above case first whose realize although.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 57
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 17
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that description equals to Ok guy reduce happy baby economy. Crime far western central.
+Serve wife its minute admit. Read get weight heavy meet family cover simply. Form deal easy bag.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 7 weeks
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

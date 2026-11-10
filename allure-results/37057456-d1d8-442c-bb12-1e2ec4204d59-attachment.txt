@@ -1,0 +1,18 @@
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make PATCHrequest to http://localhost:8000/api/v1/courses/c416a93a-21ff-4fd9-bcf2-7b98d5f4ddaf
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:16 Check, that response status code equals to {expected}
+[32mINFO    [0m COURSES_ASSERTIONS:courses.py:24 Check update course response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that title equals to Example of identify catch animal their indicate.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 59
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 13
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that description equals to Likely every dinner. Imagine hospital compare court mother. Little data child its get turn laugh.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 3 weeks
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

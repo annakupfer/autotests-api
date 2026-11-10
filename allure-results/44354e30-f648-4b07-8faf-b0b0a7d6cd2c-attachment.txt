@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/c416a93a-21ff-4fd9-bcf2-7b98d5f4ddaf' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDEyOjUwOjAyLjM1OTA4NyIsInVzZXJfaWQiOiJhNWJjNTMzNC05OGQ0LTRhMTUtODkwYi04MDA1ZmE3MmE2MzIifQ.b19BxQ016NWAN3lJrguq80dzS5TpXUGPbumuGHuIvDY' \
+  -H 'content-length: 228' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Example of identify catch animal their indicate.","maxScore":59,"minScore":13,"description":"Likely every dinner. Imagine hospital compare court mother. Little data child its get turn laugh.","estimatedTime":"3 weeks"}'

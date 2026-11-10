@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA3VDE4OjE2OjI0LjU4MzA5NyIsInVzZXJfaWQiOiJjM2VhYjdlMi1kMTYyLTRmZjgtOTZlMi05MDFmMWY2ODIxODQifQ.fCKqsI6rVzURZTaSLTC3rX4Q-dEt08vkz5KjmH8Namg' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Third benefit PM stop.","maxScore":76,"minScore":30,"description":"Indeed know surface dream stock. Along cut environmental girl use describe. Develop six experience meeting item decade or.","estimatedTime":"5 weeks","previewFileId":"441dc0fb-1f17-407e-9a71-0f61d3d4a8e1","createdByUserId":"c3eab7e2-d162-4ff8-96e2-901f1f682184"}'

@@ -1,0 +1,19 @@
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make PATCHrequest to http://localhost:8000/api/v1/courses/11906d9f-159d-48c0-9019-d35d234f82e2
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+[32mINFO    [0m COURSES_ASSERTIONS:courses.py:24 Check update course response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that title equals to Seven should represent cut.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 63
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 20
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that description equals to Stage significant body each. Test think much speech.
+Soon whole believe agreement glass sound. Garden cause wide cut. Kind contain successful ability.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 4 weeks
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

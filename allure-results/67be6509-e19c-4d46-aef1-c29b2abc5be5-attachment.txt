@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDEzOjA1OjI3LjQyMDczMCIsInVzZXJfaWQiOiI2OTYwZTA2YS04ZTE1LTQxMGMtOGJkZS04NGJjMGMyMDYyYjgifQ.YDSTzZizwKJ8Zw_CgfMTDUIx23a3eIvO4cPeNyCkRkU' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Itself rise smile guess should customer large.","maxScore":86,"minScore":25,"description":"Suggest particular company majority crime great paper.\nGuy indeed glass improve performance soldier. Environment hit difference others her.\nFly major method.","estimatedTime":"8 weeks","previewFileId":"427f64a3-053d-460b-a5c2-0facfd7d82e4","createdByUserId":"6960e06a-8e15-410c-8bde-84bc0c2062b8"}'

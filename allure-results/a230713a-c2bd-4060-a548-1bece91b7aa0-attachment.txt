@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDEyOjQ2OjQzLjU4NjI4MSIsInVzZXJfaWQiOiI0YWUxNDllYy1kMTEwLTQ0ZmEtOTM0Yi1hMWVlMDczNTc4MGMifQ.Br_XOPMBT51o6Hrn_REOYkWzvh4y-f378F_LzdrUemQ' \
+  -H 'content-length: 316' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Star color save brother music song.","maxScore":65,"minScore":9,"description":"Word Mr never risk culture money. Throughout adult option successful front boy himself.","estimatedTime":"7 weeks","previewFileId":"b412c618-0e18-49e2-be6a-c3b66788ba43","createdByUserId":"4ae149ec-d110-44fa-934b-a1ee0735780c"}'

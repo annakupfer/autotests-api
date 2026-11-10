@@ -1,0 +1,22 @@
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make PATCHrequest to http://localhost:8000/api/v1/exercises/fb774c5e-47f0-4f75-adb4-a4e52279bbae
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+[32mINFO    [0m EXERCISES_ASSERTIONS:exercises.py:101 Check update exercise response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that title equals to Memory wall interest charge loss take fish.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that course_id equals to 22d319d5-c1cd-4788-ab55-11582ffddd1d
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 50
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 17
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that order_index equals to 86
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that description equals to Hand these boy behind reflect road something.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 10 weeks
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

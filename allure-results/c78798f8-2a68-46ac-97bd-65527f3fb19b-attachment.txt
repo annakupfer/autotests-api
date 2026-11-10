@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA3VDE4OjE2OjIyLjcyMjY4OCIsInVzZXJfaWQiOiI2MDk2NzVjYS03NDI3LTRlMTAtYmE3YS1iNTU4NGJiYmE4ZWMifQ.QSs6dbHkJJZRBZbQyCo856nxqGZoHGCIhRPw2A0cb9Q' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Figure want interest health.","maxScore":92,"minScore":8,"description":"Car performance exist recognize. Notice indeed whole year increase.\nResponsibility significant capital least ready. Born partner decade.","estimatedTime":"8 weeks","previewFileId":"dbd0d8b6-18ac-4705-9fd3-6edb62a5bff7","createdByUserId":"609675ca-7427-4e10-ba7a-b5584bbba8ec"}'

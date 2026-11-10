@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDE2OjMzOjU2LjIyOTgyOSIsInVzZXJfaWQiOiI0N2NhODNlYy1jYTk2LTQ3ZDgtYWI2Yy0yZGE2M2VkZWZkOGIifQ.496EuReiN0ALb_ox85AD1_XIoBTC3N4QdWAD7Eib-_Y' \
+  -H 'content-length: 289' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Environment travel single teacher.","maxScore":83,"minScore":11,"description":"Stay nearly buy. To set there week consumer off institution.","estimatedTime":"8 weeks","previewFileId":"e66ea05e-c462-4e2e-a5f7-f15c09d64440","createdByUserId":"47ca83ec-ca96-47d8-ab6c-2da63edefd8b"}'

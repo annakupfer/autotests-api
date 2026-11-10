@@ -1,0 +1,16 @@
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make GETrequest to http://localhost:8000/api/v1/files/717804d2-8c6d-4679-b610-c88922e62829
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:16 Check, that response status code equals to {expected}
+[32mINFO    [0m FILES_ASSERTIONS:files.py:59 Check get file response
+[32mINFO    [0m FILES_ASSERTIONS:files.py:40 Check file
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that {name} equals to {expected}
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that {name} equals to {expected}
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that {name} equals to {expected}
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that {name} equals to {expected}
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

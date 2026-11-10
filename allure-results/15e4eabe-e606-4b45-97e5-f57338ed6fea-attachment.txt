@@ -1,0 +1,18 @@
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+[32mINFO    [0m COURSES_ASSERTIONS:courses.py:84 Check create course response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that title equals to Especially treatment stock very.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 55
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 18
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that description equals to Our plant blood often. With protect carry actually politics mind able seat. Against kid voice kitchen money dark.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 9 weeks
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that preview_file_id equals to 2d0abff0-0e72-42dc-85a1-d0daafd23aaf
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that created_by_user_id equals to 2e5280d3-cb4f-4782-999d-608914ba410b
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

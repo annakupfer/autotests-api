@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDE1OjM2OjEzLjk2ODg4NiIsInVzZXJfaWQiOiJjN2Y5MDkxNy03ZGYyLTRkM2EtYmNhZC1hNGEyNDg4MzcyMmYifQ.b7rAIB9E8sF6LWMNtVc98pGss5dwIsSHyBZDKBM8hZo' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Young every benefit wind table easy.","maxScore":76,"minScore":11,"description":"Fact soldier bring walk. Could floor pressure quality sound old. Country remain white eight avoid company foreign.","estimatedTime":"1 weeks","previewFileId":"fd262b5a-abfb-4f90-a5d2-094e301181cb","createdByUserId":"c7f90917-7df2-4d3a-bcad-a4a24883722f"}'

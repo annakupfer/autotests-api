@@ -1,0 +1,23 @@
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make PATCHrequest to http://localhost:8000/api/v1/exercises/d9020bc4-cc0c-49ff-8fba-e2423218a2ec
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+[32mINFO    [0m EXERCISES_ASSERTIONS:exercises.py:101 Check update exercise response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that title equals to Sort miss common left.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that course_id equals to 67baa85f-f12e-4b54-bdb8-96a8f1fb03b7
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 50
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 20
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that order_index equals to 48
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that description equals to Once wife specific else notice change reality. East stay south challenge month report.
+Though within into until detail care. Act age morning painting maybe make woman.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 7 weeks
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

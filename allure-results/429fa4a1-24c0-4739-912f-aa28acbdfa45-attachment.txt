@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDE2OjMzOjU0Ljk1NTQ3NiIsInVzZXJfaWQiOiI4OTk0MmQ3ZS0yYzc4LTRlZTQtYTk2YS04ZjJjMTAyZjdlYzIifQ.B63XUh3ah-TFxrOrNoVkQMKmKctw_EHeT9fchMJ9ifc' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tend although third action determine determine structure.","maxScore":69,"minScore":5,"description":"Leader particularly condition class either. Buy financial fall nothing put customer sure. Land later interest final current social necessary professor.","estimatedTime":"1 weeks","previewFileId":"a9f14901-63e5-4fb1-ba4c-74226c62561b","createdByUserId":"89942d7e-2c78-4ee4-a96a-8f2c102f7ec2"}'

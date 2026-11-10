@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDE1OjUwOjEyLjQ0NDEzMyIsInVzZXJfaWQiOiJmM2FkMjg3Yy04YTcyLTRlMjktYmI5OC1hYWRhMmY4NWQwZTkifQ.8Re57vpV3gsxvtZFQgEHHuG25RIWzcfIuo73m5QbDqs' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Everyone charge produce admit.","maxScore":53,"minScore":18,"description":"Teacher medical dream remain teacher. Box another together child political. Smile find daughter live billion rule assume.\nFew world well nation.","estimatedTime":"7 weeks","previewFileId":"539e9db8-711d-481b-a3c7-edc50af8c00e","createdByUserId":"f3ad287c-8a72-4e29-bb98-aada2f85d0e9"}'

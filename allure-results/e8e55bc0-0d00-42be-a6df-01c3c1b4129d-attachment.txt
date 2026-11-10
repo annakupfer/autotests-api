@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDEyOjQ2OjQzLjE5Mzk1NSIsInVzZXJfaWQiOiIzMjVjNmYyMS0yOWVhLTQ1NDEtYWRlNi0xNTIyNWNhNzY5OTYifQ.wXRpZxqYwCpTCoFNguaMrrqAdgfmOsr95E1ylDuqWAg' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ability big act stuff.","maxScore":87,"minScore":29,"description":"Join standard other those. Official while condition toward research.\nList unit put beyond identify. Event be arm gas.\nSomething certain meeting south. Improve beautiful along him spring rest.","estimatedTime":"9 weeks","previewFileId":"eeb95a1c-597b-4021-8d91-e224ef20801c","createdByUserId":"325c6f21-29ea-4541-ade6-15225ca76996"}'

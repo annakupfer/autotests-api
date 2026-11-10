@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDEyOjA5OjAyLjY4NjA1OSIsInVzZXJfaWQiOiJmYzkxM2E2Yy01NzNmLTRlOWQtYWE4My1hZWIwNGM5YzZlZjMifQ.wt3Nd0MRMskYGrXaWsJJE8wkv6kabkv9l4QrLs6cxK8' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Agency central fight seem.","maxScore":96,"minScore":6,"description":"Say through economic. Paper west what could. Summer maybe medical.\nMarriage according it.\nDecide television stop. Dinner probably beyond peace series teach summer. Wind act environment.","estimatedTime":"3 weeks","previewFileId":"6862340f-0262-470a-ade2-57179245fc09","createdByUserId":"fc913a6c-573f-4e9d-aa83-aeb04c9c6ef3"}'

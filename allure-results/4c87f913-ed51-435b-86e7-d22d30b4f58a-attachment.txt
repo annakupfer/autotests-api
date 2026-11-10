@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA3VDE0OjAwOjExLjU1MDc0NiIsInVzZXJfaWQiOiI4MmVmZTYwMC02NTMyLTRhYmEtOGVjYy1lMWMzNWE4ZjI2NGIifQ.n5Oz81Z6_A9VU6HnStjl9TWzFx4_h17cNkKDkJpE1Qk' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Off network real picture lead design guy media.","maxScore":67,"minScore":20,"description":"Image person his evidence improve.\nBlue throw parent former beat course history. Born last face money news.\nMr film population us pick. Station nature who page.","estimatedTime":"2 weeks","previewFileId":"05f734ad-a96e-4856-8e30-1c06125b6df4","createdByUserId":"82efe600-6532-4aba-8ecc-e1c35a8f264b"}'

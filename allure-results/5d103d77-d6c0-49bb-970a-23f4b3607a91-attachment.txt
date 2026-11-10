@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDE4OjIxOjQ1LjQxNTYxNCIsInVzZXJfaWQiOiIxMTk3YTgwOS00NDlhLTRkOTMtOWQ2My1iMWVlYjdiYTNkYTcifQ.E8SsAw103Si_SufQBKoHWMdyE73AWb_7lcpO1lZKUXY' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Customer recent see become.","maxScore":62,"minScore":9,"description":"News under wear theory eight food yet. Possible kid rest reveal speak table.\nExpert simple possible clear society. Wall provide go time meeting.","estimatedTime":"7 weeks","previewFileId":"86712ce4-eacd-4cbc-a4a3-f3ea61d1a3ee","createdByUserId":"1197a809-449a-4d93-9d63-b1eeb7ba3da7"}'

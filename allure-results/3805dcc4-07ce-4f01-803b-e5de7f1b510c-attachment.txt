@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDEzOjA1OjI3LjgxOTMzMSIsInVzZXJfaWQiOiIwMDViYzg4NS1lNzE4LTQ2NmMtOWMwOC1kYjZmMmJkODYwNDcifQ.PCMQtRO8uSlh6weNf7jSWs13K0meDnF94cwtZV9m3Ck' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Which force your black.","maxScore":75,"minScore":9,"description":"Visit a resource investment eye color stay. Lead wall huge see section boy. Maintain develop Democrat manage around develop pull.\nMe care general small. Next run phone unit.","estimatedTime":"10 weeks","previewFileId":"d4850c29-3646-4b41-9846-9c99b202e9f0","createdByUserId":"005bc885-e718-466c-9c08-db6f2bd86047"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDEzOjA1OjI2LjYxMTI4MSIsInVzZXJfaWQiOiJhYTRkMTRmYi05Mzc1LTQxNWUtYjI4Yy1iYjczY2U0ZDYxM2MifQ.XIq3PUM3UFBGcAiVQHbvNugvtaOhLfLBXy0l9RxXcwc' \
+  -H 'content-length: 437' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Material section vote late strong position process.","maxScore":56,"minScore":15,"description":"Operation fear ahead born. Book statement letter attention someone oil open agent.\nReturn set realize cold theory both. Move team especially team safe enough. Political simple Mrs operation.","estimatedTime":"3 weeks","previewFileId":"92480cae-2f2f-4331-b082-74eb5b8d111f","createdByUserId":"aa4d14fb-9375-415e-b28c-bb73ce4d613c"}'

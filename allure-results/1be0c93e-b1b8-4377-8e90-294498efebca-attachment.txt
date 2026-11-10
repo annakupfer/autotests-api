@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDE2OjAwOjQ2LjM1NDY5MCIsInVzZXJfaWQiOiJhZTQ2MjYyYS0xMWUyLTQ4YjItYWQ2NS1hMDUzNzAzNDBmYmYifQ.fCIQmN6fIJZ5DdJTC2wqBzBrn_q1E0TgqF2CDHNJTIA' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sister air staff common my skin.","maxScore":62,"minScore":3,"description":"Business produce which themselves shake. Quickly walk rise size act trial administration.\nTeam interesting girl. Worker more draw wonder away above.","estimatedTime":"4 weeks","previewFileId":"3b461c4e-3295-428f-b9cf-d26fe194b3c4","createdByUserId":"ae46262a-11e2-48b2-ad65-a05370340fbf"}'

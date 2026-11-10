@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDE1OjU0OjUxLjE1NDc3NiIsInVzZXJfaWQiOiJkZDE5NjU3NS1hZGFkLTQyNTMtODU4My03NmFmY2U5ZDZjMjAifQ.-vaiI4htSu_CIfmTZj8f-JcjUHUKUkJgsJ4-QgbwXf8' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wish common manager myself role community outside land.","maxScore":87,"minScore":23,"description":"Agreement add college box century couple use growth. Quite reason spring manager including wife special. Appear religious sense chair manage animal.","estimatedTime":"5 weeks","previewFileId":"0b2d4278-2ec9-4468-b50c-20a8785dcee2","createdByUserId":"dd196575-adad-4253-8583-76afce9d6c20"}'

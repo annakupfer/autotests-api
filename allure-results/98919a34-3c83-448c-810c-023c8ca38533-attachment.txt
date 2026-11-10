@@ -1,0 +1,26 @@
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make GETrequest to http://localhost:8000/api/v1/exercises?courseId=45d16700-b76f-4006-8b93-26bdbf23d00d
+[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+[32mINFO    [0m EXERCISES_ASSERTIONS:exercises.py:82 Check get exercises response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:71 Check, that length of exercises equals to 1
+[32mINFO    [0m EXERCISES_ASSERTIONS:exercises.py:43 Check exercise
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that id equals to 740dc95f-3249-4804-b100-645fd9eed5f7
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that title equals to Foot if despite just indeed include you.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that course_id equals to 45d16700-b76f-4006-8b93-26bdbf23d00d
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 83
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 20
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that order_index equals to 12
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that description equals to Data source also girl. Describe friend child of should.
+Home reach past order health lead owner. Ten talk film produce.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 10 weeks
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

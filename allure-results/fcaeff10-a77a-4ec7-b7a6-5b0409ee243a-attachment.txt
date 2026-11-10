@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDE1OjM2OjE2LjY4NTA3NCIsInVzZXJfaWQiOiI1OTY4N2I4MS0wMjQ4LTQ3ZDEtODMyYS1lZWY5ODFkYzA5NjgifQ.AXDNDUPWpcTZFuZhD-Ef5CUrbUBoOxnJm1n09erat9w' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Help risk gas court authority.","maxScore":88,"minScore":30,"description":"Natural indeed total I. From talk no let state.\nBook society audience say be. Treatment campaign fight your. Strategy point wife newspaper project decide.","estimatedTime":"3 weeks","previewFileId":"748a047f-07d5-4652-82d0-63f273305de5","createdByUserId":"59687b81-0248-47d1-832a-eef981dc0968"}'

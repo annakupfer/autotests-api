@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/8abd276a-9a27-41cd-a670-82481fc39064' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA4VDE4OjIxOjQ0LjI1NzIzNyIsInVzZXJfaWQiOiIxMzNhYjJjMC1mNThkLTQ3YmItYjI5My03MzZkZGE3ZThlMjgifQ.3568t2mEIiYYLkIAo_cvikqRcWVmjMF2-6wtuVRoNwM' \
+  -H 'content-length: 308' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Control science management tax than image information yes.","maxScore":72,"minScore":25,"description":"Certain at your. Street exactly rest may pull believe organization.\nBecause authority majority support specific. Race size participant. Democrat remain resource save.","estimatedTime":"1 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA3VDE4OjE2OjI0Ljk1Njg4NiIsInVzZXJfaWQiOiJjM2Y0NWNiOC04YjViLTQ5YmMtOWJiNi1mMDQyMmUxZGFlYzMifQ.PKTKyISxfPaGSVpTyLqqIyAEZ4ATT8Q_YeKrxA6CI1A' \
+  -H 'content-length: 279' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Heavy positive sound.","courseId":"3b409120-51b1-4884-8e88-e530d97adbf8","maxScore":57,"minScore":5,"orderIndex":26,"description":"Campaign of heavy high above treat late. Put never two green into discover. Interview much nearly step manage.","estimatedTime":"7 weeks"}'

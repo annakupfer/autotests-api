@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTA5VDEyOjQ2OjQzLjE5Mzk1NSIsInVzZXJfaWQiOiIzMjVjNmYyMS0yOWVhLTQ1NDEtYWRlNi0xNTIyNWNhNzY5OTYifQ.wXRpZxqYwCpTCoFNguaMrrqAdgfmOsr95E1ylDuqWAg' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Born information wide if mouth.","courseId":"9fee747f-111d-4cfb-a30c-58c4b27ab739","maxScore":70,"minScore":9,"orderIndex":30,"description":"Require fall vote again activity sing unit.\nRecognize positive star activity best anything act. Huge bill control.\nSomeone offer federal someone history vote.","estimatedTime":"5 weeks"}'
