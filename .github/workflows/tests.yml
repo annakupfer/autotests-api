@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out repository
+      - name: Check outrepository
         uses: actions/checkout@v7
 
       - name: Set up python
