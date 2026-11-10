@@ -49,10 +49,10 @@ jobs:
 
       - name: Upload Allure results as Artifact
         uses: actions/upload-artifact@v7
+        if: always()
         with:
           name: allure-results
           path: allure-results/
-          if-no-files-found: warn
 
 
   publish-report:
@@ -61,7 +61,6 @@ jobs:
     steps:
       - name: Get Allure history
         uses: actions/checkout@v7
-        if: always()
         continue-on-error: true
         with:
           ref: gh-pages
