@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/9d4ebc7f-f215-4534-adaa-84314a06f43d' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDE5OjU3OjE5LjEzNjk1NiIsInVzZXJfaWQiOiI1OTFhNDBhYy1hYzc3LTQ5YWUtYTJjMS01OWE3MjVhODA4MDAifQ.MTrtaroZMCyUorfgtvjk6K_hQXVw8vvJ19Uqt7CcDeA' \
+  -H 'content-length: 323' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Red conference good left.","courseId":"064e6dbb-0782-4c19-b03c-15e78891ec54","maxScore":99,"minScore":26,"orderIndex":55,"description":"Economy positive personal around spend writer various. They politics service network fill forward in. Box west car none success deal available open.","estimatedTime":"10 weeks"}'

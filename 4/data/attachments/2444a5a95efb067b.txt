@@ -1,0 +1,22 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make PATCHrequest to http://localhost:8000/api/v1/exercises/9d4ebc7f-f215-4534-adaa-84314a06f43d
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:101 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Red conference good left.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that course_id equals to 064e6dbb-0782-4c19-b03c-15e78891ec54
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 99
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 26
+INFO     BASE_ASSERTIONS:base.py:35 Check, that order_index equals to 55
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Economy positive personal around spend writer various. They politics service network fill forward in. Box west car none success deal available open.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 10 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

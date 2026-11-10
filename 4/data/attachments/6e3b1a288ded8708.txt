@@ -1,0 +1,33 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make GETrequest to http://localhost:8000/api/v1/courses?userId=219cbb2e-5c5e-49f4-9068-c03847fd4627
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:65 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:71 Check, that length of courses equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:41 Check course
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to 51c0f4c2-ec40-43c6-b860-579cb5c298d6
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Their sing guy day because between physical recognize.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 99
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 27
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Media notice commercial prevent close hair total. Claim process word draw international.
+Allow water myself particularly tell long case. Any outside real attention. Discover police tax.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 6 weeks
+INFO     FILES_ASSERTIONS:files.py:40 Check file
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to 7223b507-b9e1-44e1-948d-9a76c11370ff
+INFO     BASE_ASSERTIONS:base.py:35 Check, that url equals to http://localhost:8000/static/tests/e5c02c61-f261-4103-9985-3e4ee2926ada.png
+INFO     BASE_ASSERTIONS:base.py:35 Check, that filename equals to e5c02c61-f261-4103-9985-3e4ee2926ada.png
+INFO     BASE_ASSERTIONS:base.py:35 Check, that directory equals to tests
+INFO     USERS_ASSERTIONS:users.py:39 Check user
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to 219cbb2e-5c5e-49f4-9068-c03847fd4627
+INFO     BASE_ASSERTIONS:base.py:35 Check, that email equals to fellis@example.org
+INFO     BASE_ASSERTIONS:base.py:35 Check, that last_name equals to Grant
+INFO     BASE_ASSERTIONS:base.py:35 Check, that first_name equals to Stephanie
+INFO     BASE_ASSERTIONS:base.py:35 Check, that middle_name equals to Joshua
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

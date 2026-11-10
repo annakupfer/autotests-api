@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDE5OjU3OjE4LjE2ODcwNCIsInVzZXJfaWQiOiI1NzRkNDVkMS01NWI3LTQ3YzktYWQ4Zi01MTEyNDdkY2Y1MDQifQ.xYRr1bsE-eaTskDq8-OjHyRR07rM9Yot4inwVJDbfbA' \
+  -H 'content-length: 322' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Lot family dinner expect standard guy same.","maxScore":65,"minScore":9,"description":"Strong pass party girl whose. Answer however beyond season strategy. Guy by agree PM.","estimatedTime":"4 weeks","previewFileId":"378f3268-c028-44f0-b27a-e03c31e045ba","createdByUserId":"574d45d1-55b7-47c9-ad8f-511247dcf504"}'

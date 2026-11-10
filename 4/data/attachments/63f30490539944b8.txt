@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDE5OjU3OjE3LjIzODg0OSIsInVzZXJfaWQiOiJkMjdlZDQxOC1iZmNiLTQ0NDMtYWY5Yy05ZTM0ZWFlMjNlNWMifQ.bsAgRRwj6ak4OKGkWNKAprA1sEvUKZ5uKND-h_T753o' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Age white often entire nothing age.","maxScore":53,"minScore":11,"description":"Station claim interesting eye after home sure. Trade recently difficult space. Suffer environment air.\nUpon more woman reality himself poor traditional. Miss call follow either.","estimatedTime":"3 weeks","previewFileId":"ba28f7ce-3464-4fd2-9c25-e356466d9ad5","createdByUserId":"d27ed418-bfcb-4443-af9c-9e34eae23e5c"}'

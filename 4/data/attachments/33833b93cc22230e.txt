@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDE5OjU3OjE1LjQ1NjExMyIsInVzZXJfaWQiOiJiZTczODk2Yy1hMWYwLTRkNzYtYjM2Zi1lYjI5NzU5Mjg4YzIifQ.p-n5-Me21AzeKhbA-M8MCfkjO2pFwlpq8IbWnZhJugw' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Popular past shoulder.","maxScore":85,"minScore":6,"description":"Idea medical gun water there security wait different.\nFamily seem as rule social.\nStart mouth house low parent popular. Bill improve audience future hope wish wide. Nice floor administration.","estimatedTime":"7 weeks","previewFileId":"6e3498bb-e9aa-4b06-adff-09280f39ae5d","createdByUserId":"be73896c-a1f0-4d76-b36f-eb29759288c2"}'

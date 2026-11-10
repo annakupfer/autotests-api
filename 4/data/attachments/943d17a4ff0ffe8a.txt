@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDE5OjU3OjE5LjEzNjk1NiIsInVzZXJfaWQiOiI1OTFhNDBhYy1hYzc3LTQ5YWUtYTJjMS01OWE3MjVhODA4MDAifQ.MTrtaroZMCyUorfgtvjk6K_hQXVw8vvJ19Uqt7CcDeA' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Several ready wide summer party.","maxScore":75,"minScore":25,"description":"Find meet little anyone cut adult situation his. Phone present senior paper nothing cover government interview.\nBoy cost officer receive account. Hit fund could.","estimatedTime":"7 weeks","previewFileId":"98e1ee17-70d6-4059-a933-325a71aba94c","createdByUserId":"591a40ac-ac77-49ae-a2c1-59a725a80800"}'

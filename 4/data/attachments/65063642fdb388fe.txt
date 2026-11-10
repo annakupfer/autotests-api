@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDE5OjU3OjE5LjEzNjk1NiIsInVzZXJfaWQiOiI1OTFhNDBhYy1hYzc3LTQ5YWUtYTJjMS01OWE3MjVhODA4MDAifQ.MTrtaroZMCyUorfgtvjk6K_hQXVw8vvJ19Uqt7CcDeA' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Role be nature new officer staff time.","courseId":"064e6dbb-0782-4c19-b03c-15e78891ec54","maxScore":81,"minScore":28,"orderIndex":92,"description":"Lay evening building direction find forward. Somebody anything leg.\nFor senior deal himself natural laugh drop very. Something be quickly investment pass common per. Until small week teach.","estimatedTime":"10 weeks"}'

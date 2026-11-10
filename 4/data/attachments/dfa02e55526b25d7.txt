@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDE5OjU3OjE2LjA1MzA4MyIsInVzZXJfaWQiOiIyMTljYmIyZS01YzVlLTQ5ZjQtOTA2OC1jMDM4NDdmZDQ2MjcifQ.Bx-P09BXE5FOfnErTCQQ6e2iSiUW7JqVHHER4OyH1wU' \
+  -H 'content-length: 435' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Their sing guy day because between physical recognize.","maxScore":99,"minScore":27,"description":"Media notice commercial prevent close hair total. Claim process word draw international.\nAllow water myself particularly tell long case. Any outside real attention. Discover police tax.","estimatedTime":"6 weeks","previewFileId":"7223b507-b9e1-44e1-948d-9a76c11370ff","createdByUserId":"219cbb2e-5c5e-49f4-9068-c03847fd4627"}'

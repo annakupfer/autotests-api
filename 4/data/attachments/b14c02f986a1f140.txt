@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTEwVDE5OjU3OjE5LjcxNzM2MiIsInVzZXJfaWQiOiI3ZjZhNTNiOC03NzJhLTQzMTgtODcyMy01MGM4NmM5OGU2ZTkifQ.um99qMQK9EAOZUqVfKxwHzs1mZbKjxoU01X_nfKL1O8' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fast office coach both travel rule.","maxScore":51,"minScore":17,"description":"Involve work half play. Wonder Republican never week which American over decide.\nReport somebody easy glass high American.\nPublic cup gas their level oil. Director deal between first ever.","estimatedTime":"3 weeks","previewFileId":"38dc85e7-5f03-49a8-86df-c9468247b309","createdByUserId":"7f6a53b8-772a-4318-8723-50c86c98e6e9"}'
