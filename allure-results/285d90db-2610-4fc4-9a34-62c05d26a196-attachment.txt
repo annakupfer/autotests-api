@@ -1,8 +1,0 @@
-[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
-[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
-[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
-[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
-[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
-[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
-[32mINFO    [0m HTTP_LOGGER:event_hooks.py:23 Make GETrequest to http://localhost:8000/api/v1/files/5e7af0dd-0288-4af4-b842-fd9437e529b3
-[32mINFO    [0m HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
