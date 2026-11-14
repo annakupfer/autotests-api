@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE0VDIwOjI5OjQ0LjM2NDEyMCIsInVzZXJfaWQiOiI3ZjRjODU4Yi0zYzE1LTQzYmYtOWMwMy0wMGE5OTA3OTUxNGUifQ.WN4V4LsEqnvzeJK1mx6wztrEopTY22fErR5wTK2yRgM' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Red treat support contain expect start scene.","courseId":"13dee430-1bff-4e06-a797-c15e37986c32","maxScore":79,"minScore":5,"orderIndex":22,"description":"Task early alone large. Our meet on miss. Price student lawyer central.\nPer ask artist assume. Boy whom sing consumer.\nCar western plan administration wear trouble. Take candidate seem.","estimatedTime":"3 weeks"}'

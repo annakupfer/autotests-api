@@ -1,0 +1,23 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make PATCHrequest to http://localhost:8000/api/v1/exercises/4e0ebe9f-959c-4d3d-bed3-d2f2f98c99ed
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:101 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Although leg successful view crime any.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that course_id equals to 1ad63d6b-108a-4271-bbfd-a05372176616
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 65
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 3
+INFO     BASE_ASSERTIONS:base.py:35 Check, that order_index equals to 55
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Control look baby. Find church watch knowledge administration occur whole. Show every political five go.
+Support member station run foot beyond kind firm. By stuff statement.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

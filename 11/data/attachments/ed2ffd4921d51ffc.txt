@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE0VDIwOjI5OjQ1LjE3ODEzMCIsInVzZXJfaWQiOiI4MjE1ZTYzNi01NzJkLTQ0MjktYTJkNS1kMmM1MTVhZmJmNWMifQ.vuCNpFP2N8q5cyh14nLEjLQyuB2tbIzcmm1Q9xOcnA4' \
+  -H 'content-length: 308' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Together draw manage.","maxScore":99,"minScore":20,"description":"Court sure against under design central material or. Each animal this man form fly mission.","estimatedTime":"10 weeks","previewFileId":"e99cf67d-4007-4d2e-a2bf-497a00a93f30","createdByUserId":"8215e636-572d-4429-a2d5-d2c515afbf5c"}'
