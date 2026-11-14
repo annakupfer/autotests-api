@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE0VDIwOjQxOjExLjEwMzE2NCIsInVzZXJfaWQiOiIwZTJmODc3NC03MWZhLTQ3OTItOTRhNC01M2JhODJiNzkwZTQifQ.dDgYIKyrFp_WHjE843Gb1Kc3sWlvjzsZ8itqyntu0XE' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Military worry collection.","maxScore":92,"minScore":5,"description":"Alone affect open. What Mr success there end person other major.\nSeem between staff positive industry seek you. Resource education environmental indicate tonight affect. Turn left sister fine.","estimatedTime":"3 weeks","previewFileId":"20bf5cc8-4e46-4dfe-ae78-60ec9a9be6ca","createdByUserId":"0e2f8774-71fa-4792-94a4-53ba82b790e4"}'

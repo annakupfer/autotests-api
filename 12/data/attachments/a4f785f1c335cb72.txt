@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/0b06a3a1-afe2-45d8-8a9c-2f495b70227d' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE0VDIwOjQxOjExLjEwMzE2NCIsInVzZXJfaWQiOiIwZTJmODc3NC03MWZhLTQ3OTItOTRhNC01M2JhODJiNzkwZTQifQ.dDgYIKyrFp_WHjE843Gb1Kc3sWlvjzsZ8itqyntu0XE' \
+  -H 'content-length: 289' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ahead side main suggest know dream program.","courseId":"621820cc-83b9-4daa-aca0-41b22c1f5382","maxScore":91,"minScore":5,"orderIndex":21,"description":"Give fact very audience. Claim thing whole again race. Sit space use room.\nAddress rock building.","estimatedTime":"3 weeks"}'

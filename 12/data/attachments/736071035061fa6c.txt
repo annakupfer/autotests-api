@@ -1,0 +1,23 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make PATCHrequest to http://localhost:8000/api/v1/exercises/0b06a3a1-afe2-45d8-8a9c-2f495b70227d
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:101 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Ahead side main suggest know dream program.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that course_id equals to 621820cc-83b9-4daa-aca0-41b22c1f5382
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 91
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 5
+INFO     BASE_ASSERTIONS:base.py:35 Check, that order_index equals to 21
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Give fact very audience. Claim thing whole again race. Sit space use room.
+Address rock building.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 3 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

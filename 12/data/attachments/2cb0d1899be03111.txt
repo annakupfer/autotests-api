@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE0VDIwOjQxOjEwLjQxMDgxMyIsInVzZXJfaWQiOiI0YmYyMmI2YS1hYjAyLTQxM2QtYTg2OC1hNTNmY2Q2NjNkMTgifQ.rGl53USRqWHLk_WtrfXCzeBHbCndNbQbnzLlT5K-Qms' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Practice hold girl source campaign do send.","maxScore":79,"minScore":25,"description":"Board number grow never head. Financial almost nothing. Political writer fight box best nearly gas should. Such as eight great source education structure.","estimatedTime":"3 weeks","previewFileId":"ba8467b2-1bd0-421d-bfb1-42d91eaf655a","createdByUserId":"4bf22b6a-ab02-413d-a868-a53fcd663d18"}'
