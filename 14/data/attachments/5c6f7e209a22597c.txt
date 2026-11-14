@@ -1,0 +1,22 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make PATCHrequest to http://localhost:8000/api/v1/exercises/e9f4d8c4-8e59-42ee-8794-601507ea1f68
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:101 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Report life during attack people modern sure less.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that course_id equals to 81c55ec1-46f7-4076-a85f-0297c8927781
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 71
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 24
+INFO     BASE_ASSERTIONS:base.py:35 Check, that order_index equals to 99
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Describe team may newspaper. Others inside stage foreign threat ground. Process car send career girl song party.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 4 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

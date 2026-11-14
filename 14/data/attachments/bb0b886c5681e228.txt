@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/7d98d2b1-f6c4-4926-bbe9-e29f9cc3ae18' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE0VDIwOjU1OjQzLjQ2ODkzNyIsInVzZXJfaWQiOiI5MWVlMzljZC1lNzg5LTRjY2YtYTg2NS0wMjc2YThhNzUyZWYifQ.0JGt6i_nLiPI4LlGvdXpJ8xkINkIYdl2mlgAMAuIRy4' \
+  -H 'content-length: 301' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Life mention how bring thought street radio.","maxScore":79,"minScore":21,"description":"Talk analysis detail tell type. Scientist capital my skin media.\nWestern team news or. As everything window miss line easy. Seem possible police find full already everybody.","estimatedTime":"6 weeks"}'

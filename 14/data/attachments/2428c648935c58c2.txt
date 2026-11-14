@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE0VDIwOjU1OjQ3LjM0NzQ3MCIsInVzZXJfaWQiOiJmZDM3NTZkMC1kOWExLTRiZWQtYjk4My05N2RlZWE4NTRhMjkifQ.odiE1OcjC2j3XG8PoklrQ1muEl933we7vbyew4JsB1g' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Prove early very trip.","maxScore":53,"minScore":6,"description":"Something music machine ago experience identify experience service. Leg measure reflect. Tree say while create market various.","estimatedTime":"3 weeks","previewFileId":"bb487976-976a-44a4-b5f4-b8efc474d93f","createdByUserId":"fd3756d0-d9a1-4bed-b983-97deea854a29"}'

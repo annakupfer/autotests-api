@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/e9f4d8c4-8e59-42ee-8794-601507ea1f68' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE0VDIwOjU1OjQ3LjYzOTE4OCIsInVzZXJfaWQiOiJlNWNjZjZmZi05ZTEwLTQzMzMtYmI1My1iNTliZmJkZGUxZmMifQ.PYeniYn6BxINj70G3l0x9ZFnKZrxS5N8F4MB3j_gJZU' \
+  -H 'content-length: 311' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Report life during attack people modern sure less.","courseId":"81c55ec1-46f7-4076-a85f-0297c8927781","maxScore":71,"minScore":24,"orderIndex":99,"description":"Describe team may newspaper. Others inside stage foreign threat ground. Process car send career girl song party.","estimatedTime":"4 weeks"}'

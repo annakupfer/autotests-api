@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE0VDIwOjU1OjQ0LjQxODQwMyIsInVzZXJfaWQiOiJiYTViNTE0OC05OWYyLTRmYTgtODAwOC1kZDMwNzJjYzI2N2EifQ.pv_eElhrmY1ukQ2wjwzecZVK9PUxs3gNZLJfWs_V0rA' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mother share red.","maxScore":79,"minScore":30,"description":"Together those north ability. Minute reason exactly home end.\nVarious exactly seat wall. International than measure read task.","estimatedTime":"4 weeks","previewFileId":"0c6bcc63-4f56-45e3-bc82-1bc514469b0c","createdByUserId":"ba5b5148-99f2-4fa8-8008-dd3072cc267a"}'

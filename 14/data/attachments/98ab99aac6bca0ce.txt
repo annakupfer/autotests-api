@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE0VDIwOjU1OjQ2LjMwODYwNCIsInVzZXJfaWQiOiIyOTM0NzNlYi0wMDgzLTQ3MDYtODFiNC0zYjUyMzk4MWU0ZGEifQ.XXBEskUz80l5hF7p5CwDhMHGZ_BufbwJXzSMNKHlW_M' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Including quickly then feeling painting require.","maxScore":94,"minScore":4,"description":"Far food foreign customer buy. Work save reality. Care teacher tonight party successful receive.","estimatedTime":"7 weeks","previewFileId":"0b944ddb-327b-4cf6-bb0a-c40b1d299d01","createdByUserId":"293473eb-0083-4706-81b4-3b523981e4da"}'

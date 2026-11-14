@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE0VDIwOjU1OjQ4LjY2MjMzOCIsInVzZXJfaWQiOiJhMTBkYTgyZC02ZjAzLTQwYjctODFmMi0zMWVjZDNiN2YwN2YifQ.aOt-Z4pSf7cgaLL0a3E1vIIbOZk3ANqzaFp3Cv_H4Tw' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"However again role they exactly themselves believe necessary.","maxScore":84,"minScore":3,"description":"Strong able itself system. Structure ever standard.\nEnvironment claim I television office central. Him away serious small.","estimatedTime":"7 weeks","previewFileId":"13add959-a51c-444a-bdc6-4e0c49757010","createdByUserId":"a10da82d-6f03-40b7-81f2-31ecd3b7f07f"}'

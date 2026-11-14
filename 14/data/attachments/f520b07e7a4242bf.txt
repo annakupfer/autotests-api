@@ -1,0 +1,18 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:84 Check create course response
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Year Republican song measure memory.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 90
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 24
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Certain surface camera reason. Debate probably offer meet. Fall learn security appear.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 4 weeks
+INFO     BASE_ASSERTIONS:base.py:35 Check, that preview_file_id equals to 95f75fb5-043b-40c8-ab16-999cc00edbb9
+INFO     BASE_ASSERTIONS:base.py:35 Check, that created_by_user_id equals to 2981fbad-c9e6-46a3-adda-1fed01649dfe
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

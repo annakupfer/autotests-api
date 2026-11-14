@@ -1,0 +1,33 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make GETrequest to http://localhost:8000/api/v1/courses?userId=ba5b5148-99f2-4fa8-8008-dd3072cc267a
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:65 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:71 Check, that length of courses equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:41 Check course
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to 7077e536-f05b-4019-9aa1-799b99a2684a
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Mother share red.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 79
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 30
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Together those north ability. Minute reason exactly home end.
+Various exactly seat wall. International than measure read task.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 4 weeks
+INFO     FILES_ASSERTIONS:files.py:40 Check file
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to 0c6bcc63-4f56-45e3-bc82-1bc514469b0c
+INFO     BASE_ASSERTIONS:base.py:35 Check, that url equals to http://localhost:8000/static/tests/8289b20a-e19c-4878-8154-fd6d52f5fa96.png
+INFO     BASE_ASSERTIONS:base.py:35 Check, that filename equals to 8289b20a-e19c-4878-8154-fd6d52f5fa96.png
+INFO     BASE_ASSERTIONS:base.py:35 Check, that directory equals to tests
+INFO     USERS_ASSERTIONS:users.py:39 Check user
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to ba5b5148-99f2-4fa8-8008-dd3072cc267a
+INFO     BASE_ASSERTIONS:base.py:35 Check, that email equals to maryreese@example.com
+INFO     BASE_ASSERTIONS:base.py:35 Check, that last_name equals to Peterson
+INFO     BASE_ASSERTIONS:base.py:35 Check, that first_name equals to Brian
+INFO     BASE_ASSERTIONS:base.py:35 Check, that middle_name equals to Robert
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

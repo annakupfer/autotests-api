@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE0VDIwOjU1OjQ2LjAxNjk4NiIsInVzZXJfaWQiOiIwYjNmNDQ3My0xODE0LTRhZjgtYWM2My02ZmVlMDg2NjI2ZWMifQ.bO-ODF1ILfiGdylQtToQzE-P-3uQ-by_b3igxZS0hYE' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Item at new early scientist beat project.","maxScore":100,"minScore":19,"description":"Cell receive whether nation fall impact key. Degree night them newspaper should.\nLose cause relate purpose not develop for need. Event go political know teacher establish.","estimatedTime":"9 weeks","previewFileId":"64c6fbde-fc67-4d40-8d67-01804baeb0f9","createdByUserId":"0b3f4473-1814-4af8-ac63-6fee086626ec"}'

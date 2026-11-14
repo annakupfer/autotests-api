@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE0VDIwOjU1OjQ3LjYzOTE4OCIsInVzZXJfaWQiOiJlNWNjZjZmZi05ZTEwLTQzMzMtYmI1My1iNTliZmJkZGUxZmMifQ.PYeniYn6BxINj70G3l0x9ZFnKZrxS5N8F4MB3j_gJZU' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Compare contain her both idea reveal.","maxScore":74,"minScore":24,"description":"Per small husband and. Party city sing while. Chair before area huge around artist north.\nAnything black economy last. Matter hot write.\nStudy hundred skin available.","estimatedTime":"9 weeks","previewFileId":"13eb01b1-9292-42e2-8051-2d22ea8e281f","createdByUserId":"e5ccf6ff-9e10-4333-bb53-b59bfbdde1fc"}'

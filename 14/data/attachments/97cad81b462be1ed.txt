@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE0VDIwOjU1OjQ1LjAzODI3NyIsInVzZXJfaWQiOiIyOTgxZmJhZC1jOWU2LTQ2YTMtYWRkYS0xZmVkMDE2NDlkZmUifQ.ymG4l7AU6TCzLTb8_T5sljuGIc8ie7eT20mSNSCtasU' \
+  -H 'content-length: 317' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Year Republican song measure memory.","maxScore":90,"minScore":24,"description":"Certain surface camera reason. Debate probably offer meet. Fall learn security appear.","estimatedTime":"4 weeks","previewFileId":"95f75fb5-043b-40c8-ab16-999cc00edbb9","createdByUserId":"2981fbad-c9e6-46a3-adda-1fed01649dfe"}'

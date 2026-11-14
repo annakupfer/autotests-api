@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE0VDIwOjU1OjQzLjQ2ODkzNyIsInVzZXJfaWQiOiI5MWVlMzljZC1lNzg5LTRjY2YtYTg2NS0wMjc2YThhNzUyZWYifQ.0JGt6i_nLiPI4LlGvdXpJ8xkINkIYdl2mlgAMAuIRy4' \
+  -H 'content-length: 430' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cold wrong cut series follow force member.","maxScore":94,"minScore":5,"description":"Agreement couple member test remember ok. Huge send he her.\nCountry hotel role someone successful week. Various step money just growth certainly cost. Go develop down fast back condition there.","estimatedTime":"8 weeks","previewFileId":"3f9b5b49-bf6d-4ceb-af4a-e1c3f9cab259","createdByUserId":"91ee39cd-e789-4ccf-a865-0276a8a752ef"}'
