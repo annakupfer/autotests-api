@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE0VDIwOjUzOjMyLjMzNjYxMCIsInVzZXJfaWQiOiJhOGE0ZWUzNy0yYjgwLTRkNjItYTQ5Yi1iMDEwZDZhNDgzMzgifQ.VXApL_ok9pPZPsPGrsOoh1A1CW6V8rkd8HkSf_Dqmx0' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Require else large ball realize news knowledge.","maxScore":67,"minScore":9,"description":"Kind low get oil data response total. Fall design relationship stock wind citizen option.","estimatedTime":"10 weeks","previewFileId":"efbf95f2-d97c-465c-96a4-8de5adbb5b52","createdByUserId":"a8a4ee37-2b80-4d62-a49b-b010d6a48338"}'

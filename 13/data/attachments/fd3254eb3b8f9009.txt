@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE0VDIwOjUzOjMxLjEyNDI4MyIsInVzZXJfaWQiOiJkOGUzODJiMy1jNGNlLTRhYTMtOThlYy1lNzc4ZDA5ZDcxYjkifQ.ns3iMe5zMivvtBHaYtt6wrTLrZYFGfyxZ6HJ1YFpD8k' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"West according include add.","maxScore":95,"minScore":11,"description":"Role pressure drug option. Television interest later fall three.\nLast require everybody town society light foreign state.\nOne do itself man fact get.","estimatedTime":"9 weeks","previewFileId":"8844fb91-0d8d-4714-a8f0-05f731a6c725","createdByUserId":"d8e382b3-c4ce-4aa3-98ec-e778d09d71b9"}'

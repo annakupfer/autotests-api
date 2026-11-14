@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE0VDIwOjUzOjMyLjYxMDA3NSIsInVzZXJfaWQiOiI3YWU3ODc0Yi0wM2ZjLTRjMzItOGMzMy1jNDhhNjU3YmU3OWUifQ.KY63cgc5a-X9NtAjJgdqrhz6wHcrH0sQ63_IYHcQggI' \
+  -H 'content-length: 429' \
+  -H 'content-type: application/json' \
+  -d '{"title":"During adult possible always performance before.","maxScore":83,"minScore":1,"description":"Knowledge way question tough. Watch worry until environmental work money cold. Establish better case myself blood teach.\nAbility address sport inside. Fast process nation fill think six.","estimatedTime":"1 weeks","previewFileId":"f884d527-4557-4642-a2cc-ad4f80dce21c","createdByUserId":"7ae7874b-03fc-4c32-8c33-c48a657be79e"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE0VDIwOjUzOjMzLjg4NDU1OCIsInVzZXJfaWQiOiI5MmVmYzZiYy1jNmE2LTRkOGMtYTQyOC0zYjMxMDY3NTcxYmIifQ.Z2TNYfg5egwgEb9yKCPPoRJmwc46q0rAylAZw-djIGA' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Large sure try friend trial manager future.","maxScore":58,"minScore":12,"description":"Give responsibility occur ground minute.\nEmployee month office kid. Through its become run toward quite suddenly. Century ability north throughout church change camera.","estimatedTime":"1 weeks","previewFileId":"b302899b-00d6-45c6-88c6-bdcbb1198569","createdByUserId":"92efc6bc-c6a6-4d8c-a428-3b31067571bb"}'

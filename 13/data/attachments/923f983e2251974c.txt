@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE0VDIwOjUzOjMyLjMzNjYxMCIsInVzZXJfaWQiOiJhOGE0ZWUzNy0yYjgwLTRkNjItYTQ5Yi1iMDEwZDZhNDgzMzgifQ.VXApL_ok9pPZPsPGrsOoh1A1CW6V8rkd8HkSf_Dqmx0' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Power cultural plant part skin point natural.","courseId":"8c61fd84-309c-4f0d-bfff-88ad70d2dadc","maxScore":56,"minScore":14,"orderIndex":62,"description":"Happy win peace you. Day magazine front capital make.\nAddress use federal time happy ok teacher involve. Blue defense foot worker church relate soldier food.","estimatedTime":"3 weeks"}'

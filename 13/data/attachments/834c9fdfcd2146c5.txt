@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE0VDIwOjUzOjMzLjMwNzA2MCIsInVzZXJfaWQiOiJjNTM3OTk1MS1hNGRkLTQ5YzgtYTVhYi1iOGMwZDAxZjIyNGQifQ.WF_XYrxUOvv8fmX6vxiHw8T_JXKYlJXtBQoEJ1KOnG8' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cultural body just certain include defense seven.","maxScore":54,"minScore":11,"description":"Project consumer Democrat role pattern. Figure little PM walk.\nPrice use budget dinner.","estimatedTime":"7 weeks","previewFileId":"fe805cab-ae5b-482f-b40b-ae4e499c8e02","createdByUserId":"c5379951-a4dd-49c8-a5ab-b8c0d01f224d"}'

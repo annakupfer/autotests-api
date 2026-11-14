@@ -1,0 +1,23 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make PATCHrequest to http://localhost:8000/api/v1/exercises/923e10ab-2d92-4609-bcea-e8c4d2431891
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:101 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Paper there star.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that course_id equals to 934df5d4-1ca9-46d2-8af5-0fc76d2786ee
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 91
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 13
+INFO     BASE_ASSERTIONS:base.py:35 Check, that order_index equals to 1
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to City employee clearly worry pressure live. Remember various either. Today tell against.
+Many brother suggest official region. Into help just create couple. Yeah they education note that quite impact.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 2 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

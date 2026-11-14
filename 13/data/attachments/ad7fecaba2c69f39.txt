@@ -1,0 +1,20 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:84 Check create course response
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to West according include add.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 95
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 11
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Role pressure drug option. Television interest later fall three.
+Last require everybody town society light foreign state.
+One do itself man fact get.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 9 weeks
+INFO     BASE_ASSERTIONS:base.py:35 Check, that preview_file_id equals to 8844fb91-0d8d-4714-a8f0-05f731a6c725
+INFO     BASE_ASSERTIONS:base.py:35 Check, that created_by_user_id equals to d8e382b3-c4ce-4aa3-98ec-e778d09d71b9
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema
