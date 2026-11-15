@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE1VDIxOjA0OjE4Ljg0Nzc0NiIsInVzZXJfaWQiOiJhODE1NThlNS02ZWM2LTQyMzktYWViNy04OWJiOGY3MDQ0YWIifQ.fbeodA5tcLwjzLv8Om9Pn5RQDKfEbk0lO0GXghkPw4g' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Letter everybody expert maintain.","maxScore":90,"minScore":17,"description":"Around great single president assume final. Green seven resource I. Himself discussion the.\nCity however always a scene. Difficult religious blood study someone college attorney.","estimatedTime":"1 weeks","previewFileId":"82f25e7f-0257-4db4-900e-79fd800ff404","createdByUserId":"a81558e5-6ec6-4239-aeb7-89bb8f7044ab"}'

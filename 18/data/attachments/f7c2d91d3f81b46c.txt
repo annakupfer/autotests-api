@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/fd92c6be-ce27-45ef-b388-04d32e1bba05' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE1VDIxOjA0OjE4Ljg0Nzc0NiIsInVzZXJfaWQiOiJhODE1NThlNS02ZWM2LTQyMzktYWViNy04OWJiOGY3MDQ0YWIifQ.fbeodA5tcLwjzLv8Om9Pn5RQDKfEbk0lO0GXghkPw4g' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Beat check key point her cost.","courseId":"0abe1984-4d4d-4d55-80a0-4cf0d2667241","maxScore":68,"minScore":7,"orderIndex":74,"description":"Road class risk yeah employee require. Point feel want bar include. Space structure effort might thank remember provide. Represent develop laugh wear price.","estimatedTime":"5 weeks"}'

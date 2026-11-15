@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/26fd41ee-e1b8-4f60-91f2-ba038647e0c5' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE1VDIxOjA0OjE2Ljg3OTMxOSIsInVzZXJfaWQiOiJjY2MwNDFhYi02YzhjLTQ0ZDktOWE0Ny0yNjFiM2VkMWEwYWYifQ.B-5sfWT3QlQFQj9svBNQQTsaFtOm8pUc2yNvrFp6PZY' \
+  -H 'content-length: 275' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Approach social use dream arm but.","maxScore":75,"minScore":1,"description":"Consider music again involve material. Wrong white begin. Century business to bring what.\nGame record instead product kid pressure. Institution use push have.","estimatedTime":"5 weeks"}'

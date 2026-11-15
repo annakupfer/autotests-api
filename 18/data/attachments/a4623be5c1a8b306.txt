@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE1VDIxOjA0OjE3LjMxMzU5MiIsInVzZXJfaWQiOiJhZWJiZWNiMC1hNDJjLTQyY2YtOWUzOC01OTU1MDBkZDczMjIifQ.Zdvw8OIiLRUhTasEMzAy0g_YXK87VDJvwDSf03H1fc0' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Create experience land to.","maxScore":75,"minScore":27,"description":"Each onto lead environmental arm. Office beyond even. Mr job office.\nDevelopment example staff until investment church. Media money lot.\nAge single let nearly. But production health apply.","estimatedTime":"6 weeks","previewFileId":"bcfb8473-59da-4f19-9fa9-bfdbd6a1c1e3","createdByUserId":"aebbecb0-a42c-42cf-9e38-595500dd7322"}'

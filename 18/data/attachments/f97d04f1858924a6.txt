@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE1VDIxOjA0OjE3Ljc5ODAyNSIsInVzZXJfaWQiOiIwYTQxZjhmMi02ZTUzLTQ5ZWQtODBkNy1kNGUwZGY5N2QzZTkifQ.7Ygh791mx-XEhRzbRTkhcrg4RXCJqTxpq_4ZG3Zx8r8' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Table staff sea quite past.","maxScore":73,"minScore":28,"description":"Type carry skin time kind marriage tonight first. Product eye morning marriage space.\nGreat far pressure thus enter image site. Effort attack seven source.\nKid from discover bank of.","estimatedTime":"6 weeks","previewFileId":"faf76235-6c58-4c74-ab17-eba08b1dd619","createdByUserId":"0a41f8f2-6e53-49ed-80d7-d4e0df97d3e9"}'

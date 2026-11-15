@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE1VDIxOjA0OjE5LjczNDU4MyIsInVzZXJfaWQiOiIxNWVjYWFiZC0zYjQyLTQzNDktYTUyNS0wNjFhOWIyNjk5YWYifQ.brWlSsOxCgaVl93YCKH8Jibd53xdbLYWEGY8RXqTiWI' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Medical idea maintain various pick pretty.","maxScore":66,"minScore":30,"description":"By operation help without out summer. Nice lay statement the how.\nEspecially kind company prevent else wish word. Billion really right statement machine.","estimatedTime":"1 weeks","previewFileId":"777865f8-5159-4f2c-b547-c4d54bb23cb4","createdByUserId":"15ecaabd-3b42-4349-a525-061a9b2699af"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE1VDIxOjA0OjE4LjIwMzk3MCIsInVzZXJfaWQiOiIwMDJhYTNiNi0zODY3LTQ4MzQtYWFiNC1hZjc1MGRiNmIyYjMifQ.X4RZtc3YG9zQZ5qVzzDTDPsiMQZgZ8-iXba3snO4EhA' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Baby mother left put Mr.","maxScore":79,"minScore":3,"description":"Manager suggest try fill. Care quite really pattern.\nGrowth field plant claim collection. Ten upon dinner several soldier.","estimatedTime":"8 weeks","previewFileId":"65d498ad-7178-4351-9e3d-6f8c1d62b8fc","createdByUserId":"002aa3b6-3867-4834-aab4-af750db6b2b3"}'

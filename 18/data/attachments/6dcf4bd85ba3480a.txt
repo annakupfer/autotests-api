@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE1VDIxOjA0OjE5LjI1MTU5NCIsInVzZXJfaWQiOiIzM2I2OWI0NC03MWU0LTQ2MjEtODdmZS0wMWQ1YzAyYjE5MzkifQ.GBePq2_Qvy_QM9QdE0hcvWHqDcR6CzOBiXd5vVoMlFg' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"When strong power interesting appear.","maxScore":87,"minScore":12,"description":"Authority likely appear yet as. Generation month lay quite room some according. Perhaps heart smile various student it its point.","estimatedTime":"9 weeks","previewFileId":"da64fb64-4cb4-4676-ad13-80fa3e567086","createdByUserId":"33b69b44-71e4-4621-87fe-01d5c02b1939"}'

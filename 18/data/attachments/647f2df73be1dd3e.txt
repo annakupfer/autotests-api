@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE1VDIxOjA0OjIwLjE0NDI3NyIsInVzZXJfaWQiOiJlZDhjNjY1NC00MWQ2LTQ1NzctYWYwNy1jYzRkOGQ0MTljMzgifQ.tuHeXFVFn6LuC7EUxmSn_6aM44LOcdU8g626UWoavho' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Field international theory all.","maxScore":100,"minScore":17,"description":"Staff class bed figure.\nDesign almost material believe. Although boy fine brother century. She economy third southern house positive movie.","estimatedTime":"1 weeks","previewFileId":"8cd30077-6309-4316-b38c-5d962b3fbd8b","createdByUserId":"ed8c6654-41d6-4577-af07-cc4d8d419c38"}'
