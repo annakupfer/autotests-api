@@ -1,0 +1,23 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make PATCHrequest to http://localhost:8000/api/v1/exercises/ae9dff30-19d1-4ea3-8997-d5374757667d
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:101 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Citizen go through guess another peace.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that course_id equals to 9b9af7d8-7b33-4435-9b31-3a5a5d528148
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 60
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 1
+INFO     BASE_ASSERTIONS:base.py:35 Check, that order_index equals to 59
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Term single and may set. Audience man conference conference tough speak.
+Argue process five detail boy kind each. Case weight himself when trip.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 2 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

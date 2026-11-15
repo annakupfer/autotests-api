@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE1VDIwOjI0OjMxLjIwMjI2NCIsInVzZXJfaWQiOiJmNmQ1N2M4MS1lOTRiLTQzM2MtOWFmZC03ZDc4OWU5NjU4MDIifQ.AcUfxoZdImqe0O2rWSXcIdoNe4GDg0EcdvJUCC_2DfE' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Her chair foot your if as blood once.","maxScore":64,"minScore":15,"description":"Seat American number shoulder serious evidence use. Pay agency decision table trial program this.\nBe few second character throughout. Appear son whether reach address.","estimatedTime":"2 weeks","previewFileId":"e94c6f98-0a4c-47f7-9fcc-e1beddadbc37","createdByUserId":"f6d57c81-e94b-433c-9afd-7d789e965802"}'

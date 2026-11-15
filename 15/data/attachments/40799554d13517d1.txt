@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE1VDIwOjI0OjMxLjQ4ODk0OSIsInVzZXJfaWQiOiIxY2VlNzUxMS1mZDczLTQyNWYtYjRiNi1iMzRlNjA2YTcxMDQifQ._wI4fiJs64xEOYG3GlPN0X_0g6SYkvnZsxIjh50gUJA' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Various time show team several.","maxScore":67,"minScore":13,"description":"Light medical commercial staff price public. Toward order remain pick. Blood eat food Republican evidence through.","estimatedTime":"6 weeks","previewFileId":"a6aada08-1ab7-4913-b6c1-f4123927ed39","createdByUserId":"1cee7511-fd73-425f-b4b6-b34e606a7104"}'

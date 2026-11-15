@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE1VDIwOjI0OjI4LjM1MjkzNiIsInVzZXJfaWQiOiI3NGI1NzJlZi0xNGY3LTQ1ZDItOTA0YS0yODFhNTBlYmQ3YTUifQ.BDOwAM_5QgcncLq-dS-TI2GxmGy2pBWV-zudFJG-tK0' \
+  -H 'content-length: 453' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Collection notice rise hope month responsibility summer support.","maxScore":77,"minScore":6,"description":"Agree young man necessary modern chance around answer. Region itself hotel hold will. His message energy blue everyone.\nForm begin too too dog perhaps ever. Something concern necessary director.","estimatedTime":"7 weeks","previewFileId":"0c9a5a2e-25c8-41fd-81f0-1bf2ff502e57","createdByUserId":"74b572ef-14f7-45d2-904a-281a50ebd7a5"}'

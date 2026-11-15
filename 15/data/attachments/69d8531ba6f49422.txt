@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE1VDIwOjI0OjMyLjUzNjQwNyIsInVzZXJfaWQiOiJmZWUzNWQyZS0xNDJiLTQ3M2YtOTYxNy1lNjM3Mjk0ODVmZmQifQ.rqCVA-rCeCuAf2aVJqPc9iEcGPcN5w6SngBt1YJcIaI' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Accept whether exist population create.","maxScore":88,"minScore":16,"description":"Opportunity future movie newspaper attack others show. Drop born than activity like news soldier.\nRaise kitchen sister nation young arm. Their from land charge certain ball.","estimatedTime":"5 weeks","previewFileId":"738de41b-5431-4070-99ad-57c6270d600c","createdByUserId":"fee35d2e-142b-473f-9617-e63729485ffd"}'

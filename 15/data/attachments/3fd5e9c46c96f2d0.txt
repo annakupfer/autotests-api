@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE1VDIwOjI0OjMyLjgyMzY4NCIsInVzZXJfaWQiOiJkYTI1NjIzOC0wYzEwLTQ0ZGEtOGY1OC1kMWMzZDNiYTI0Y2UifQ.Blk6A9hBocAjSqmZyDTmH7pj8KOBWxgUd63oTW5Ggtg' \
+  -H 'content-length: 306' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Face quite mean director laugh finish.","maxScore":83,"minScore":3,"description":"Statement budget task certainly walk. Though apply management vote father.","estimatedTime":"7 weeks","previewFileId":"eb978799-53ef-4215-bf89-055ca2014753","createdByUserId":"da256238-0c10-44da-8f58-d1c3d3ba24ce"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE1VDIwOjI0OjI5Ljk0NzA5MCIsInVzZXJfaWQiOiI2NjYxYmVmYS1kNzU2LTQ3YWQtYjUzOS0wODM1MGY2ZGMyNjEifQ.gnZYoGnHYTYIlwdRfUwB8Mzej9ZQ0O30li-GJt2bUjU' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Prepare black talk debate most share.","maxScore":65,"minScore":13,"description":"Step think threat page benefit reason understand. Tree stuff month reach. Task which place claim film responsibility.","estimatedTime":"1 weeks","previewFileId":"4da68627-b459-4b01-a090-18069c0dd410","createdByUserId":"6661befa-d756-47ad-b539-08350f6dc261"}'

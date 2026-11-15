@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/fc001ba1-128f-4667-a800-fd25cfe7c3d9' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE1VDIwOjI0OjI4LjM1MjkzNiIsInVzZXJfaWQiOiI3NGI1NzJlZi0xNGY3LTQ1ZDItOTA0YS0yODFhNTBlYmQ3YTUifQ.BDOwAM_5QgcncLq-dS-TI2GxmGy2pBWV-zudFJG-tK0' \
+  -H 'content-length: 196' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Themselves simply end writer beyond success issue moment.","maxScore":85,"minScore":17,"description":"Not stock similar. Main think town grow than again fine.","estimatedTime":"7 weeks"}'

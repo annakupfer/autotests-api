@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE1VDIwOjI0OjMwLjIzMzM5MSIsInVzZXJfaWQiOiI2NmMwNjcwZC0yMWZmLTRlYzItODg3Zi1iNTViYjc3Y2RkYzEifQ.78wJlhzOArRvXhGzx78dNe5mNNWLlUcViK64Uy9hiRo' \
+  -H 'content-length: 318' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Project employee ability start past reach.","maxScore":50,"minScore":22,"description":"North charge research support do contain seat. Whole federal whether small human.","estimatedTime":"4 weeks","previewFileId":"6ee77a72-3d0b-4c6f-a114-7517708346fa","createdByUserId":"66c0670d-21ff-4ec2-887f-b55bb77cddc1"}'
