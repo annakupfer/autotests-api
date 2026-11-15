@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE1VDIwOjUxOjAwLjE2MzUzOCIsInVzZXJfaWQiOiJiM2U2MjFiMy0yNjYwLTQ5MDctYWNmYS1mNTU0ZTI5Y2EwMWIifQ.MocEkOi8BRZGdWirGbAFnyerKorAh8_YYfzDH0TdWi8' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mrs development gun deal dinner easy reason.","maxScore":88,"minScore":26,"description":"Realize be physical against community expect respond another. Remember author fear serve special account.\nBar level to.","estimatedTime":"3 weeks","previewFileId":"669e440c-b054-4f43-b09f-60963a97c8f5","createdByUserId":"b3e621b3-2660-4907-acfa-f554e29ca01b"}'

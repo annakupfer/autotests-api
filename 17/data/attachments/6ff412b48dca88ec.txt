@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE1VDIwOjUxOjAyLjk2OTMzOSIsInVzZXJfaWQiOiIxY2RiODM4My0zNmU5LTRkNGUtOWQ4MS1mMWVhZmIwMjg1YzIifQ.tLB3ZkmgwHzl-zFqAP75E2jjLAdT09YFLLWrcFx95Hw' \
+  -H 'content-length: 315' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Instead and account a whom provide us.","courseId":"5da291fe-0458-42c2-9299-dfe583818880","maxScore":52,"minScore":28,"orderIndex":54,"description":"Whether culture operation natural attack federal more. Federal wish rich idea receive. Star score important grow usually record.","estimatedTime":"5 weeks"}'

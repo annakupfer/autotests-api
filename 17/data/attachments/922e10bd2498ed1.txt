@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE1VDIwOjUxOjAyLjczMjkxOCIsInVzZXJfaWQiOiIyYjJjNzJiYS0zODI2LTQ3MDItYTE3OS1hMTI1OGZmZmI3MDQifQ.9SDGfCZp_n2dgPoyFTakHcNqkaT-ZeTak5SYWKMKhag' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"The final serious.","maxScore":71,"minScore":11,"description":"Front three whatever manager agreement play name. Many west tell page. Determine inside blue maintain may national much. Popular oil than instead poor.","estimatedTime":"3 weeks","previewFileId":"3b52532c-63ce-4b71-ba5f-28fbfb4803a5","createdByUserId":"2b2c72ba-3826-4702-a179-a1258fffb704"}'

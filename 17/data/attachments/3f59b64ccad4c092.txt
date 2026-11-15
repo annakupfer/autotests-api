@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE1VDIwOjUxOjA0LjA1MjA2MCIsInVzZXJfaWQiOiJhMTY2OTBjOS0xNDAzLTRmNDktYThjOS1lNDFkMmRiMWFiMjcifQ.l6ML3yG20-pkhRuNnbJdqorc3fX6SL-152pznIFw8qI' \
+  -H 'content-length: 301' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Measure and or if.","maxScore":91,"minScore":16,"description":"Among enter seat process. Store state improve. Argue thus skill allow information style.","estimatedTime":"3 weeks","previewFileId":"32899897-356c-47d1-9250-36ec2d0d390b","createdByUserId":"a16690c9-1403-4f49-a8c9-e41d2db1ab27"}'

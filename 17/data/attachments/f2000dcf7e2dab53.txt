@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE1VDIwOjUxOjAxLjk0Mzk3MiIsInVzZXJfaWQiOiI5OTljOWU5MC1hMmFjLTRlNjQtOGVlMS03NTlmYTA4YzdiN2MifQ.9YUfWtpNDL_I-meP_ygYxT5IK2NRfGjdVHLRepL0vak' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hand myself some school player.","maxScore":86,"minScore":13,"description":"Reason boy out summer. Ago fill may show difference professor simple.\nCompare idea sell. Phone skill unit phone tax peace organization learn. Building try turn peace simply say hand without.","estimatedTime":"9 weeks","previewFileId":"9a11f3a9-d54f-47a4-8a6c-92a348ce3f29","createdByUserId":"999c9e90-a2ac-4e64-8ee1-759fa08c7b7c"}'
