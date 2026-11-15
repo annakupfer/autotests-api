@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE1VDIwOjQxOjUyLjgzNzIzMyIsInVzZXJfaWQiOiIwNzBlNDAyOC1mNzZjLTQ1OGMtYWI4Ni00YzQ4YzBlODY2N2MifQ.qcAmHUh_wVC2XtJN0aQQ7batPgRBItp-1t1NT35FRTU' \
+  -H 'content-length: 344' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Truth management prepare management available.","maxScore":84,"minScore":5,"description":"Everything stop around history. Successful option rule.\nTraining safe agent down society together firm.","estimatedTime":"9 weeks","previewFileId":"c4ba9460-d9c6-4db0-99fc-8c603c335c91","createdByUserId":"070e4028-f76c-458c-ab86-4c48c0e8667c"}'

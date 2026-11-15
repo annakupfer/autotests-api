@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE1VDIwOjQxOjUxLjYyMTU1OSIsInVzZXJfaWQiOiJhZDQwNDAxOC1hYTIzLTRmODQtYmU5YS1hZTA5YTdlNjA4NDQifQ.I83ijncwufLXNQ1Zd2QPJ3h5QT_1M2Bh1OUkYVQ1ivM' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wait entire reveal itself seven.","maxScore":61,"minScore":16,"description":"Six information stuff. Close position fear sort.\nReally general example long. Opportunity large involve sort a chair successful. Fish mission present past claim culture cell common.","estimatedTime":"6 weeks","previewFileId":"78559581-2e83-401b-9110-f5763d8ba0c2","createdByUserId":"ad404018-aa23-4f84-be9a-ae09a7e60844"}'

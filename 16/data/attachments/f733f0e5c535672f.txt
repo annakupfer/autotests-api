@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE1VDIwOjQxOjQ5Ljk5MTgyNSIsInVzZXJfaWQiOiI5NmQ0MjIyZi0zNzRhLTQ5M2ItOTJmNy1hYjA0NTVhOGYwMjcifQ.jmeXtpiRZklUBTkk3ILe0UH2ewVZ_4lRtDrInwUKADE' \
+  -H 'content-length: 397' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Magazine begin trial allow hair new.","maxScore":78,"minScore":18,"description":"Street who how happy. Feel staff success entire. Party cup practice positive what like someone.\nCandidate number light teach dog view as. Billion yes identify party.","estimatedTime":"7 weeks","previewFileId":"b3fb6592-936b-42ee-b526-e0ccdb92464b","createdByUserId":"96d4222f-374a-493b-92f7-ab0455a8f027"}'

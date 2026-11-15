@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE1VDIwOjQxOjU0LjE1NzM0NCIsInVzZXJfaWQiOiI0ZTBhN2NkMi1lOWY1LTQ0NmEtYTJhOC04ZDk4OTViNjdjNDIifQ.sV7_Dk97cZrE3cgkTGlOAkxVn-xQEFl7XjDzsdOu93Q' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Throw similar town education.","maxScore":74,"minScore":3,"description":"Will beyond whose consumer market. Course tonight work thousand. Nation south project hold they. Finally concern sound method.","estimatedTime":"5 weeks","previewFileId":"8ecd0963-96a1-4834-a0b3-c0159b692c47","createdByUserId":"4e0a7cd2-e9f5-446a-a2a8-8d9895b67c42"}'

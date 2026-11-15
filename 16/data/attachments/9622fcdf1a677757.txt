@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE1VDIwOjQxOjU0Ljg1MjU0NiIsInVzZXJfaWQiOiJkNDkyYjZhZi0wZGZlLTRiNzUtYWJkNS0yNjUyMWY4Y2EyMDIifQ.KJem6dqmLYmZY8MfQJQJeTDf7F7c3ostXyH01Zun29s' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Foot real little push message article consider.","maxScore":97,"minScore":19,"description":"Argue event seek much soon arrive operation. Only wide number stage actually drug.\nArgue card health pattern build. City once radio get real thing.","estimatedTime":"3 weeks","previewFileId":"2f9b448a-bb4e-4c4c-b7b8-77f8666a0370","createdByUserId":"d492b6af-0dfe-4b75-abd5-26521f8ca202"}'
