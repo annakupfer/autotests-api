@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE1VDIxOjA2OjM4Ljg0MjEzOCIsInVzZXJfaWQiOiI2MTUzNjc0YS0xYWYyLTRlZGUtODljZS05NjQwODQyYWQ2YTIifQ.3t-xHO6-yFnhhAc8QfuoQePRusp8U4u0sWF_i5nPdCU' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Service treatment win recently heavy.","maxScore":55,"minScore":3,"description":"Theory director finally. Plant difference book discuss whom. Can indicate president level seven miss compare.","estimatedTime":"4 weeks","previewFileId":"e9d340e0-2fc4-47b2-87d2-a012e9bba7fc","createdByUserId":"6153674a-1af2-4ede-89ce-9640842ad6a2"}'

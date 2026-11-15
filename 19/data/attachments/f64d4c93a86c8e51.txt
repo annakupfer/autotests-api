@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/81ac25d7-01f7-4265-9a40-06f67e3573ff' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE1VDIxOjA2OjM4Ljg0MjEzOCIsInVzZXJfaWQiOiI2MTUzNjc0YS0xYWYyLTRlZGUtODljZS05NjQwODQyYWQ2YTIifQ.3t-xHO6-yFnhhAc8QfuoQePRusp8U4u0sWF_i5nPdCU' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Charge protect president still news.","courseId":"a2024bac-1283-4238-bb24-f3c9cb7c67d2","maxScore":82,"minScore":11,"orderIndex":67,"description":"Field nothing exactly recently community about. Information price paper indicate civil small. May according fall collection trial.\nSign message measure politics already. Point inside evidence before.","estimatedTime":"5 weeks"}'

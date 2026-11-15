@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE1VDIxOjA2OjM2LjU5MDE1OCIsInVzZXJfaWQiOiJjY2Y3MGQ5ZS1hMjlmLTRhYjktOGVkZi00NjFjMzA4N2I1MDkifQ.9I0A0bv2L93gqqC5ztAjP072KAkMbqpQaE3ltoQRfD0' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Simple reason point modern.","maxScore":85,"minScore":16,"description":"Situation prove speak year hope garden above. Police purpose allow suffer. Environment recognize effect thousand reach give.\nAround true central no just purpose. Place indicate thing energy.","estimatedTime":"5 weeks","previewFileId":"4aaaa5b6-c16b-4981-8ce3-6f89bf47518d","createdByUserId":"ccf70d9e-a29f-4ab9-8edf-461c3087b509"}'

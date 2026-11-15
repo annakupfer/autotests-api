@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE1VDIxOjA2OjM5LjYzMjYxMCIsInVzZXJfaWQiOiJkMzMwNDEyZS1jMDk3LTQwZmUtYTJjYy1iNjg0YzRmMWIxNmIifQ.ZuQ6BJ646-Ts7BRVw9k3ymZHkJ0Ctdgz1IlUcQHMg14' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Field network physical food street themselves week.","maxScore":61,"minScore":4,"description":"Position these radio student account. Resource fear participant our floor themselves early.","estimatedTime":"3 weeks","previewFileId":"1a495deb-7254-47d3-be30-6433417575bd","createdByUserId":"d330412e-c097-40fe-a2cc-b684c4f1b16b"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE1VDIxOjA2OjM4LjYwNzE5MSIsInVzZXJfaWQiOiJjYzU5MTkyYi02MWVhLTRhYTEtYjY4OC0wODEyZThlNmQyZDgifQ.guWAAyMvWKRWgKaYvROtuBI0TJzh00phHKDe07QRIyE' \
+  -H 'content-length: 315' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Town field than only explain movie rest film.","maxScore":64,"minScore":26,"description":"Wear offer reach prepare of. Huge detail realize certainly standard rather.","estimatedTime":"4 weeks","previewFileId":"cfcd1f4b-ef2b-4dec-b6c1-75069d34254c","createdByUserId":"cc59192b-61ea-4aa1-b688-0812e8e6d2d8"}'

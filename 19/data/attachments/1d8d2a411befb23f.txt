@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE1VDIxOjA2OjM5Ljg2ODEyOCIsInVzZXJfaWQiOiI4NTcxZDgyZi1hYTExLTQ3YmEtYTNiMi1iMzg3ZjI1MmE3Y2MifQ.nH_p5Ql2opHyl9p3wJNfvjpBBJGxCWUSgnL-Gx1gB8Y' \
+  -H 'content-length: 438' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Down policy represent resource relationship.","maxScore":60,"minScore":29,"description":"Policy provide audience dark. Strong message left occur sometimes high. Free friend black.\nSix find cover. Nor stand work everyone eight research security.\nAccept garden six local. Wife water talk.","estimatedTime":"1 weeks","previewFileId":"50645c87-4734-4382-b991-e64aa62ffc3d","createdByUserId":"8571d82f-aa11-47ba-a3b2-b387f252a7cc"}'

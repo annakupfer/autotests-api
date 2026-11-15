@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE1VDIxOjA2OjM3Ljg0MjMwMyIsInVzZXJfaWQiOiIwMzJkZmZmMC0zNjgzLTQ2YzktOGE4OS0yYmEyY2I0MzNjZGUifQ.Shqowr4JHwzLMOHZ_HZM3p-kQ7ak1WnZf7LF5wDfUyk' \
+  -H 'content-length: 325' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Break attack trade study.","maxScore":57,"minScore":13,"description":"Around behind leave value yourself. Off effect second marriage. Nation choice place people line old meet.","estimatedTime":"3 weeks","previewFileId":"f03c0a62-c40a-41ad-9ecb-2a783569f56d","createdByUserId":"032dfff0-3683-46c9-8a89-2ba2cb433cde"}'

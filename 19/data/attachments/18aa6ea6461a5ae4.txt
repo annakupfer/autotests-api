@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/5015d098-1868-4813-9a87-64d247cdd467' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE1VDIxOjA2OjM2LjU5MDE1OCIsInVzZXJfaWQiOiJjY2Y3MGQ5ZS1hMjlmLTRhYjktOGVkZi00NjFjMzA4N2I1MDkifQ.9I0A0bv2L93gqqC5ztAjP072KAkMbqpQaE3ltoQRfD0' \
+  -H 'content-length: 271' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Impact who grow whatever stock analysis across visit.","maxScore":76,"minScore":27,"description":"Crime admit opportunity and there. Knowledge many certain senior baby different. Also recognize development policy skin education seek.","estimatedTime":"5 weeks"}'

@@ -1,0 +1,25 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make GETrequest to http://localhost:8000/api/v1/exercises/725f7d93-8676-47ab-9cf4-90b3817ff7ab
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:66 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:43 Check exercise
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to 725f7d93-8676-47ab-9cf4-90b3817ff7ab
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Cost building their door bring beat.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that course_id equals to 04a0f5d4-1de1-41c2-91c1-74d8bbd67d7d
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 51
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 26
+INFO     BASE_ASSERTIONS:base.py:35 Check, that order_index equals to 47
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Light owner music significant. Report color if nearly six worker. Push maybe measure democratic detail forward win.
+Guy lawyer person. Risk bill method middle value team.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema
