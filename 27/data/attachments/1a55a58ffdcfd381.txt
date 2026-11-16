@@ -1,0 +1,33 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make GETrequest to http://localhost:8000/api/v1/courses?userId=fbcbff5d-1837-400e-af3c-1a0c24cfe1c3
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:65 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:71 Check, that length of courses equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:41 Check course
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to 635b3e36-1807-4126-977b-8f987a304257
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Simple wife job which turn consider concern.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 75
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 2
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Protect direction pay network. Fall nice cultural.
+Who truth outside friend reflect senior skin. Resource win example church cause. Across herself yeah art participant name today.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 8 weeks
+INFO     FILES_ASSERTIONS:files.py:40 Check file
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to 23ae3f54-754e-4343-b0dc-7b67a9ac8a1e
+INFO     BASE_ASSERTIONS:base.py:35 Check, that url equals to http://localhost:8000/static/tests/54b96869-6d6b-413a-b713-81ee72a920db.png
+INFO     BASE_ASSERTIONS:base.py:35 Check, that filename equals to 54b96869-6d6b-413a-b713-81ee72a920db.png
+INFO     BASE_ASSERTIONS:base.py:35 Check, that directory equals to tests
+INFO     USERS_ASSERTIONS:users.py:41 Check user
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to fbcbff5d-1837-400e-af3c-1a0c24cfe1c3
+INFO     BASE_ASSERTIONS:base.py:35 Check, that email equals to wdavis@example.net
+INFO     BASE_ASSERTIONS:base.py:35 Check, that last_name equals to Coleman
+INFO     BASE_ASSERTIONS:base.py:35 Check, that first_name equals to Diane
+INFO     BASE_ASSERTIONS:base.py:35 Check, that middle_name equals to Veronica
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/68defaa3-93d9-492e-b8c6-3f7c18b16d99' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDIwOjMzOjM3LjYwODU4NiIsInVzZXJfaWQiOiIxMTQ4M2Y2YS04YTRmLTQwMTgtOTVkYi1lY2EzZDE2YjcyYWIifQ.3iWhqUzm0GaryhzogmqIc4hCD2E_8yLMCdvKy1IkPCw' \
+  -H 'content-length: 233' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bar explain face another campaign.","maxScore":98,"minScore":25,"description":"Vote court lay later can. Including cold listen anyone ball very benefit. Run Republican seek stock stage ok leader.","estimatedTime":"5 weeks"}'

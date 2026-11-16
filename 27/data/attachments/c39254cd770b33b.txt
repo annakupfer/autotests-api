@@ -1,0 +1,26 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make GETrequest to http://localhost:8000/api/v1/exercises?courseId=21fe931d-a97b-4217-9e5d-db64bb2f884f
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:82 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:71 Check, that length of exercises equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:43 Check exercise
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to 6afc43a6-1ddc-4bbd-a1e1-c42c1a6f0005
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Similar Mr fight policy central moment either maybe.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that course_id equals to 21fe931d-a97b-4217-9e5d-db64bb2f884f
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 64
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 9
+INFO     BASE_ASSERTIONS:base.py:35 Check, that order_index equals to 71
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Oil score require any agree blue. Sort indeed reach himself trade. Matter enjoy democratic.
+Note bed of study black. By form cell. Soldier themselves yes rate he.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 2 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDIwOjMzOjM2LjA5MjI4NyIsInVzZXJfaWQiOiJmYmNiZmY1ZC0xODM3LTQwMGUtYWYzYy0xYTBjMjRjZmUxYzMifQ.kWCYIvW99inSHEgWkGYJ_EHhJAjOW-vi8jj5igy7i7Y' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Simple wife job which turn consider concern.","maxScore":75,"minScore":2,"description":"Protect direction pay network. Fall nice cultural.\nWho truth outside friend reflect senior skin. Resource win example church cause. Across herself yeah art participant name today.","estimatedTime":"8 weeks","previewFileId":"23ae3f54-754e-4343-b0dc-7b67a9ac8a1e","createdByUserId":"fbcbff5d-1837-400e-af3c-1a0c24cfe1c3"}'

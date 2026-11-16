@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDIwOjMzOjM2LjY3NDE1NCIsInVzZXJfaWQiOiJmYTA0ZWVmYS0zN2M2LTRiNDctYTRkMy1lYTIwNzMyMDAxZDMifQ.HxVdiv4-ObYBJm1ACkB27Oee0WHpQvrD2tazlhADqBI' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Test free data into blue mean term really.","maxScore":77,"minScore":13,"description":"Step special decision result others. Have radio always Republican article team these.\nSure nearly indeed arrive commercial. Adult card season risk. Age job skill own.","estimatedTime":"1 weeks","previewFileId":"e4d91bce-2464-48e4-a457-cd03bda0f329","createdByUserId":"fa04eefa-37c6-4b47-a4d3-ea20732001d3"}'

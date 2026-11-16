@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDIwOjMzOjM3Ljg4NDk2NiIsInVzZXJfaWQiOiI3NWQwNTIxOC05ZjhhLTRiNzItYTZlMy1mMTBlOTFlZDdmMmQifQ.QREZdTmyw_8fkzeYYHcQADMrG7IiGLBdGB8qhEhyXDw' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nature possible south money age between commercial.","maxScore":87,"minScore":10,"description":"Wide financial pattern police for send help.\nImagine item law almost south. Leave analysis real shoulder.","estimatedTime":"1 weeks","previewFileId":"67950e45-bf60-4c4c-bf72-18cd482fac96","createdByUserId":"75d05218-9f8a-4b72-a6e3-f10e91ed7f2d"}'

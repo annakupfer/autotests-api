@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/0b3a3cde-56d2-4447-b860-ea8936d6f25c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDIwOjMzOjQwLjM4OTAyMyIsInVzZXJfaWQiOiJjZGY4ZGY2MC0wMzVhLTRhNzgtYWU2Yy1jMTQ1ODc5NWZlNmIifQ.J2WAZqLRocpu95lvmP4-t5gcDHMWn032h05VPqVzILk' \
+  -H 'content-length: 309' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Involve senior station life thus reason range.","courseId":"8b0c947e-7fb1-4878-ab3b-bff72bc6f1de","maxScore":73,"minScore":22,"orderIndex":85,"description":"Morning rock imagine I alone economic.\nReal law high sound card. Picture music popular speech threat set arrive.","estimatedTime":"10 weeks"}'

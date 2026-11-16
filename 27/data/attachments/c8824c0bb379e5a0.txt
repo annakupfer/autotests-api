@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDIwOjMzOjM1LjIwMzEyMyIsInVzZXJfaWQiOiI5ODZlNWM3Ny02ODM0LTRiN2MtYmM3MC03ZWQzODg5ZDZmMTIifQ.qDda2fMxDOswpUdND3rFvOii9DIMSIckDznPfDWD2GM' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Enter like watch part relationship.","maxScore":84,"minScore":19,"description":"Management sort member ever save. Charge suffer listen relationship four.\nUntil step skin. Make traditional owner red company full state country.\nInto those situation picture inside huge.","estimatedTime":"9 weeks","previewFileId":"1e6b8e0c-5786-400c-9b50-dd4b5948d507","createdByUserId":"986e5c77-6834-4b7c-bc70-7ed3889d6f12"}'
