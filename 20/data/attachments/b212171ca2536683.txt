@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDEwOjMxOjI2LjQ5ODQyMCIsInVzZXJfaWQiOiI2ODJhYmZkYS00NjM1LTRiYTQtYTNmOC1mN2FiZmU4YzY5NDYifQ.C3gn-21sisrLsQo6x4TSakk0ta4h6nHtjNr6iLVD_JI' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Add choice east final ten whatever wait against.","maxScore":82,"minScore":22,"description":"Lawyer manager personal anything. Feeling without answer relate cause pressure professor. Meet beyond mother care choice world.","estimatedTime":"8 weeks","previewFileId":"1e190a44-bccd-4656-a6be-166648713a42","createdByUserId":"682abfda-4635-4ba4-a3f8-f7abfe8c6946"}'

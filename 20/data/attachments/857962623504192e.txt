@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDEwOjMxOjI0Ljk4MDc5NiIsInVzZXJfaWQiOiJiN2Q0ZGQzOS0yZTM4LTQ0YjktODdkMi0wM2ViYzVlNmRmZWIifQ.1iAQbzO4ai0Tf_wZYdlRXBE0Eucg0HSJHG7kkvStNMI' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"List land time number.","maxScore":88,"minScore":5,"description":"School dream week wear people remain natural. Claim off run sell reflect student research. Lose in defense ready anything heavy talk.","estimatedTime":"6 weeks","previewFileId":"412e0ad6-b2b9-4558-84e6-763c05eb4585","createdByUserId":"b7d4dd39-2e38-44b9-87d2-03ebc5e6dfeb"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDEwOjMxOjI4LjYwMDAzMSIsInVzZXJfaWQiOiI3MWVjNGU2NC1jNjdiLTQ1MzAtODEwMy1lMTM2ODdhNDBkZWUifQ.HKAZuLXGu3BlJyc6NrqOmBGMsAvcQ5VXHb4IOZWD988' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mean give training role house consumer.","maxScore":75,"minScore":4,"description":"Always story far recently hear into. Television organization middle operation year part represent. Vote lawyer present true make behind another public.","estimatedTime":"9 weeks","previewFileId":"cc950ad4-dab2-4025-9de7-ee73e32048b1","createdByUserId":"71ec4e64-c67b-4530-8103-e13687a40dee"}'

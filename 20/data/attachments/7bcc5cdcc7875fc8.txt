@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDEwOjMxOjI4LjEwODM5NyIsInVzZXJfaWQiOiI5MDBmZmNhNi03OTIzLTRhNzUtYmNkMS01NzI5YzdmODI0N2QifQ.J8aCrjEkd-B0lisj72hbvhcdtZd5awnXG5kA14RzJW0' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Power certainly drop where evening remain stock.","maxScore":69,"minScore":29,"description":"Fly call son rest. Yet western fly memory society town per.\nPressure record mind to poor. Watch production executive book fact another six source.","estimatedTime":"10 weeks","previewFileId":"c6bb371e-c06a-41a9-bdd3-67b609768a46","createdByUserId":"900ffca6-7923-4a75-bcd1-5729c7f8247d"}'

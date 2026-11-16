@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDEwOjMxOjI1LjQ4OTc4NCIsInVzZXJfaWQiOiI5YzU2Y2FmMC1kNWQ4LTQzMjYtYjQ4Yi1iYWEwOTk5MWI5ZWUifQ.2V06E41LOhEL3Vi-bSvAKz8rnJ2u1iCunJJKxPfMC-4' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Gun race economy hand book trouble method.","maxScore":91,"minScore":20,"description":"Key degree voice. Board series candidate daughter probably community. Treat name reach loss local concern common. Per somebody officer either.","estimatedTime":"5 weeks","previewFileId":"0ffe100a-05a6-4dc7-a179-d0fc8008979d","createdByUserId":"9c56caf0-d5d8-4326-b48b-baa09991b9ee"}'

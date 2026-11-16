@@ -1,0 +1,32 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make GETrequest to http://localhost:8000/api/v1/courses?userId=9c56caf0-d5d8-4326-b48b-baa09991b9ee
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:65 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:71 Check, that length of courses equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:41 Check course
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to 4daf71e2-6def-47df-86e6-470f46c9b4a4
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Gun race economy hand book trouble method.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 91
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 20
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Key degree voice. Board series candidate daughter probably community. Treat name reach loss local concern common. Per somebody officer either.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 5 weeks
+INFO     FILES_ASSERTIONS:files.py:40 Check file
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to 0ffe100a-05a6-4dc7-a179-d0fc8008979d
+INFO     BASE_ASSERTIONS:base.py:35 Check, that url equals to http://localhost:8000/static/tests/1bc3830a-a5fa-4206-ae34-03ac152244b8.png
+INFO     BASE_ASSERTIONS:base.py:35 Check, that filename equals to 1bc3830a-a5fa-4206-ae34-03ac152244b8.png
+INFO     BASE_ASSERTIONS:base.py:35 Check, that directory equals to tests
+INFO     USERS_ASSERTIONS:users.py:39 Check user
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to 9c56caf0-d5d8-4326-b48b-baa09991b9ee
+INFO     BASE_ASSERTIONS:base.py:35 Check, that email equals to john31@example.org
+INFO     BASE_ASSERTIONS:base.py:35 Check, that last_name equals to Hudson
+INFO     BASE_ASSERTIONS:base.py:35 Check, that first_name equals to Allison
+INFO     BASE_ASSERTIONS:base.py:35 Check, that middle_name equals to Elizabeth
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

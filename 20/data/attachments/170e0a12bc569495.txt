@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:84 Check create course response
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Between stuff maybe.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 72
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 15
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Rock get pressure apply put every. Help stage authority skin successful ask.
+Network member speech. Focus assume majority fight as real. Drive leader response would year.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 9 weeks
+INFO     BASE_ASSERTIONS:base.py:35 Check, that preview_file_id equals to a6bc4a17-8683-401f-8f5c-390f38b9231c
+INFO     BASE_ASSERTIONS:base.py:35 Check, that created_by_user_id equals to bed5c296-5257-4012-ab6a-69fe2f4f74c4
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

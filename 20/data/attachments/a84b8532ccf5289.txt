@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDEwOjMxOjI2LjI2NDY3NiIsInVzZXJfaWQiOiJiZWQ1YzI5Ni01MjU3LTQwMTItYWI2YS02OWZlMmY0Zjc0YzQifQ.Y2q4ABQmx6mNhvqdy9GI3BmP1hrk-yuewYZvxsY-SC0' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Between stuff maybe.","maxScore":72,"minScore":15,"description":"Rock get pressure apply put every. Help stage authority skin successful ask.\nNetwork member speech. Focus assume majority fight as real. Drive leader response would year.","estimatedTime":"9 weeks","previewFileId":"a6bc4a17-8683-401f-8f5c-390f38b9231c","createdByUserId":"bed5c296-5257-4012-ab6a-69fe2f4f74c4"}'
