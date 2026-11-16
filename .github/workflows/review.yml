@@ -1,7 +1,7 @@
-name: AI Review
+name: AI Review Workflow
 
 # Ручной запуск пайплайна через интерфейс GitHub Actions
-on:
+"on":
   workflow_dispatch:
     inputs:
       review-command:
