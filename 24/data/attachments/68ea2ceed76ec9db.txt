@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDE0OjAzOjA3Ljg4OTQ3NiIsInVzZXJfaWQiOiIwZWRiOTdjNi0yZDFkLTQ1ZWEtYjk5OC0yYzExZDdmMGQzM2YifQ.f1EQaJIFcWoaCxKOnZZxTc9FAanoBlofJfyzBYuCLVU' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"People form him natural employee.","maxScore":97,"minScore":14,"description":"Happen can simply rise many yes sister. Trouble skin realize employee a personal.\nThird again eight us result sit claim. Political alone hold chance could federal. Medical good morning Democrat.","estimatedTime":"5 weeks","previewFileId":"c81c1e9d-befb-40fe-a6de-2f0823e139b1","createdByUserId":"0edb97c6-2d1d-45ea-b998-2c11d7f0d33f"}'

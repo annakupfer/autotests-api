@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDE0OjAzOjA2LjYyNDk4MSIsInVzZXJfaWQiOiIzYjczNTBkYi1iOGJjLTQ3ZmQtODA0Ni02ZDVkYmFhYWYzMzAifQ.eQV2q6edCVGSKD7LzL10Wb1WU2TcDtzOOByO5c643lI' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Carry control since deal fight once loss think.","courseId":"53e0b8bb-145f-4b39-8e0d-3c93e0e5de44","maxScore":91,"minScore":6,"orderIndex":57,"description":"Wind return recent stand. Amount building body everybody become involve. Answer catch while common trip state.\nThird leave ok seat across. Ability by strategy road way local style election.","estimatedTime":"6 weeks"}'

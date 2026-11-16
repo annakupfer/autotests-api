@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDE0OjAzOjA3Ljg4OTQ3NiIsInVzZXJfaWQiOiIwZWRiOTdjNi0yZDFkLTQ1ZWEtYjk5OC0yYzExZDdmMGQzM2YifQ.f1EQaJIFcWoaCxKOnZZxTc9FAanoBlofJfyzBYuCLVU' \
+  -H 'content-length: 313' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Plan north while gas short usually follow.","courseId":"2707af75-f706-4235-9de8-19f60835d436","maxScore":82,"minScore":23,"orderIndex":20,"description":"Wish more be indeed new. Next oil civil concern military tonight music rest. Part Mr leave market treatment suggest least.","estimatedTime":"9 weeks"}'

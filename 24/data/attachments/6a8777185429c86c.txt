@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDE0OjAzOjA1Ljg0NzIyNiIsInVzZXJfaWQiOiI2ODgxZTkxMC02YzI4LTQ0NWEtYTQ3Yy0wYmVhY2Y1ZjhkYmMifQ.qBdeZckdeq8orIaJJPmi6gBWjvI2ryr_ZF0t36-gtCE' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Down who all court.","maxScore":90,"minScore":13,"description":"Always team choice chair image body. Role night along glass technology tell third.\nConcern not course support strong. Go line them travel us. Discussion during hold three.","estimatedTime":"8 weeks","previewFileId":"3af55570-b5d6-4e31-afd5-905a5c2c9bc2","createdByUserId":"6881e910-6c28-445a-a47c-0beacf5f8dbc"}'

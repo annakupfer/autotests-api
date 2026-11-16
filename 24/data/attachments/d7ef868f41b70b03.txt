@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/d3d5f6bb-e947-4016-86c4-a120ffd1fb9f' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDE0OjAzOjA0LjU4NDY4NiIsInVzZXJfaWQiOiIyMmUwZjI0Ny1lMjU5LTQxM2YtOTU1OC03ZDA2M2EyZjRlZGIifQ.kxxRGgvdB2fan1eZknsm1kG1k03pfVjrwHesGkW3aVc' \
+  -H 'content-length: 320' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Before people material traditional key its.","maxScore":76,"minScore":6,"description":"Career thing charge gas several more. Interest fear third fill difference pull. Good discussion technology experience agreement garden small.\nStructure wait walk heavy. Mouth score future never.","estimatedTime":"8 weeks"}'

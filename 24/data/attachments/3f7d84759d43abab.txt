@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDE0OjAzOjA0LjU4NDY4NiIsInVzZXJfaWQiOiIyMmUwZjI0Ny1lMjU5LTQxM2YtOTU1OC03ZDA2M2EyZjRlZGIifQ.kxxRGgvdB2fan1eZknsm1kG1k03pfVjrwHesGkW3aVc' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"No enough anything tax nothing market son power.","maxScore":69,"minScore":19,"description":"Ground anything establish. Star space third son nor.\nEnough perform begin leg bring just reality affect. Foot political writer sure.","estimatedTime":"6 weeks","previewFileId":"932420d0-3760-42fc-adac-0f5104647878","createdByUserId":"22e0f247-e259-413f-9558-7d063a2f4edb"}'

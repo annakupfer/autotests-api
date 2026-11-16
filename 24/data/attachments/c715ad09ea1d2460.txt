@@ -1,0 +1,23 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make PATCHrequest to http://localhost:8000/api/v1/exercises/6894e55e-591a-404b-80bc-260565d3aff5
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:101 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Support party use study.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that course_id equals to ac16cacb-601a-48e3-8e09-4028fd025ac4
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 68
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 2
+INFO     BASE_ASSERTIONS:base.py:35 Check, that order_index equals to 88
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Represent any price machine. Its assume tend write second. Safe travel your mind.
+Heart walk south society. System half strong hear check. Positive attack most system work policy pattern.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 3 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

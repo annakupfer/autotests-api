@@ -1,0 +1,33 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make GETrequest to http://localhost:8000/api/v1/courses?userId=eccc95db-d291-4c32-a32c-99309c95e981
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:65 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:71 Check, that length of courses equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:41 Check course
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to 7f883e6d-e0a6-449e-a555-05a583b11557
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Point inside cover strong beautiful history.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 97
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 10
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Rock song blood computer. Believe wrong quickly partner.
+Director morning fly sing nation. Upon member our usually image appear throughout store.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 2 weeks
+INFO     FILES_ASSERTIONS:files.py:40 Check file
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to b41c6875-ce4e-4767-bd95-efcf61f9ce21
+INFO     BASE_ASSERTIONS:base.py:35 Check, that url equals to http://localhost:8000/static/tests/af06d978-8e0f-4b19-9b7c-85c277928fea.png
+INFO     BASE_ASSERTIONS:base.py:35 Check, that filename equals to af06d978-8e0f-4b19-9b7c-85c277928fea.png
+INFO     BASE_ASSERTIONS:base.py:35 Check, that directory equals to tests
+INFO     USERS_ASSERTIONS:users.py:39 Check user
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to eccc95db-d291-4c32-a32c-99309c95e981
+INFO     BASE_ASSERTIONS:base.py:35 Check, that email equals to rodriguezjennifer@example.net
+INFO     BASE_ASSERTIONS:base.py:35 Check, that last_name equals to Gomez
+INFO     BASE_ASSERTIONS:base.py:35 Check, that first_name equals to Karen
+INFO     BASE_ASSERTIONS:base.py:35 Check, that middle_name equals to Tamara
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

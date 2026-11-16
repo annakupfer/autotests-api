@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDE0OjAzOjA1LjM1MTA3NCIsInVzZXJfaWQiOiJlY2NjOTVkYi1kMjkxLTRjMzItYTMyYy05OTMwOWM5NWU5ODEifQ.jc7uZUQQOMBeSSVn2Lask2tytToikw8o9j1ZkVdrMtc' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Point inside cover strong beautiful history.","maxScore":97,"minScore":10,"description":"Rock song blood computer. Believe wrong quickly partner.\nDirector morning fly sing nation. Upon member our usually image appear throughout store.","estimatedTime":"2 weeks","previewFileId":"b41c6875-ce4e-4767-bd95-efcf61f9ce21","createdByUserId":"eccc95db-d291-4c32-a32c-99309c95e981"}'
