@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/8d4fae8a-6a0d-465e-b902-d667789c6ab8' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDEzOjU3OjAxLjU2OTAxNCIsInVzZXJfaWQiOiI0ZDE2MzJhZS01ZDllLTQwN2EtYmY4Zi1lYzU0OTA3MmFiZDUifQ.UqW7-tlH3MivaLJcyyIabztF3MgaSBAsiuIZ9RxZ0kM' \
+  -H 'content-length: 205' \
+  -H 'content-type: application/json' \
+  -d '{"title":"At sing establish nice some product.","maxScore":57,"minScore":15,"description":"Carry actually night wrong. Key professional of respond because field what themselves.","estimatedTime":"5 weeks"}'

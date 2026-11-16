@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDEzOjU3OjA0LjI3NzI4OSIsInVzZXJfaWQiOiJiOTkxN2YyMy1hMzczLTRjNWUtOTFjYi03ZjAwMDcxMjM4MTIifQ.IznxFn19BYobj6ma2gc_6J8rzpCmjRNp8TH1VIGzAqU' \
+  -H 'content-length: 267' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Side beautiful along everyone.","courseId":"8ab160cb-1885-45ca-955c-5e5f45038dda","maxScore":66,"minScore":6,"orderIndex":94,"description":"Food deep dream media these former none. Onto quickly sound democratic author discussion.","estimatedTime":"3 weeks"}'

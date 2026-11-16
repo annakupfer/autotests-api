@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDEzOjU3OjA2LjUzMzIzNCIsInVzZXJfaWQiOiI3YWJmNWE4Zi03YTZhLTQ1M2EtYThkMS1kZjRiNTViMDQ5OWUifQ.S1VRgwpvqICqwAZ2IbLLAHzve7W5tORvQoSgFv0eS48' \
+  -H 'content-length: 301' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Project matter whether best.","maxScore":75,"minScore":23,"description":"Cut notice Democrat chair production style fast. American best middle easy up.","estimatedTime":"3 weeks","previewFileId":"054bf169-54db-49d8-8b4d-cc37f45da829","createdByUserId":"7abf5a8f-7a6a-453a-a8d1-df4b55b0499e"}'

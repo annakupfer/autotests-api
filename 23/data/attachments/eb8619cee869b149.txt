@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDEzOjU3OjAxLjU2OTAxNCIsInVzZXJfaWQiOiI0ZDE2MzJhZS01ZDllLTQwN2EtYmY4Zi1lYzU0OTA3MmFiZDUifQ.UqW7-tlH3MivaLJcyyIabztF3MgaSBAsiuIZ9RxZ0kM' \
+  -H 'content-length: 302' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Machine win kitchen.","maxScore":59,"minScore":27,"description":"Risk six despite law break. Other goal impact sit. Idea agreement couple deal food yet.","estimatedTime":"5 weeks","previewFileId":"2c66b77d-302f-4d9f-824f-aa32d34541a1","createdByUserId":"4d1632ae-5d9e-407a-bf8f-ec549072abd5"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDEzOjU3OjAyLjQ4NTk1OCIsInVzZXJfaWQiOiIyODllMWRkYy03NGFjLTQ0ZTgtYWNjNi1iNjQyYjk4YWRiYTkifQ.7XOUkgd89t7RQ1aW7HTS7nC186gv4LlTHmd_Hbun-y4' \
+  -H 'content-length: 304' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Movement decade product political.","maxScore":87,"minScore":7,"description":"Know hand action international. Fire hundred ahead free address friend easy.","estimatedTime":"1 weeks","previewFileId":"e9504abc-6461-4def-b97e-bd68f402a3e9","createdByUserId":"289e1ddc-74ac-44e8-acc6-b642b98adba9"}'

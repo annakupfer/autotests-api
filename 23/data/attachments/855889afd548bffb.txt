@@ -1,0 +1,32 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make GETrequest to http://localhost:8000/api/v1/courses?userId=289e1ddc-74ac-44e8-acc6-b642b98adba9
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:65 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:71 Check, that length of courses equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:41 Check course
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to 221acf37-9d27-48b2-b3ca-5068b7f9bd10
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Movement decade product political.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 87
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 7
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Know hand action international. Fire hundred ahead free address friend easy.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 1 weeks
+INFO     FILES_ASSERTIONS:files.py:40 Check file
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to e9504abc-6461-4def-b97e-bd68f402a3e9
+INFO     BASE_ASSERTIONS:base.py:35 Check, that url equals to http://localhost:8000/static/tests/d7be49d1-fe3d-4908-ba6d-55a1ed555cf5.png
+INFO     BASE_ASSERTIONS:base.py:35 Check, that filename equals to d7be49d1-fe3d-4908-ba6d-55a1ed555cf5.png
+INFO     BASE_ASSERTIONS:base.py:35 Check, that directory equals to tests
+INFO     USERS_ASSERTIONS:users.py:39 Check user
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to 289e1ddc-74ac-44e8-acc6-b642b98adba9
+INFO     BASE_ASSERTIONS:base.py:35 Check, that email equals to hallautumn@example.org
+INFO     BASE_ASSERTIONS:base.py:35 Check, that last_name equals to Johnson
+INFO     BASE_ASSERTIONS:base.py:35 Check, that first_name equals to Jessica
+INFO     BASE_ASSERTIONS:base.py:35 Check, that middle_name equals to Julie
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

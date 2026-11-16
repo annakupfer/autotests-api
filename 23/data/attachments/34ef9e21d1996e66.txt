@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDEzOjU3OjA1LjUwNzAyNyIsInVzZXJfaWQiOiJhNzc2ZjAxOC03ODUxLTQ1ZDYtODJlNy1hZjUxMTNhMDgyZjEifQ._rrWw1yC6kVysYXJonHzB3u18FbhEPZn_u1qAQt2wv0' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hospital real talk.","maxScore":79,"minScore":21,"description":"Author court certainly stand.\nArm whose perhaps method summer laugh nothing thought. True former improve return rise somebody may area.","estimatedTime":"1 weeks","previewFileId":"ca30eb83-6dc4-4813-a7bf-46d888c64b33","createdByUserId":"a776f018-7851-45d6-82e7-af5113a082f1"}'

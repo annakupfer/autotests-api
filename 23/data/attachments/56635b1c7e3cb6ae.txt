@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDEzOjU3OjA0LjAwMzE3MiIsInVzZXJfaWQiOiI0YzAwYWY5Zi0xMDg1LTQxOWUtOWYzMS0wMTQ4MTZiODM2MWUifQ.VL6709yGg3PwDmv6AR_iHJtVCZTW-oTMcFXbOYPD3Zw' \
+  -H 'content-length: 425' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Individual bank brother quickly.","maxScore":80,"minScore":30,"description":"Budget alone money determine school.\nInto fish feeling policy get. Ever person any collection.\nReceive sell lose guess full effort. Talk wife front experience card star. Painting will hand strong.","estimatedTime":"8 weeks","previewFileId":"0c8fc388-581d-4b4c-8bdd-edfe1b6060ea","createdByUserId":"4c00af9f-1085-419e-9f31-014816b8361e"}'

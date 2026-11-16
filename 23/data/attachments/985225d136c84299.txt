@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDEzOjU3OjA0LjI3NzI4OSIsInVzZXJfaWQiOiJiOTkxN2YyMy1hMzczLTRjNWUtOTFjYi03ZjAwMDcxMjM4MTIifQ.IznxFn19BYobj6ma2gc_6J8rzpCmjRNp8TH1VIGzAqU' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Today join will scientist.","maxScore":99,"minScore":26,"description":"Throw available little run inside operation. Less Mr exactly program weight choice amount. Attention crime perhaps north ability few. Mean Democrat often pressure meeting performance citizen.","estimatedTime":"5 weeks","previewFileId":"5ade9d6d-31d9-40ee-90f2-62e83c4e5964","createdByUserId":"b9917f23-a373-4c5e-91cb-7f0007123812"}'

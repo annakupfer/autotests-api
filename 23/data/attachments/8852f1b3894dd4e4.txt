@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDEzOjU3OjA1LjIzMzA1MiIsInVzZXJfaWQiOiI2OTlhMzlhMi1jOWY5LTQ0Y2QtYTdjNi00OTk2ODE1OGU3MzAifQ.TqfRNZeNTCarO0lwJeu_9k3fO9xsA8NG8ADulmDXlQE' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Star allow leave religious choice.","maxScore":77,"minScore":23,"description":"Study clearly site right player they participant. Group easy natural project.\nTogether family name become. Best who past leave challenge knowledge. Minute court soon very light son could.","estimatedTime":"3 weeks","previewFileId":"75a161e4-03d6-42f8-b26f-e07e58569c0d","createdByUserId":"699a39a2-c9f9-44cd-a7c6-49968158e730"}'
