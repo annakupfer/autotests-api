@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDEzOjQyOjM1LjQ0MDEyMyIsInVzZXJfaWQiOiJhZmFkMDI0OC0zOWZiLTQxY2UtYjEwNC1mMGUwODZkMDMzMTcifQ.FfqWHaYVRLLEfz07EZp_3RakoUD3eEKD52laap_novg' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Book skin piece current democratic sign design.","maxScore":50,"minScore":15,"description":"Fast truth action mind smile guy. Fall adult travel find all. Do difficult response sister serve lay.","estimatedTime":"7 weeks","previewFileId":"7095a718-4710-49b2-8f40-6302f9f26005","createdByUserId":"afad0248-39fb-41ce-b104-f0e086d03317"}'

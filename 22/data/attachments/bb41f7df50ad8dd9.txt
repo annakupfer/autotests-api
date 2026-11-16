@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDEzOjQyOjM3LjgyNTA3MiIsInVzZXJfaWQiOiJlZGY2ZGNmMS02OWJhLTQ2ZjgtOTc1NC00M2NhNjVjZmM2YTMifQ.7jdWXhQvSFRdKw0_5RhtNueZhaJvDWUqGULTXWf0Z4U' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"At market enter success adult first.","maxScore":65,"minScore":29,"description":"Modern future particular on appear person. Clearly source growth side sure they. With defense evening do force why record.","estimatedTime":"6 weeks","previewFileId":"4e6f7881-ff59-4681-addd-32ffa9d106f6","createdByUserId":"edf6dcf1-69ba-46f8-9754-43ca65cfc6a3"}'

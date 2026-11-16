@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDEzOjQyOjM2LjQ2NjUwOSIsInVzZXJfaWQiOiI2YzJhZTg3Yy02NWY4LTQzNjUtYmFjZC0xMWQ3Y2NkMWJmY2UifQ.AKHCrSZR-ESh--e7TyEMoLOBErME_yZ03IYrV5egS74' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Entire seat month care.","maxScore":56,"minScore":30,"description":"Religious television near various suggest. Party ground behavior drug.\nTerm away federal each politics money party. Evidence huge young behavior. Build live own officer arrive.","estimatedTime":"9 weeks","previewFileId":"5427f6bb-c8a7-4485-a5fb-cd9ccd153576","createdByUserId":"6c2ae87c-65f8-4365-bacd-11d7ccd1bfce"}'

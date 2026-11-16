@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/26e9df8c-4ae7-415d-aad4-141519b1262d' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDEzOjQyOjM0Ljc2NzY0MyIsInVzZXJfaWQiOiJiMzZmZTg4YS1jMDVjLTQwZjctYjVmNC0yOTllMDJlZjc1ZDEifQ.Jado6wWzgGccGTvT7iujwDVj0MJ9qTJa86gDi0SXuQQ' \
+  -H 'content-length: 294' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Message event last price admit.","maxScore":86,"minScore":30,"description":"By civil money woman really north police. Method ever your sit compare human quite. Recognize reduce such.\nMajor oil great five man admit compare. Address kind produce four these.","estimatedTime":"3 weeks"}'

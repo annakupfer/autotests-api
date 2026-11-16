@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDEzOjQyOjM4LjkyOTQ3MiIsInVzZXJfaWQiOiJkMjQ1YzRkMi1iZmRjLTQwM2QtODk0My01MjY3ZjE1NjAwOTkifQ.g9z2lV0bnjS4MvQLTQOPJ00vveeSnmme8fSGfiVyhxk' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Too choice natural involve.","maxScore":59,"minScore":14,"description":"Doctor day war ground protect bill. Political tough role. Be though sound who. Break cut forget black.\nEven order speak strong state. Type PM set degree step edge free ahead.\nCareer then entire.","estimatedTime":"1 weeks","previewFileId":"be86929b-7d83-4e9a-a4af-571d744ba848","createdByUserId":"d245c4d2-bfdc-403d-8943-5267f1560099"}'

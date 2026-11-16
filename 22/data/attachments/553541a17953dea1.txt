@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDEzOjQyOjM4LjEzMzI5MiIsInVzZXJfaWQiOiI1ZGJiOTFjMC03NzQ1LTQ4NGMtYjU5NS1lMjViNDM4OWRiODYifQ.eQDdVK9EJBOpX16831jmebiKIHq-5ajlfwSNuIJzIzI' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sit represent tonight which structure.","maxScore":86,"minScore":17,"description":"Understand our party theory act level brother network. May really two interview resource future consumer individual.\nStar this add system hit poor.","estimatedTime":"5 weeks","previewFileId":"21e79b46-bc9b-42e6-9875-f4a6254afe48","createdByUserId":"5dbb91c0-7745-484c-b595-e25b4389db86"}'

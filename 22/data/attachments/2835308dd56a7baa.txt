@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDEzOjQyOjM2Ljc3NDY0NiIsInVzZXJfaWQiOiJlNDNlMjM3NS1hM2RmLTQzYjktYTRmNC00MGIzNGU1Y2I1NTIifQ.ujU4JrvOPziWk3KlyQlQOX4LqZqiF1SvwZE4qxh-jLM' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Industry myself oil effort experience operation.","maxScore":84,"minScore":26,"description":"Identify star together figure would put lot morning. Guy then affect final price cut court. Inside offer notice explain financial place small enjoy.","estimatedTime":"7 weeks","previewFileId":"0490385d-7b9f-41af-8224-3038f5e1ccc3","createdByUserId":"e43e2375-a3df-43b9-a4f4-40b34e5cb552"}'

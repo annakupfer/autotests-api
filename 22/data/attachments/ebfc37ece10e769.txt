@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDEzOjQyOjM5LjU3NzQzMSIsInVzZXJfaWQiOiIzMzMwMTA1ZS1iMzg5LTRiMmYtOTFiNi02Njg3OGJiMDNiM2YifQ.xiN77ZIw1pnguu5bmD5yow4VK9Nz-pK5XYgjpUyTYyQ' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Business drop radio entire.","maxScore":71,"minScore":30,"description":"Manage that yeah difference party occur. East can individual least property station begin.\nSign agent down fire her carry girl. Tv guess trial identify.\nArgue build how American.","estimatedTime":"10 weeks","previewFileId":"c2805bcd-1519-4099-b1e7-51f19b4761e2","createdByUserId":"3330105e-b389-4b2f-91b6-66878bb03b3f"}'
