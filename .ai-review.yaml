@@ -3,12 +3,11 @@ llm:
   meta:
     model: claude-sonnet-5-5
     max_tokens: 15000
-    temperature: 0.3
 
   http_client:
     timeout: 120
-    api_url: https://api.anthropic.com/v1
-    api_version: "2026-09-28"
+    api_url: https://api.anthropic.com
+    api_version: "2026-10-21"
 
 vcs:
   provider: GITHUB
