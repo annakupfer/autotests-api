@@ -49,3 +49,32 @@ Focus on test correctness, maintainability, and adherence to best practices.
 - Return a structured plain-text review (Markdown table allowed for evaluation).
 - Do not output JSON or code unless it’s part of a recommendation.
 - If there are no issues, respond with: `No issues found.`
+
+### Strict Output Requirements
+
+You MUST follow the five-section structure defined above.
+
+Mandatory rules:
+
+1. Always output all five sections in the exact order specified.
+2. Never replace the required structure with a single paragraph or an unstructured list.
+3. The evaluation table MUST contain exactly these six categories:
+    Naming, Assertions, Error Handling, Stability, Maintainability, Best Practices.
+4. Each category MUST have a rating and a short explanation supported by the reviewed changes.
+5. Calculate the Overall Test Quality Score using the specified formula. Do not omit the score.
+6. Include positive feedback even when significant issues are found. Mention only genuine strengths supported by the code.
+7. If a category cannot be evaluated, use N/A and exclude it from the score calculation.
+8. Before returning the response, verify that all five sections, all six evaluation categories, and the final score are present.
+
+Do not prioritize brevity over compliance with this output structure.
+
+### IMPORTANT:
+Do not provide an informal or estimated quality score.
+Calculate the score mathematically using all applicable categories.
+
+The final response MUST contain:
+- Exactly five numbered sections.
+- A Markdown evaluation table with all six categories.
+- A numeric score from 0 to 10 with the calculation shown.
+
+Never merge sections or replace the required table with prose.

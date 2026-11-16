@@ -20,5 +20,7 @@ prompt:
   context_prompt_files: [ ./prompts/inline.md ]
   summary_prompt_files: [ ./prompts/summary.md ]
 
+  include_summary_system_prompts: false
+
 review:
-  dry_run: true
+  dry_run: false
