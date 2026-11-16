@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDE1OjM3OjE3Ljc1NDgyNyIsInVzZXJfaWQiOiIyNTdmMzg5Yy03NmJkLTRjMWItODVkMS0zMGI1Nzk0NjY4OWQifQ.h1Gra61TJJzbn3A3VZlHUlHbvKCHV_alSPVg6b277l4' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tv TV back role character body.","maxScore":54,"minScore":10,"description":"Economy build total term get direction. Race wish born table space laugh time parent. Hair effect around save hundred experience item campaign.","estimatedTime":"3 weeks","previewFileId":"eadf29f2-6794-4acb-ad99-3ec42c3d1c29","createdByUserId":"257f389c-76bd-4c1b-85d1-30b57946689d"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDE1OjM3OjE3LjI2NjY4NSIsInVzZXJfaWQiOiJjYjFhMjNiNS1iOTNjLTRlMjItYjZkYy0xN2FiY2Q4MDg5ZWUifQ.MIwIyBL6lhoxyFxMMZb57KTozjl_hN_8_N42r6VWXLA' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thought glass anyone audience feel goal represent past.","maxScore":78,"minScore":4,"description":"Spend every enter do message resource side. Nation increase stock military bring. Address or deal safe tree current.","estimatedTime":"7 weeks","previewFileId":"0b0ea77d-cdf2-4eda-b029-fc56fd5cfa43","createdByUserId":"cb1a23b5-b93c-4e22-b6dc-17abcd8089ee"}'

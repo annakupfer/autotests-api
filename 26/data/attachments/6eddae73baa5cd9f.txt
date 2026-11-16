@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDE1OjM3OjE5LjU4ODAzOCIsInVzZXJfaWQiOiJjMDFlYmY0NC01NTZkLTRiMzEtYmM4Zi1lOTY1YTM4OGFhZjQifQ.Vz7aq30ZyP7xb2PmcS0Z2AYd4-QLpjoHqIFDC9-jhxc' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"All sound computer son threat sit hope.","maxScore":64,"minScore":6,"description":"But because rate. Term land everything subject leg recognize get.\nClear give tonight address bed bring raise. Reduce especially describe recently. Pick religious listen close group go.","estimatedTime":"2 weeks","previewFileId":"f4d86cf3-daa9-46c7-98a3-392811b8fa1d","createdByUserId":"c01ebf44-556d-4b31-bc8f-e965a388aaf4"}'

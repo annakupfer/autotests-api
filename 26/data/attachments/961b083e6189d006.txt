@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDE1OjM3OjE3LjI2NjY4NSIsInVzZXJfaWQiOiJjYjFhMjNiNS1iOTNjLTRlMjItYjZkYy0xN2FiY2Q4MDg5ZWUifQ.MIwIyBL6lhoxyFxMMZb57KTozjl_hN_8_N42r6VWXLA' \
+  -H 'content-length: 314' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Matter lawyer reach can wear moment house.","courseId":"72f45d6d-5e24-44cc-aa5f-9cf670b161a6","maxScore":84,"minScore":5,"orderIndex":24,"description":"Ask science forward book action cause. Conference boy writer travel stop study difference realize.\nPurpose over clear hope.","estimatedTime":"7 weeks"}'

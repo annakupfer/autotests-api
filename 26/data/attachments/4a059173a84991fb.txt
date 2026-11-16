@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDE1OjM3OjE2Ljc3NzY0MSIsInVzZXJfaWQiOiJiNTM5ZDBjNS1hZTU0LTRjMTktYmQ4NC05ZjlmYmM3NDUwNzUifQ.LQ3p6KUdsCVfiiklgiygQSxS-08TpEH3Q2XVwujO9ys' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Get popular training culture.","maxScore":91,"minScore":3,"description":"Fact fish lay contain. Physical phone treatment mind reflect all. People car class training.\nAlso something admit drug name choice. High rock eat I card important.","estimatedTime":"2 weeks","previewFileId":"4660a2c7-61a0-46cc-a39c-1629918cd597","createdByUserId":"b539d0c5-ae54-4c19-bd84-9f9fbc745075"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDE1OjM3OjE4LjgwNzE5OSIsInVzZXJfaWQiOiI0YmE4ZGViMi1mODhmLTQ1ODAtODM4Ny05NjRmYTc0ODUwN2UifQ.T9SibBVkpeNwOkKYIOx5ilw6o6eZlGad-O3b0FXydRE' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Organization partner top.","maxScore":64,"minScore":18,"description":"Market now side certainly month college. Statement close yard then.\nConference dark increase but sing. Quality your head almost care majority watch. Leg within however skill.","estimatedTime":"1 weeks","previewFileId":"6c443bae-1080-49c2-a3e9-1ad93b13ab29","createdByUserId":"4ba8deb2-f88f-4580-8387-964fa748507e"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDE1OjM3OjE1LjcxOTU5NiIsInVzZXJfaWQiOiI3NWY1NDhhYS1mNzY5LTQxY2MtODViZi1jOTNkMzUzNzk5YzkifQ.f84ZR2zovXDncBVllkXt1SMgCbGxtFJgRcPJ2HUFRkw' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Task range part out study.","maxScore":89,"minScore":27,"description":"Hard him kitchen likely physical design.\nActivity tough industry meet image still. Answer together sister happy. Scene stock style sport boy add realize south.","estimatedTime":"4 weeks","previewFileId":"370c363d-4dc6-43ed-a0ac-2feefbb3c561","createdByUserId":"75f548aa-f769-41cc-85bf-c93d353799c9"}'

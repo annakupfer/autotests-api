@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/4a91a85a-b2ca-4b1a-a179-8ce4436fa747' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDE1OjM3OjE1LjcxOTU5NiIsInVzZXJfaWQiOiI3NWY1NDhhYS1mNzY5LTQxY2MtODViZi1jOTNkMzUzNzk5YzkifQ.f84ZR2zovXDncBVllkXt1SMgCbGxtFJgRcPJ2HUFRkw' \
+  -H 'content-length: 276' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Believe ten although forward less then recently.","maxScore":72,"minScore":3,"description":"Party his upon charge. Rest throw relate something sing power power.\nMeasure there apply. Fish pattern market add. Join toward reveal plant sing.","estimatedTime":"4 weeks"}'

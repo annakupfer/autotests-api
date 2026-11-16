@@ -1,0 +1,21 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:24 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Matter lawyer reach can wear moment house.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 84
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 5
+INFO     BASE_ASSERTIONS:base.py:35 Check, that order_index equals to 24
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Ask science forward book action cause. Conference boy writer travel stop study difference realize.
+Purpose over clear hope.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 7 weeks
+INFO     BASE_ASSERTIONS:base.py:35 Check, that course_id equals to 72f45d6d-5e24-44cc-aa5f-9cf670b161a6
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDE1OjM3OjE4LjI5ODI1NCIsInVzZXJfaWQiOiIxZmY0ZGU0ZC1mM2I1LTRiNGUtOTQ2Zi05OTZiNDc0Zjc5OTMifQ.PsF-uM81gHoGHNdhYrfJerq_zpzOr3oKFSYYcs_UM30' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Describe reach night industry.","courseId":"894c3332-d300-4bfb-b3b2-34d1cac7268b","maxScore":89,"minScore":23,"orderIndex":81,"description":"Later cold kitchen future. House common peace. Remain structure authority west also.\nOut catch story possible way require type cover. Mr baby during responsibility entire carry month.","estimatedTime":"6 weeks"}'
