@@ -2,9 +2,11 @@ import logging
 
 import allure
 
+from clients.errors_schema import InternalErrorResponseSchema
 from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema, UserSchema, \
-    GetUserResponseSchema
+    GetUserResponseSchema, UpdateUserResponseSchema, UpdateUserRequestSchema
 from tools.assertions.base import assert_equal
+from tools.assertions.errors import assert_internal_error_response
 from tools.logger import get_logger
 
 logger = get_logger("USERS_ASSERTIONS")
@@ -58,3 +60,35 @@ def assert_get_user_response(
 
     assert_user(get_user_response.user, create_user_response.user)
 
+@allure.step("Check update user response")
+def assert_update_user_response(
+        response: UpdateUserResponseSchema,
+        request: UpdateUserRequestSchema
+):
+    """
+    Проверяет, что данные пользователя в запросе на обновление
+    и в ответе совпадают
+    :param response:
+    :param request:
+    :return:
+    """
+    logger.info(f"Check update user response")
+
+    assert_equal(response.user.email, request.email, "email")
+    assert_equal(response.user.last_name, request.last_name, "last_name")
+    assert_equal(response.user.first_name, request.first_name, "first_name")
+    assert_equal(response.user.middle_name, request.middle_name, "middle_name")
+
+
+@allure.step("Check delete user")
+def assert_user_not_found_response(actual: InternalErrorResponseSchema):
+    """
+    Функция для проверки ошибки, если пользователь не найден
+
+        :param actual: Фактический ответ.
+        :raises AssertionError: Если фактический ответ не соответствует ошибке "User not found"
+        """
+    logger.info("Check user not found response")
+
+    expected = InternalErrorResponseSchema(details="User not found")
+    assert_internal_error_response(actual, expected)

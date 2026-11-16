@@ -66,6 +66,6 @@ def get_private_users_client(user: AuthenticationUserSchema) -> PrivateUsersClie
     """
     Функция создаёт экземпляр PublicUsersClient с уже настроенным HTTP-клиентом.
 
-    :return: Готовый к использованию PublicUsersClient.
+    :return: Готовый к использованию PrivateUsersClient.
     """
     return PrivateUsersClient(client=get_private_http_client(user))
