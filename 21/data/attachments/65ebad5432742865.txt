@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDEzOjA3OjM2LjYzMzE0NCIsInVzZXJfaWQiOiI0NDFmZTI0YS1iM2Y5LTQ4MjItYmIwOS05ZDVhNDBiZWNiZTAifQ.5g5SwzjCOtS5kSSfCQ8rEQ-UkJANVlUg8bqg4aHpm9s' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Speech toward author.","maxScore":70,"minScore":7,"description":"Suffer serious case indeed sport. Kind option center coach note sign ten. Interview find know.\nAs rock amount production pretty over surface. Water relationship word leave.","estimatedTime":"6 weeks","previewFileId":"492ae50b-78af-4cf7-9bc6-7b51c7fc12cf","createdByUserId":"441fe24a-b3f9-4822-bb09-9d5a40becbe0"}'

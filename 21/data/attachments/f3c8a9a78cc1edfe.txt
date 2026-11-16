@@ -1,0 +1,22 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make PATCHrequest to http://localhost:8000/api/v1/exercises/2f4655e2-a0a1-4013-84d8-ef3344483da8
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:101 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Drive stop before eight always.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that course_id equals to 4d34ea3f-45ef-40c3-a5ca-efe6c65b6b47
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 61
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 27
+INFO     BASE_ASSERTIONS:base.py:35 Check, that order_index equals to 36
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Myself stuff step institution wish child walk clearly. Boy themselves social design approach anything outside. Sit through cause discuss wide manager will.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 2 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDEzOjA3OjM1Ljg3MzA4MiIsInVzZXJfaWQiOiI0MThkMjliYi1iNjZmLTRjYzktYjlmMS1mNWQ4ODZjMjU4Y2UifQ.BFL2-DI5xYz97w7cEJdKxJWaSp_wwgYGMlSmpx74CcY' \
+  -H 'content-length: 438' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Particularly by involve what design explain.","maxScore":57,"minScore":20,"description":"Billion see lawyer race wife. To deep two development teach the particular. Chance edge most.\nDescribe understand join what. Address affect owner rate professional direction. He much middle outside.","estimatedTime":"3 weeks","previewFileId":"f6ce28a8-bb30-4c53-bea7-88a8e61b8c32","createdByUserId":"418d29bb-b66f-4cc9-b9f1-f5d886c258ce"}'

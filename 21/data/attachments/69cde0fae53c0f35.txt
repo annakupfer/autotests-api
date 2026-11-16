@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDEzOjA3OjM4LjEzMjk3MiIsInVzZXJfaWQiOiI5OTkyMzEzOC01YWFkLTRiMzAtYTY0Zi00NjExMjA5ZWQ1MDQifQ.bjqY5-iAm_7ERyytdICyuW3CxvGaehXAouhMAoZ0e3U' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fall kitchen leader short than hit board.","maxScore":97,"minScore":14,"description":"Now accept someone for. Total six home lead item threat. Choice mouth evidence. But add parent interview important college.","estimatedTime":"2 weeks","previewFileId":"548a641b-74c1-48da-8a8d-28943fd1607c","createdByUserId":"99923138-5aad-4b30-a64f-4611209ed504"}'

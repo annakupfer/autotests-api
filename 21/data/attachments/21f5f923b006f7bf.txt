@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDEzOjA3OjM3LjEyNjc2NyIsInVzZXJfaWQiOiIyNjk5ZTRkZS1iM2Q2LTQ0M2YtYjM3Zi05ZWJjYzBmMTRmMDEifQ.ssDQErFur95KQS2T9d04w3DM0Q-beFD8nmY0KJEv37s' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Very above blood what.","maxScore":89,"minScore":21,"description":"Easy as reality deal drive computer something. Inside budget view could provide military find. Night leg however especially I bar front discuss.","estimatedTime":"1 weeks","previewFileId":"ebfe8e1f-e425-4db4-b0e5-1cd02cdc48a5","createdByUserId":"2699e4de-b3d6-443f-b37f-9ebcc0f14f01"}'

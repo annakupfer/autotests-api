@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/2f4655e2-a0a1-4013-84d8-ef3344483da8' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDEzOjA3OjM4LjEzMjk3MiIsInVzZXJfaWQiOiI5OTkyMzEzOC01YWFkLTRiMzAtYTY0Zi00NjExMjA5ZWQ1MDQifQ.bjqY5-iAm_7ERyytdICyuW3CxvGaehXAouhMAoZ0e3U' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Drive stop before eight always.","courseId":"4d34ea3f-45ef-40c3-a5ca-efe6c65b6b47","maxScore":61,"minScore":27,"orderIndex":36,"description":"Myself stuff step institution wish child walk clearly. Boy themselves social design approach anything outside. Sit through cause discuss wide manager will.","estimatedTime":"2 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDEzOjA3OjM4LjkyMzEyNCIsInVzZXJfaWQiOiJkZjM4M2E4My1hODdkLTQ0N2EtOTg1OC0yMjkwMGY4ZDBmZDQifQ.e4m1kk_4JlyphcYZooRJClDT2i1N9HbQ1WUgEH_w3l0' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Best Democrat different evening.","maxScore":89,"minScore":22,"description":"Expect investment product bar street. Head successful Republican natural American.\nProvide over agreement grow. Beyond appear general quite. Pressure billion step real. Although analysis ever.","estimatedTime":"6 weeks","previewFileId":"e7c9dd3e-6819-4584-8fb6-aead0190b343","createdByUserId":"df383a83-a87d-447a-9858-22900f8d0fd4"}'

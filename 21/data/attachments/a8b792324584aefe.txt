@@ -1,0 +1,33 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make GETrequest to http://localhost:8000/api/v1/courses?userId=441fe24a-b3f9-4822-bb09-9d5a40becbe0
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:65 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:71 Check, that length of courses equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:41 Check course
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to 46ebc5dc-4b79-47ad-8ecd-58796145dafc
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Speech toward author.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 70
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 7
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Suffer serious case indeed sport. Kind option center coach note sign ten. Interview find know.
+As rock amount production pretty over surface. Water relationship word leave.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 6 weeks
+INFO     FILES_ASSERTIONS:files.py:40 Check file
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to 492ae50b-78af-4cf7-9bc6-7b51c7fc12cf
+INFO     BASE_ASSERTIONS:base.py:35 Check, that url equals to http://localhost:8000/static/tests/b934f828-b4a9-4924-84c4-7ff2d605ea40.png
+INFO     BASE_ASSERTIONS:base.py:35 Check, that filename equals to b934f828-b4a9-4924-84c4-7ff2d605ea40.png
+INFO     BASE_ASSERTIONS:base.py:35 Check, that directory equals to tests
+INFO     USERS_ASSERTIONS:users.py:39 Check user
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to 441fe24a-b3f9-4822-bb09-9d5a40becbe0
+INFO     BASE_ASSERTIONS:base.py:35 Check, that email equals to brenda88@example.com
+INFO     BASE_ASSERTIONS:base.py:35 Check, that last_name equals to Garcia
+INFO     BASE_ASSERTIONS:base.py:35 Check, that first_name equals to Brian
+INFO     BASE_ASSERTIONS:base.py:35 Check, that middle_name equals to Daniel
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

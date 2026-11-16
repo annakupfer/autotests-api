@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDEzOjA3OjM3Ljg5NzMzOSIsInVzZXJfaWQiOiIzYWM2Y2NlNS01YmM4LTQ5MWUtOWFhMS03NmZiNDMzZGNiMzIifQ.rKyZy2Z_37rFZ_if-aoPDzZDvNSVOJNqJb_gQOSQ9D0' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Anything himself commercial high policy hand.","maxScore":56,"minScore":2,"description":"Here present hot book fight special. Front worker easy space rate. Authority physical man appear live wait.\nWin your history fight. International near art increase language.","estimatedTime":"2 weeks","previewFileId":"e9c3ba79-e31d-4380-94dd-9cb7bab82a43","createdByUserId":"3ac6cce5-5bc8-491e-9aa1-76fb433dcb32"}'
