@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDE1OjM1OjE2LjM3MTY4NiIsInVzZXJfaWQiOiJmNzY4ZTliNC0zYWRmLTQ2MjYtYjc3YS1hYmQzOGU3YzMzMjcifQ.WF_beS8DphDW6-tzoHJIVoqP6Uvz5BucBxSOESqIwAg' \
+  -H 'content-length: 319' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Particular pattern can according item.","courseId":"8dab633c-3e7b-4ab2-99f4-1d8b69d63150","maxScore":61,"minScore":4,"orderIndex":14,"description":"Crime north attention. Know business quickly her economy keep point. Speak grow behind might current.\nBody beat lose treat must get.","estimatedTime":"6 weeks"}'

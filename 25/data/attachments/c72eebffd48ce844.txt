@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDE1OjM1OjE1LjEyNTQ0NCIsInVzZXJfaWQiOiIwZDBjNjkxMS1lNWU4LTQ2NjctYWJlYy1hZTIxMDZiODExN2MifQ.KpppSb_EcvMj4azL0zah_RVzpUizdYel8GVxCcICHic' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bring green laugh product.","maxScore":86,"minScore":4,"description":"Near recently million success. His minute throw source.\nCommunity raise help remain but north girl majority. Common now new ready him now.","estimatedTime":"9 weeks","previewFileId":"1c2edeb4-56d6-4c41-b402-29a223c551d6","createdByUserId":"0d0c6911-e5e8-4667-abec-ae2106b8117c"}'

@@ -1,0 +1,27 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make GETrequest to http://localhost:8000/api/v1/exercises?courseId=57585b3a-55aa-4097-82c4-c9cdf24b2247
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:82 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:71 Check, that length of exercises equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:43 Check exercise
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to e419b5c4-923c-4f41-b230-704bb5dbdabd
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Senior case central trade threat full mother line.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that course_id equals to 57585b3a-55aa-4097-82c4-c9cdf24b2247
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 96
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 4
+INFO     BASE_ASSERTIONS:base.py:35 Check, that order_index equals to 34
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Decide all century those.
+Garden chair even whole brother use individual. Fall artist every police cost.
+Animal small child. Plant even population today. Too treat surface change interview send.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

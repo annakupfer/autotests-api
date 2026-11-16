@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDE1OjM1OjE2LjEzODU1MiIsInVzZXJfaWQiOiJlMmM3Zjc5Ny02ODkyLTQxZmItODQ3ZS0xNDdhZDU2M2M4NmQifQ.xPb9Bs-y6ktO-L4sGvgCr3gPWgTbWfcdlb792ajt88E' \
+  -H 'content-length: 330' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Music from suffer impact building hair accept.","maxScore":58,"minScore":19,"description":"Fill everyone yourself. Different song order. Congress financial value above result cold.","estimatedTime":"5 weeks","previewFileId":"39e3f191-adc2-42eb-8eeb-89fe03e16b99","createdByUserId":"e2c7f797-6892-41fb-847e-147ad563c86d"}'

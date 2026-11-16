@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDE1OjM1OjE3LjQ0MzYwMCIsInVzZXJfaWQiOiJjNWJlNWVjMC1jN2JmLTRmMGYtODEyMS1mYjE3ZDdmM2RkOTMifQ.w7hDnQk1gfja2O2AJgc-3hfz0y7d1U-Ntxxc_lMMGWw' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Early national former politics trial.","maxScore":82,"minScore":10,"description":"Around recognize finally. Ability rock debate student manager. Easy manager law trade fly.\nFilm card administration. Message start music capital. Huge under education dinner win economy rate.","estimatedTime":"8 weeks","previewFileId":"5bcbe08a-ef95-4730-9ae8-1eaa4425733d","createdByUserId":"c5be5ec0-c7bf-4f0f-8121-fb17d7f3dd93"}'

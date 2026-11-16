@@ -1,0 +1,32 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make GETrequest to http://localhost:8000/api/v1/courses?userId=be5db14b-20bd-42cb-b454-8cfd3b488fda
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:65 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:71 Check, that length of courses equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:41 Check course
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to 859ec8b7-376c-41a1-a8cf-212b47cf0ab4
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Far own phone skill experience both.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 73
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 26
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Heart blood wife book billion customer. Us space interesting cold everything lay. Kitchen idea on provide majority.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 2 weeks
+INFO     FILES_ASSERTIONS:files.py:40 Check file
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to 2a6b12f9-b498-4392-a4a1-5d0a10d614a1
+INFO     BASE_ASSERTIONS:base.py:35 Check, that url equals to http://localhost:8000/static/tests/e4adfc98-dc0c-4102-ae19-9597d0451fc6.png
+INFO     BASE_ASSERTIONS:base.py:35 Check, that filename equals to e4adfc98-dc0c-4102-ae19-9597d0451fc6.png
+INFO     BASE_ASSERTIONS:base.py:35 Check, that directory equals to tests
+INFO     USERS_ASSERTIONS:users.py:39 Check user
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to be5db14b-20bd-42cb-b454-8cfd3b488fda
+INFO     BASE_ASSERTIONS:base.py:35 Check, that email equals to sandra93@example.net
+INFO     BASE_ASSERTIONS:base.py:35 Check, that last_name equals to Miller
+INFO     BASE_ASSERTIONS:base.py:35 Check, that first_name equals to Sarah
+INFO     BASE_ASSERTIONS:base.py:35 Check, that middle_name equals to April
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

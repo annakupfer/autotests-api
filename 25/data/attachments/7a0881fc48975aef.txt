@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/0d36bf0e-6c2d-439c-9bee-246a58298ff1' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDE1OjM1OjE2LjEzODU1MiIsInVzZXJfaWQiOiJlMmM3Zjc5Ny02ODkyLTQxZmItODQ3ZS0xNDdhZDU2M2M4NmQifQ.xPb9Bs-y6ktO-L4sGvgCr3gPWgTbWfcdlb792ajt88E' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Also certainly school usually a.","courseId":"bcdf87c3-2101-4ab1-a8a7-c5ad91eb5638","maxScore":85,"minScore":29,"orderIndex":27,"description":"By probably vote must. Every may measure task article perform.\nListen east focus foreign bank though. Event billion us ready something. Character indeed describe character technology.","estimatedTime":"10 weeks"}'

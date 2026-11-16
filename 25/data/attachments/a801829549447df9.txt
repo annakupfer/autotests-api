@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/f25a194e-66be-4c93-86cc-dd4ca8cfe237' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDE1OjM1OjEzLjgzODU2MSIsInVzZXJfaWQiOiJkN2Y2ZTc2Yy1jZTFlLTRjM2YtYjcyMS00NTBkZTIzOGQ3OGEifQ.aGwXiQkT9QLY9nXFCps6-wzqyDt8Xfi4s6V7WNYFySQ' \
+  -H 'content-length: 189' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Over laugh hold or try address me his.","maxScore":81,"minScore":9,"description":"Six fall century play determine cause old. Lead Congress serve level.","estimatedTime":"2 weeks"}'

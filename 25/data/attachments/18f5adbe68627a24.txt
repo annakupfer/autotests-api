@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDE1OjM1OjE1LjM1OTE2NyIsInVzZXJfaWQiOiI0Yjg5MDllZC1jZmE5LTQ5ZjctYTgwNS02NDFlNGQ0MzEwZDcifQ.167rUcUHS7uBk-JQKTzSkd4xqaJu_yKYINSjZlk6RZk' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Out woman save property might bring.","maxScore":72,"minScore":17,"description":"Growth others bill. Worry debate bar among over owner.\nPopular prevent test while nice. Find phone kid attorney.\nAir although necessary here. Great garden media kid floor seek man.","estimatedTime":"6 weeks","previewFileId":"113572cd-c271-401c-bbff-df516f5c6b1f","createdByUserId":"4b8909ed-cfa9-49f7-a805-641e4d4310d7"}'

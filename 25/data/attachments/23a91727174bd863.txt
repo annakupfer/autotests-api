@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDE1OjM1OjE2LjM3MTY4NiIsInVzZXJfaWQiOiJmNzY4ZTliNC0zYWRmLTQ2MjYtYjc3YS1hYmQzOGU3YzMzMjcifQ.WF_beS8DphDW6-tzoHJIVoqP6Uvz5BucBxSOESqIwAg' \
+  -H 'content-length: 285' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Home watch sister democratic.","maxScore":66,"minScore":12,"description":"Lawyer loss he third they religious. Strategy PM opportunity.","estimatedTime":"7 weeks","previewFileId":"bb9cf607-2a9a-4d7c-b8c8-3e16801eebf3","createdByUserId":"f768e9b4-3adf-4626-b77a-abd38e7c3327"}'

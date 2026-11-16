@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE2VDE1OjM1OjEzLjgzODU2MSIsInVzZXJfaWQiOiJkN2Y2ZTc2Yy1jZTFlLTRjM2YtYjcyMS00NTBkZTIzOGQ3OGEifQ.aGwXiQkT9QLY9nXFCps6-wzqyDt8Xfi4s6V7WNYFySQ' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Our knowledge threat.","maxScore":74,"minScore":1,"description":"That activity paper look history teacher full. Range ball sport lose player last.\nNever animal recognize training indicate. Coach collection late entire study million.","estimatedTime":"3 weeks","previewFileId":"8fc5c480-a967-4821-bb2d-cf5a57dbc333","createdByUserId":"d7f6e76c-ce1e-4c3f-b721-450de238d78a"}'
