@@ -19,6 +19,7 @@ prompt:
   inline_prompt_files: [ ./prompts/inline.md ]
   context_prompt_files: [ ./prompts/inline.md ]
   summary_prompt_files: [ ./prompts/summary.md ]
+  system_summary_prompt_files: [ ./prompts/system_summary.md ]
 
   include_summary_system_prompts: false
 
