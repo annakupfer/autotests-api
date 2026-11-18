@@ -1,0 +1,25 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make GETrequest to http://localhost:8000/api/v1/exercises/07b96a16-8ddf-44e1-9631-231c944d21e7
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:66 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:43 Check exercise
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to 07b96a16-8ddf-44e1-9631-231c944d21e7
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Into late return both.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that course_id equals to b51b6057-6efc-4378-a219-27a9501f4d23
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 88
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 24
+INFO     BASE_ASSERTIONS:base.py:35 Check, that order_index equals to 32
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Far hand eye. Plan peace adult whatever heart reach step born. Live site contain manage. Guy indicate of reveal later door tough.
+Well blue away during standard ten themselves.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE4VDE3OjI0OjMwLjEwOTU4NCIsInVzZXJfaWQiOiIwNDcwNGZkZS1hMDNjLTQxOWEtODk2Yy00NDBkZDIwMmZjNzYifQ.im5WyXf_JseADJeyBnvoJBei8ks1p7hlaly9OsDm7NI' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Center discover case.","courseId":"2ce2d7d4-d6be-44ee-983f-1a99cc907f69","maxScore":91,"minScore":30,"orderIndex":87,"description":"State board watch interest physical parent foot stock. Away less guess easy Congress five second.\nFigure can moment language space. Yet short still surface four rock.","estimatedTime":"10 weeks"}'

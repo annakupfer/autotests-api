@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/c48ab69e-9059-4ff2-954e-206f9765154d' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE4VDE3OjI0OjMzLjg0OTU1MCIsInVzZXJfaWQiOiJmNDE4YjAwZC1hYWRlLTQ0ODItYmZmOC1jYTNlMmNlZGQzYWIifQ.bKoME9LvGrexzmufWI3hUa_m6WQmPW5ebmIdhWnHbpI' \
+  -H 'content-length: 322' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Yes hope relationship heavy.","courseId":"1b871fb6-4c77-4cbf-a4b1-ebfbabc91cd9","maxScore":50,"minScore":25,"orderIndex":75,"description":"Blood peace run new. Worker set certainly course reach focus environmental. Old bad our travel subject act.\nSocial star draw top against assume.","estimatedTime":"1 weeks"}'

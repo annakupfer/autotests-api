@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE4VDE3OjI0OjMxLjQ4MDc4NyIsInVzZXJfaWQiOiI2MDBlOTRmYi03NmFiLTRlOTAtYmYzYy1iOGEzNTE5NmI4MjEifQ.yRdbIlNyF70hm_ZLN7fiKVK7MIxBIvnZsE_3B6s3-AU' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bill performance final sort window.","maxScore":64,"minScore":24,"description":"Mr approach black body. None chance public sit culture reflect population. Amount tough all charge tree every. Memory approach want especially father.","estimatedTime":"3 weeks","previewFileId":"6586eb11-d75c-48d0-9dfe-18d94c8cdc08","createdByUserId":"600e94fb-76ab-4e90-bf3c-b8a35196b821"}'

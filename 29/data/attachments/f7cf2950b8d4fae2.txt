@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE4VDE3OjI0OjMyLjU2MDcxNiIsInVzZXJfaWQiOiI4ZWVjMGQyYy05NTFlLTQzMGQtYTJmNS0zMGEyYjVhMGQyMDYifQ.VZRa297FkacD_AKPaONMkl2w9lVYG2_XOn5Ns9M90Po' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Foot close act note throw fear woman.","maxScore":62,"minScore":17,"description":"What serious test director he magazine. Practice college onto agency great.\nDemocratic push PM conference national nature. Several and several in full very.","estimatedTime":"10 weeks","previewFileId":"8687bfb9-ef1b-42ad-ae7f-6a565f0d9502","createdByUserId":"8eec0d2c-951e-430d-a2f5-30a2b5a0d206"}'

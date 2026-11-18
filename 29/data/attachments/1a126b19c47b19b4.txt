@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE4VDE3OjI0OjI2LjE1MTkxMCIsInVzZXJfaWQiOiIyMmI4OGNkYy0yYjVkLTQxNmYtODZlNC01ZTBlZTQ1MTViMDEifQ.1pOkyiob9ur4H7xRk3I_hfjLpWbREWVbzsHn0CctQQM' \
+  -H 'content-length: 304' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sing better allow.","maxScore":52,"minScore":6,"description":"Top piece partner still wait. Kind our hotel treat last notice.\nFind dream you current law.","estimatedTime":"1 weeks","previewFileId":"4c34704a-adf7-4e8c-9fda-43f90ac4c332","createdByUserId":"22b88cdc-2b5d-416f-86e4-5e0ee4515b01"}'

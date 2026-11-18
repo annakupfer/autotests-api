@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE4VDE3OjI0OjMzLjg0OTU1MCIsInVzZXJfaWQiOiJmNDE4YjAwZC1hYWRlLTQ0ODItYmZmOC1jYTNlMmNlZGQzYWIifQ.bKoME9LvGrexzmufWI3hUa_m6WQmPW5ebmIdhWnHbpI' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Friend indeed whose authority management catch.","maxScore":60,"minScore":13,"description":"Down particularly part there huge any center body. On role truth develop condition three time. Exist will lot card least owner important number.","estimatedTime":"3 weeks","previewFileId":"24a858fc-5f69-4ee3-b52c-0f4e6a300bda","createdByUserId":"f418b00d-aade-4482-bff8-ca3e2cedd3ab"}'

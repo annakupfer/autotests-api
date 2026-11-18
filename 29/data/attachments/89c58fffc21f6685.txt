@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE4VDE3OjI0OjI3Ljc3MzUzNyIsInVzZXJfaWQiOiJkMWIxMTQ4Zi1lOTAwLTQ3ZDctOWMzOC0zOGJlNDkyYzA2MmEifQ.ocJug3cZjjbQ8_yMUvuBWpVCr7OBwWowJbCeQRrqBEY' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Impact far have base could personal unit.","maxScore":65,"minScore":12,"description":"Option style week break statement.\nCover quality customer describe wait. Author learn government final little medical. Say give item floor fast arrive. Project red economic court herself.","estimatedTime":"9 weeks","previewFileId":"89bddde4-86de-4320-8dde-62836407c369","createdByUserId":"d1b1148f-e900-47d7-9c38-38be492c062a"}'

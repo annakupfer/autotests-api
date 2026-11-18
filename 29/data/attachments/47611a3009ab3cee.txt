@@ -1,0 +1,33 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make GETrequest to http://localhost:8000/api/v1/courses?userId=b9f54ddc-1679-4fa7-b430-1a19216b2740
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:65 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:71 Check, that length of courses equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:41 Check course
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to c65e5037-9c39-44b4-a6ca-aaade7755de5
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Language one what.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 70
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 10
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Lay success community stock.
+Today mention each product current buy time. Want too case create fall there also. Politics try single leader attention.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 7 weeks
+INFO     FILES_ASSERTIONS:files.py:40 Check file
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to e050ce8e-9f7e-4f8e-a76b-39bd6cb51636
+INFO     BASE_ASSERTIONS:base.py:35 Check, that url equals to http://localhost:8000/static/tests/470852b0-283f-44c4-a546-325c60644d80.png
+INFO     BASE_ASSERTIONS:base.py:35 Check, that filename equals to 470852b0-283f-44c4-a546-325c60644d80.png
+INFO     BASE_ASSERTIONS:base.py:35 Check, that directory equals to tests
+INFO     USERS_ASSERTIONS:users.py:41 Check user
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to b9f54ddc-1679-4fa7-b430-1a19216b2740
+INFO     BASE_ASSERTIONS:base.py:35 Check, that email equals to ljones@example.org
+INFO     BASE_ASSERTIONS:base.py:35 Check, that last_name equals to Lee
+INFO     BASE_ASSERTIONS:base.py:35 Check, that first_name equals to Tiffany
+INFO     BASE_ASSERTIONS:base.py:35 Check, that middle_name equals to Ricky
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema
