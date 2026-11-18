@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE4VDEzOjAzOjIwLjU3MDA3MSIsInVzZXJfaWQiOiI1Nzg1Zjg4YS02MDZhLTQzNGItYTEzNi1kZGY4Mzk0ZjYwZjQifQ.BkkV43CpKQv1_tQTuu9nwsAWBkETyfkASGgwCybvIN4' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Modern your student create system.","maxScore":91,"minScore":13,"description":"Street kid candidate team throughout go. Wish because family report family character possible. Really physical establish.\nLeg us move it officer choice. Why set well television role risk.","estimatedTime":"1 weeks","previewFileId":"43ac9069-7a5e-435e-9c7b-7c21e64bb652","createdByUserId":"5785f88a-606a-434b-a136-ddf8394f60f4"}'

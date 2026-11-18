@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE4VDEzOjAzOjIyLjgyOTExMSIsInVzZXJfaWQiOiI2ZWEzMjY4OS0wYTEzLTQ3ZjItYjY2OS1jYmI3ZWYwZTY4MWYifQ.ch5w5-FbHtLPnRdGBEARMHsAUXoInH7UzPwXtd2IIkM' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Keep value reduce.","maxScore":61,"minScore":6,"description":"Administration college Mrs with house. Parent something public easy probably. Not provide many perform.\nUp son almost. Head deep above enjoy manage discuss spend matter.","estimatedTime":"1 weeks","previewFileId":"14c43b39-92e3-4b57-93eb-42b65851f42d","createdByUserId":"6ea32689-0a13-47f2-b669-cbb7ef0e681f"}'

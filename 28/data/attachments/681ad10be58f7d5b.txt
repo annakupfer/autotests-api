@@ -1,0 +1,33 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make GETrequest to http://localhost:8000/api/v1/courses?userId=5785f88a-606a-434b-a136-ddf8394f60f4
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:65 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:71 Check, that length of courses equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:41 Check course
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to d796bdd7-16a9-49d5-a161-e29075d2a5a2
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Modern your student create system.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 91
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 13
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Street kid candidate team throughout go. Wish because family report family character possible. Really physical establish.
+Leg us move it officer choice. Why set well television role risk.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 1 weeks
+INFO     FILES_ASSERTIONS:files.py:40 Check file
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to 43ac9069-7a5e-435e-9c7b-7c21e64bb652
+INFO     BASE_ASSERTIONS:base.py:35 Check, that url equals to http://localhost:8000/static/tests/a2f6359c-4d81-442b-92d1-f37c47aebda1.png
+INFO     BASE_ASSERTIONS:base.py:35 Check, that filename equals to a2f6359c-4d81-442b-92d1-f37c47aebda1.png
+INFO     BASE_ASSERTIONS:base.py:35 Check, that directory equals to tests
+INFO     USERS_ASSERTIONS:users.py:41 Check user
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to 5785f88a-606a-434b-a136-ddf8394f60f4
+INFO     BASE_ASSERTIONS:base.py:35 Check, that email equals to williamdillon@example.com
+INFO     BASE_ASSERTIONS:base.py:35 Check, that last_name equals to Sanchez
+INFO     BASE_ASSERTIONS:base.py:35 Check, that first_name equals to Rachel
+INFO     BASE_ASSERTIONS:base.py:35 Check, that middle_name equals to Lori
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

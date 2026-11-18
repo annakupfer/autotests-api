@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE4VDEzOjAzOjI0LjA2MTI0NSIsInVzZXJfaWQiOiIxYWNiYTdkNi1jMDE0LTQ0MjEtYmQ4ZC02ZjdlZmVhZGNjYTgifQ.RJPkgK3TdUOdjOnoVlGgBOBrZ52fwN-p9p0FjM8yqK0' \
+  -H 'content-length: 397' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fine than situation few recently how draw simple.","maxScore":62,"minScore":1,"description":"Just street field school. Strategy which project create.\nSo exist half result animal save. Vote catch fire power improve. Yard power hand country green.","estimatedTime":"10 weeks","previewFileId":"42b88a91-81ed-4798-bbe0-14610e51e19d","createdByUserId":"1acba7d6-c014-4421-bd8d-6f7efeadcca8"}'

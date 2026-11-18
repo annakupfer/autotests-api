@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE4VDEzOjAzOjIwLjA2ODY1MSIsInVzZXJfaWQiOiJkMmY5OGZhNi05NTQwLTQ5NzMtYjA3Mi01MDk0ZWMyNTMzOTkifQ.ryqC7okh8ABYijipf9UO1yfOJLBdGzqcElW0P31m1DQ' \
+  -H 'content-length: 357' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Take want article meet them law.","maxScore":84,"minScore":2,"description":"Without argue news major something rich. Ahead threat degree citizen night speak authority remember. Laugh yet serious few product.","estimatedTime":"1 weeks","previewFileId":"119b4517-0c8e-4914-a594-9fc5a3a6ff71","createdByUserId":"d2f98fa6-9540-4973-b072-5094ec253399"}'

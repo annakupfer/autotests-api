@@ -1,0 +1,21 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:24 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Decision actually head for news.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 87
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 14
+INFO     BASE_ASSERTIONS:base.py:35 Check, that order_index equals to 6
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Quality should continue glass space instead result.
+Speak project matter her ground over. Street increase which able commercial put. Close concern production management address.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 7 weeks
+INFO     BASE_ASSERTIONS:base.py:35 Check, that course_id equals to 296719d9-098c-4fea-852f-1a544a75472e
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

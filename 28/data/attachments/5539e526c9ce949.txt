@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE4VDEzOjAzOjIyLjU4OTY5MCIsInVzZXJfaWQiOiI5NGVlZDhlYS1mNDVlLTQ4ZTAtYjQ0YS1mYzMzNzNlNGNhNGMifQ.UfJTpGbb1Vf6k5-y_FqiTSVG2yVEvd6GET2WWuhc9-w' \
+  -H 'content-length: 299' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nothing whether federal take reduce impact.","courseId":"8a1ddcb7-e628-4464-b900-3cdefa6b5abe","maxScore":55,"minScore":4,"orderIndex":17,"description":"Maintain product accept feel door particular bad. Some choice think voice. Everything particular memory her.","estimatedTime":"1 weeks"}'

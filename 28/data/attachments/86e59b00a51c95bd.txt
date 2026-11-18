@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE4VDEzOjAzOjIxLjM1NTQ1OSIsInVzZXJfaWQiOiJkZDY0M2ZjNC01MWQ2LTRmZjgtOGNiMC0yMGI4ZmRiZTA2NTIifQ.bU8sZdxb6Q9i4IG9Tk0uhYc_R9pbmz-_L3nOh3W-BzY' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ask huge shoulder room boy operation.","maxScore":56,"minScore":28,"description":"Little pick agent large later. Myself appear bit cultural.\nRadio if ask. Fact short throughout miss decide evidence. Audience seek public court. Wait force sometimes want city along.","estimatedTime":"4 weeks","previewFileId":"9f7ec977-a994-4294-af57-f75b2305c5ee","createdByUserId":"dd643fc4-51d6-4ff8-8cb0-20b8fdbe0652"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE4VDEzOjAzOjIyLjU4OTY5MCIsInVzZXJfaWQiOiI5NGVlZDhlYS1mNDVlLTQ4ZTAtYjQ0YS1mYzMzNzNlNGNhNGMifQ.UfJTpGbb1Vf6k5-y_FqiTSVG2yVEvd6GET2WWuhc9-w' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Finish model start democratic sister want.","maxScore":98,"minScore":16,"description":"Image road education agent not. Because training debate house investment. Nice that before trade.\nWho group this tonight. Action author hear four. See window must none.","estimatedTime":"9 weeks","previewFileId":"2ac977cd-7444-4684-a80f-3f08ed0f0456","createdByUserId":"94eed8ea-f45e-48e0-b44a-fc3373e4ca4c"}'

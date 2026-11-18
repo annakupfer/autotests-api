@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE4VDEzOjAzOjI1LjM3NzczNCIsInVzZXJfaWQiOiJjYjM5ZDkwMC1hMmU1LTQzOTctYjU5Ni02OGU1OTFmZTQzNGIifQ.o1_1psh7Imx0R08HCcfbTafphmAPty06h4_PAS96NGg' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Receive wrong room truth.","maxScore":92,"minScore":5,"description":"Worker appear doctor. Notice figure issue respond modern send teach child.\nEye serve lawyer dream. Music best low material physical him sign say. Open list conference prevent bit over born camera.","estimatedTime":"5 weeks","previewFileId":"ba0fb338-23cd-4581-95dd-bbbfe26f13a6","createdByUserId":"cb39d900-a2e5-4397-b596-68e591fe434b"}'
