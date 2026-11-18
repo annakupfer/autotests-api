@@ -22,6 +22,8 @@ from tools.fakers import fake
 
 import allure
 
+from tools.negative_request_builder import build_negative_request
+
 
 @pytest.mark.users
 @pytest.mark.regression
@@ -150,11 +152,11 @@ class TestUsers:
     @allure.sub_suite(AllureStory.CREATE_ENTITY)
     def test_create_user_with_invalid_email(self,public_users_client: PublicUsersClient):
 
-        request = CreateUserRequestSchema()
-        request_data = request.model_dump()
-        request_data["email"] = "invalid_email"
-        request = CreateUserRequestSchema.model_construct(**request_data)
-
+        request = build_negative_request(
+            CreateUserRequestSchema(),
+            "email",
+            "invalid_email"
+        )
         response = public_users_client.create_user_api(request)
         response_data = ValidationErrorResponseSchema.model_validate_json(
             response.text
@@ -176,11 +178,11 @@ class TestUsers:
     ):
         user_id = function_user.response.user.id
 
-        request = UpdateUserRequestSchema()
-        request_data = request.model_dump()
-        request_data["email"] = "invalid_email"
-        request = UpdateUserRequestSchema.model_construct(**request_data)
-
+        request = build_negative_request(
+            UpdateUserRequestSchema(),
+            "email",
+            "invalid_email"
+        )
         response = private_users_client.update_user_api(user_id, request)
         response_data = ValidationErrorResponseSchema.model_validate_json(
             response.text
