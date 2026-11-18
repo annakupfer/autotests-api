@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE4VDE3OjQxOjE1LjM5NTM0NiIsInVzZXJfaWQiOiJjZGRiMjY0MS03YTBmLTQ0ZjAtYTEyZi1jNmI4NzFlMDBlMTAifQ.itAMT4NVkPd9vOYdHiU2LTp30wz7pi9ryjHlMnH4xJ4' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Production where heavy strong understand.","maxScore":80,"minScore":29,"description":"Player simply Mr interview letter nearly. Agreement answer security else just check scientist might.\nMove away nothing option focus investment. Former upon detail amount.","estimatedTime":"3 weeks","previewFileId":"dafc4eab-803d-4feb-bee0-326066ac78e1","createdByUserId":"cddb2641-7a0f-44f0-a12f-c6b871e00e10"}'

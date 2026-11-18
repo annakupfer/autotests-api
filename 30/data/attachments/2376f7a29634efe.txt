@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE4VDE3OjQxOjA5LjkxNDI0OCIsInVzZXJfaWQiOiIxNTgzMGEzMC02NzllLTRkMDUtYWEwYy0zZWIxMzdiZGNlNmYifQ.kk8B7oeWkDyEjo8vpXcmsUpcE2XpYffbh1gYkLajHz4' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Start TV leader themselves clear.","maxScore":94,"minScore":1,"description":"Region director your picture opportunity perform. High start message amount drive. Word author hair consumer.\nMaintain choice indeed be information PM. Stop floor couple man.","estimatedTime":"9 weeks","previewFileId":"4ee191ee-c0ce-48a7-a76f-ab913b2d77bc","createdByUserId":"15830a30-679e-4d05-aa0c-3eb137bdce6f"}'

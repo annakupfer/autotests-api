@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE4VDE3OjQxOjAzLjkzODc5NSIsInVzZXJfaWQiOiJhMTAxNmIzYS0xNGRlLTRkNWYtYjEyYy1mZjlkZTY4MjM1ZmMifQ.0bEqfvfg-QVwRIMbujywN02MuQ9Do6v67h_WK1_E9Ro' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Choose may else page simply control there.","maxScore":55,"minScore":19,"description":"Discuss father right how value military. Exactly lot country.\nStudy low stay seek hospital subject. Single their view early. Mention their detail appear there election way least.","estimatedTime":"2 weeks","previewFileId":"5f1a8f16-fb67-41d7-b621-11f380668909","createdByUserId":"a1016b3a-14de-4d5f-b12c-ff9de68235fc"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE4VDE3OjQxOjEzLjQ3OTM2MCIsInVzZXJfaWQiOiIzOThhMWMwNS0xYWYwLTQ4MzUtYjI2Yy1kYzRmNDFhMWFiOTMifQ.hdiJKdy9GCQUret2SuTpWKxMkAiQ8XJM_LLHI-gQ4BY' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fly party surface energy sometimes the adult.","maxScore":68,"minScore":21,"description":"Friend remember answer without. Activity defense cold morning. Message door but next hope role near.\nCultural need walk. Matter front cell anything individual professional.","estimatedTime":"7 weeks","previewFileId":"22e30306-4c4b-4cd0-bb49-d9373824de97","createdByUserId":"398a1c05-1af0-4835-b26c-dc4f41a1ab93"}'

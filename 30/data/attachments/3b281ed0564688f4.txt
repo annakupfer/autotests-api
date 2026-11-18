@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE4VDE3OjQxOjA3LjI2NDE3NiIsInVzZXJfaWQiOiI4Yjc4MGU2YS1kODE4LTQ5NzUtODcxYy1lMjNiYWVhM2I5ZmIifQ.tM0Si0YBRPu0ilTnIA1lJxUZBQsCr4D0M1ay177E96Y' \
+  -H 'content-length: 325' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Society image work would director.","maxScore":100,"minScore":2,"description":"Fill any support bill figure. Make serve top discuss energy. Call begin item little face attack.","estimatedTime":"5 weeks","previewFileId":"3fd17f01-afbb-457c-8abb-c2afaf94c58e","createdByUserId":"8b780e6a-d818-4975-871c-e23baea3b9fb"}'

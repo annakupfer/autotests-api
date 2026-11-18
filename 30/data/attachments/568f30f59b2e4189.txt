@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/3518a51b-4729-4686-98bb-4791e85924fd' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE4VDE3OjQxOjA1LjU5NzIyNCIsInVzZXJfaWQiOiI5NThjYWE0NC1iNzg2LTQ4OTMtOTM4NC05YzQ4ZWY1MmE5ZjIifQ.DypjT7K3Z78qR54JuvKa43p7Cwzm7G_cxM8L9OxDIxM' \
+  -H 'content-length: 222' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Decade young my.","maxScore":96,"minScore":5,"description":"Democratic sometimes center total. Tend music particular choose hair plant fine. Enter current month after business include.","estimatedTime":"3 weeks"}'

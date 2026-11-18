@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE4VDE3OjQxOjEzLjQ3OTM2MCIsInVzZXJfaWQiOiIzOThhMWMwNS0xYWYwLTQ4MzUtYjI2Yy1kYzRmNDFhMWFiOTMifQ.hdiJKdy9GCQUret2SuTpWKxMkAiQ8XJM_LLHI-gQ4BY' \
+  -H 'content-length: 285' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Give near situation and change dinner soon.","courseId":"75441265-dadd-4bc8-a422-6f886af733d4","maxScore":77,"minScore":12,"orderIndex":65,"description":"Low become small. West rather happy seat center maintain movement. Kitchen majority girl way.","estimatedTime":"1 weeks"}'

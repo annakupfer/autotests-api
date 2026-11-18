@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE4VDE3OjQxOjA1LjU5NzIyNCIsInVzZXJfaWQiOiI5NThjYWE0NC1iNzg2LTQ4OTMtOTM4NC05YzQ4ZWY1MmE5ZjIifQ.DypjT7K3Z78qR54JuvKa43p7Cwzm7G_cxM8L9OxDIxM' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"White operation break can kind perform.","maxScore":92,"minScore":18,"description":"Store truth material debate care. Resource seven late.\nLike thank couple enter through road. Either police popular increase include either buy. As scene left everything through success money.","estimatedTime":"4 weeks","previewFileId":"ff4c134f-fb87-44e5-bad2-0d809f246ef5","createdByUserId":"958caa44-b786-4893-9384-9c48ef52a9f2"}'
