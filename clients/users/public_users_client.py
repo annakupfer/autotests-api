@@ -1,7 +1,8 @@
-from typing import TypedDict
+from typing import Any
 
 import allure
 from httpx import Response
+from pydantic import BaseModel
 
 from clients.api_client import APIClient
 from clients.public_http_builder import get_public_http_client
@@ -16,14 +17,20 @@ class PublicUsersClient(APIClient):
     """
     @allure.step("Create user")
     @tracker.track_coverage_httpx("APIRoutes.USERS")
-    def create_user_api(self, request: CreateUserRequestSchema) -> Response:
+    def create_user_api(self, request: CreateUserRequestSchema | dict[str, Any]) -> Response:
         """
         Метод создает пользователя.
 
         :param request: Словарь с email, password, lastName, firstName, middleName.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.post(APIRoutes.USERS, json=request.model_dump(by_alias=True))
+        if isinstance(request, BaseModel):
+            request_data = request.model_dump(by_alias=True)
+        else:
+            request_data = request
+
+        return self.post(APIRoutes.USERS, json=request_data)
+
 
     def create_user(self, request: CreateUserRequestSchema) -> CreateUserResponseSchema:
         response = self.create_user_api(request)

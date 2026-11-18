@@ -1,5 +1,8 @@
+from typing import Any
+
 import allure
 from httpx import Response
+from pydantic import BaseModel
 
 from clients.api_client import APIClient
 from clients.private_http_builder import get_private_http_client, AuthenticationUserSchema
@@ -40,16 +43,27 @@ class PrivateUsersClient(APIClient):
 
     @allure.step("Update user by {user_id}")
     @tracker.track_coverage_httpx(f'{APIRoutes.USERS}/{{user_id}}')
-    def update_user_api(self, user_id: str, request: UpdateUserRequestSchema) -> Response:
+    def update_user_api(
+            self,
+            user_id: str,
+            request: UpdateUserRequestSchema | dict[str, Any]
+    ) -> Response:
         """
         Метод обновления пользователя по идентификатору.
 
         :param user_id: Идентификатор пользователя.
-        :param request: Словарь с email, lastName, firstName, middleName.
-        :return: Ответ от сервера в виде объекта httpx.Response
+        :param request: Pydantic-модель или словарь с данными пользователя.
+        :return: Ответ от сервера в виде объекта httpx.Response.
         """
-        return self.patch(f"{APIRoutes.USERS}/{user_id}", json=request.model_dump(by_alias=True))
+        if isinstance(request, BaseModel):
+            request_data = request.model_dump(by_alias=True)
+        else:
+            request_data = request
 
+        return self.patch(
+            f"{APIRoutes.USERS}/{user_id}",
+            json=request_data
+        )
     @allure.step("Delete user by id {user_id}")
     @tracker.track_coverage_httpx(f'{APIRoutes.USERS}/{{user_id}}')
     def delete_user_api(self, user_id: str) -> Response:

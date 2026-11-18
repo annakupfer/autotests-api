@@ -22,8 +22,6 @@ from tools.fakers import fake
 
 import allure
 
-from tools.negative_request_builder import build_negative_request
-
 
 @pytest.mark.users
 @pytest.mark.regression
@@ -32,7 +30,7 @@ from tools.negative_request_builder import build_negative_request
 @allure.feature(AllureFeature.USERS)
 @allure.parent_suite(AllureEpic.LMS)  # allure.parent_suite == allure.epic
 @allure.suite(AllureFeature.USERS)  # allure.suite == allure.feature
-class TestUsers:
+class TestUsersSuccess:
     @pytest.mark.parametrize("domain", ["mail.ru", "gmail.com", "example.com"])
     @allure.tag(AllureTag.CREATE_ENTITY)
     @allure.story(AllureStory.CREATE_ENTITY)
@@ -144,84 +142,4 @@ class TestUsers:
 
         validate_json_schema(get_response.json(), get_response_data.model_json_schema())
 
-
-    @allure.tag(AllureTag.CREATE_ENTITY)
-    @allure.story(AllureStory.CREATE_ENTITY)
-    @allure.title("Create user with invalid email")
-    @allure.severity(Severity.NORMAL)
-    @allure.sub_suite(AllureStory.CREATE_ENTITY)
-    def test_create_user_with_invalid_email(self,public_users_client: PublicUsersClient):
-
-        request = build_negative_request(
-            CreateUserRequestSchema(),
-            "email",
-            "invalid_email"
-        )
-        response = public_users_client.create_user_api(request)
-        response_data = ValidationErrorResponseSchema.model_validate_json(
-            response.text
-        )
-
-        assert_status_code(response.status_code, HTTPStatus.UNPROCESSABLE_ENTITY)
-
-        validate_json_schema(response.json(),response_data.model_json_schema())
-
-    @allure.tag(AllureTag.UPDATE_ENTITY)
-    @allure.story(AllureStory.UPDATE_ENTITY)
-    @allure.title("Update user with invalid email")
-    @allure.severity(Severity.NORMAL)
-    @allure.sub_suite(AllureStory.UPDATE_ENTITY)
-    def test_update_user_with_invalid_email(
-            self,
-            private_users_client: PrivateUsersClient,
-            function_user: UserFixture
-    ):
-        user_id = function_user.response.user.id
-
-        request = build_negative_request(
-            UpdateUserRequestSchema(),
-            "email",
-            "invalid_email"
-        )
-        response = private_users_client.update_user_api(user_id, request)
-        response_data = ValidationErrorResponseSchema.model_validate_json(
-            response.text
-        )
-
-        assert_status_code(response.status_code, HTTPStatus.UNPROCESSABLE_ENTITY)
-
-        validate_json_schema(response.json(),response_data.model_json_schema())
-
-    @pytest.mark.parametrize(
-        "user_id",
-        [
-            "invalid_id",
-            "12345",
-            "123e4567-e89b-12d3-a456-426614174000abc"
-        ],
-        ids=[
-            "invalid_user_id",
-            "short_user_id",
-            "user_id_with_extra_characters"
-        ],
-    )
-    @allure.tag(AllureTag.DELETE_ENTITY)
-    @allure.story(AllureStory.DELETE_ENTITY)
-    @allure.title("Delete user with invalid user_id")
-    @allure.severity(Severity.NORMAL)
-    @allure.sub_suite(AllureStory.DELETE_ENTITY)
-    def test_delete_user_with_invalid_id(
-            self,
-            user_id: str,
-            private_users_client: PrivateUsersClient,
-    ):
-        response = private_users_client.delete_user_api(user_id)
-        print(response.status_code)
-        print(response.headers)
-        print(repr(response.text))
-        response_data = ValidationErrorResponseSchema.model_validate_json(response.text)
-
-        assert_status_code(response.status_code,HTTPStatus.UNPROCESSABLE_ENTITY)
-
-        validate_json_schema(response.json(),response_data.model_json_schema())
 
