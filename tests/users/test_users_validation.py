@@ -161,7 +161,7 @@ class TestUsersValidation:
     @allure.story(AllureStory.CREATE_ENTITY)
     @allure.title("Create user with null {field}")
     @allure.severity(Severity.NORMAL)
-    def test_create_user_with_empty_field(
+    def test_create_user_with_null_field(
             self,
             public_users_client: PublicUsersClient,
             field: str):
@@ -186,11 +186,7 @@ class TestUsersValidation:
             max_length: int,
             public_users_client: PublicUsersClient,
     ):
-        if field == "email":
-            domain = "@example.com"
-            value = f"{'a' * (max_length - len(domain))}{domain}"
-        else:
-            value = "a" * max_length
+        value = self.build_value_with_length(field, max_length)
 
         request = CreateUserRequestSchema(**{field: value})
 
@@ -317,8 +313,6 @@ class TestUsersValidation:
             field: str,
             max_length: int
     ):
-        if field == "email":
-            pytest.skip("EmailStr does not allow a local part longer than 64 characters")
 
         user_id = function_user.response.user.id
         value = self.build_value_with_length(field, max_length)
@@ -345,8 +339,6 @@ class TestUsersValidation:
             field: str,
             max_length: int
     ):
-        if field == "email":
-            pytest.skip("EmailStr does not allow a local part longer than 64 characters")
 
         user_id = function_user.response.user.id
         value = self.build_value_with_length(field, max_length)
@@ -382,7 +374,7 @@ class TestUsersValidation:
     @allure.tag(AllureTag.USERS, AllureTag.REGRESSION)
     @allure.title("Delete user with invalid ID")
     @allure.severity(Severity.NORMAL)
-    def test_get_user_with_invalid_id(
+    def test_delete_user_with_invalid_id(
             self,
             private_users_client: PrivateUsersClient,
             user_id: str
