@@ -1,7 +1,6 @@
-from typing import TypedDict
-
 import allure
 from httpx import Response
+from pydantic import BaseModel
 
 from clients.api_client import APIClient
 from clients.public_http_builder import get_public_http_client  # Импортируем builder
@@ -16,28 +15,39 @@ class AuthenticationClient(APIClient):
     """
     @allure.step("Authenticate user")
     @tracker.track_coverage_httpx(f"{APIRoutes.AUTHENTICATION}/login")
-    def login_api(self, request: LoginRequestSchema) -> Response:
+    def login_api(self, request: LoginRequestSchema | dict) -> Response:
         """
         Метод выполняет аутентификацию пользователя.
 
         :param request: Словарь с email и password.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.post(f"{APIRoutes.AUTHENTICATION}/login", json=request.model_dump(by_alias=True))
+        if isinstance(request, BaseModel):
+            request_data = request.model_dump(by_alias=True)
+        else:
+            request_data = request
+
+        return self.post(f"{APIRoutes.AUTHENTICATION}/login", json=request_data)
 
     @allure.step("Refresh authentication token")
     @tracker.track_coverage_httpx(f"{APIRoutes.AUTHENTICATION}/refresh")
-    def refresh_api(self, request: RefreshRequestSchema) -> Response:
+    def refresh_api(self, request: RefreshRequestSchema | dict) -> Response:
         """
-        Метод обновляет токен авторизации.
+        Метод выполняет обновление токена
 
-        :param request: Словарь с refreshToken.
+        :param request: Словарь с refresh токеном
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.post(f"{APIRoutes.AUTHENTICATION}/refresh", json=request.model_dump(by_alias=True))
+        if isinstance(request, BaseModel):
+            request_data = request.model_dump(by_alias=True)
+        else:
+            request_data = request
+
+        return self.post(f"{APIRoutes.AUTHENTICATION}/refresh", json=request_data)
 
         # Добавили метод login
     def login(self, request: LoginRequestSchema) -> LoginResponseSchema:
+
         response = self.login_api(request)  # Отправляем запрос на аутентификацию
         return LoginResponseSchema.model_validate_json(response.text)
 

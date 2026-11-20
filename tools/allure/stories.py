@@ -2,6 +2,7 @@ from enum import Enum
 
 
 class AllureStory(str, Enum):
+    REFRESH = "Refresh"
     LOGIN = "Login"
 
     GET_ENTITY = "Get entity"

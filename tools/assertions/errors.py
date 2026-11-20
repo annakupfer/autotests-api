@@ -1,5 +1,3 @@
-from typing import Sized
-
 from clients.errors_schema import ValidationErrorSchema, ValidationErrorResponseSchema, InternalErrorResponseSchema
 from tools.assertions.base import assert_equal, assert_length
 import allure
@@ -71,7 +69,7 @@ def assert_validation_error_for_field(
     :param field: поле, вызывающее ошибку
     :raises: AssertionError: если ошибка не соответствует полю
     """
-    logger.info(f"Check validation error in field: {field}")
+    logger.info(f"Check validation error in fields: {field}")
 
     assert_length(actual.details, [None], "details")
     assert_equal(actual.details[0].location[-1], field, "validation error field")

@@ -12,6 +12,7 @@ from clients.users.private_users_client import PrivateUsersClient
 from clients.users.public_users_client import PublicUsersClient
 
 from fixtures.users import UserFixture
+from testdata.invalid_data import INVALID_EMAILS
 from testdata.users.factory import build_update_user, build_create_user, build_value_with_length
 from tools.allure.features import AllureFeature
 from tools.allure.stories import AllureStory
@@ -77,14 +78,6 @@ class TestUsersValidation:
         "invalid_uuid",
         "123",
         "8e80933a-dce8-42de-ad0e",
-    ]
-
-    # Common validation data
-    INVALID_EMAILS = [
-        "invalid_email",
-        "user@",
-        "@example.com",
-        "user example.com",
     ]
 
     @pytest.mark.parametrize("email", INVALID_EMAILS)

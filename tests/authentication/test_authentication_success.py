@@ -5,13 +5,14 @@ import pytest
 from allure_commons.types import Severity
 
 from clients.authentication.authentication_client import AuthenticationClient
-from clients.authentication.authentication_schema import LoginRequestSchema, LoginResponseSchema
+from clients.authentication.authentication_schema import LoginRequestSchema, LoginResponseSchema, RefreshRequestSchema, \
+    RefreshResponseSchema
 from fixtures.users import UserFixture
 from tools.allure.epics import AllureEpic
 from tools.allure.features import AllureFeature
 from tools.allure.stories import AllureStory
 from tools.allure.tags import AllureTag
-from tools.assertions.authentication import assert_login_response
+from tools.assertions.authentication import assert_login_response, assert_refresh_token_response
 from tools.assertions.base import assert_status_code
 from tools.assertions.schema import validate_json_schema
 
@@ -22,7 +23,7 @@ from tools.assertions.schema import validate_json_schema
 @allure.feature(AllureFeature.AUTHENTICATION)  # Добавили feature
 @allure.parent_suite(AllureEpic.LMS)
 @allure.suite(AllureFeature.AUTHENTICATION)
-class TestAuthentication:
+class TestAuthenticationSuccess:
     @allure.title("Login with correct email and password")
     @allure.story(AllureStory.LOGIN)
     @allure.severity(Severity.BLOCKER)
@@ -32,11 +33,9 @@ class TestAuthentication:
             function_user: UserFixture,  # Используем фикстуру для создания пользователя
             authentication_client: AuthenticationClient
     ):
-        # Запрос на логин (login_request -> request)
         request = LoginRequestSchema(email=function_user.email, password=function_user.password)
-        # Выполняем логин (login_response -> response)
+
         response = authentication_client.login_api(request)
-        # Валидация ответа (login_response_data -> response_data)
         response_data = LoginResponseSchema.model_validate_json(response.text)
 
         assert_status_code(response.status_code, HTTPStatus.OK)
@@ -44,6 +43,29 @@ class TestAuthentication:
 
         validate_json_schema(response.json(), response_data.model_json_schema())
 
+    @allure.title("Refresh token with correct value")
+    @allure.story(AllureStory.REFRESH)
+    @allure.severity(Severity.BLOCKER)
+    @allure.sub_suite(AllureStory.REFRESH)
+    def test_refresh_token(
+            self,
+            function_user: UserFixture,
+            authentication_client: AuthenticationClient
+    ):
+        login_request = LoginRequestSchema(email=function_user.email, password=function_user.password)
+        login_response = authentication_client.login_api(login_request)
+
+        refresh_token = login_response.json()["token"]["refreshToken"]
+
+        refresh_request = RefreshRequestSchema(refresh_token=refresh_token)
+
+        response = authentication_client.refresh_api(refresh_request)
+        response_data = RefreshResponseSchema.model_validate_json(response.text)
+
+        assert_status_code(response.status_code, HTTPStatus.OK)
+        assert_refresh_token_response(response_data)
+
+        validate_json_schema(response.json(), response_data.model_json_schema())
 
 
 

@@ -16,7 +16,7 @@ class PublicUsersClient(APIClient):
     Клиент для работы с /api/v1/users
     """
     @allure.step("Create user")
-    @tracker.track_coverage_httpx("APIRoutes.USERS")
+    @tracker.track_coverage_httpx(APIRoutes.USERS)
     def create_user_api(self, request: CreateUserRequestSchema | dict) -> Response:
         """
         Метод создает пользователя.
@@ -30,7 +30,6 @@ class PublicUsersClient(APIClient):
             request_data = request
 
         return self.post(APIRoutes.USERS, json=request_data)
-
 
     def create_user(self, request: CreateUserRequestSchema) -> CreateUserResponseSchema:
         response = self.create_user_api(request)
