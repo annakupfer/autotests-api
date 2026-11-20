@@ -3,7 +3,7 @@ from http import HTTPStatus
 import pytest
 from allure_commons.types import Severity
 
-from clients.errors_schema import InternalErrorResponseSchema, ValidationErrorResponseSchema
+from clients.errors_schema import InternalErrorResponseSchema
 from clients.private_http_builder import AuthenticationUserSchema
 from clients.users.private_users_client import PrivateUsersClient, get_private_users_client
 from clients.users.public_users_client import PublicUsersClient
@@ -116,9 +116,9 @@ class TestUsersSuccess:
     ):
         user_id = function_user.response.user.id
 
-        # Создаём второго пользователя
+        # Create another user for verification
         another_user_request = CreateUserRequestSchema()
-        public_users_client.create_user(another_user_request)
+        public_users_client.create_user_api(another_user_request)
 
         another_user_auth = AuthenticationUserSchema(
             email=another_user_request.email,
@@ -126,11 +126,11 @@ class TestUsersSuccess:
         )
         another_user_client = get_private_users_client(another_user_auth)
 
-        # Удаляем первого пользователя
+        # Delete the first user
         delete_response = private_users_client.delete_user_api(user_id)
         assert_status_code(delete_response.status_code, HTTPStatus.OK)
 
-        # Проверяем удаление от имени второго пользователя
+        # Check that user is deleted
         get_response = another_user_client.get_user_api(user_id)
 
         get_response_data = InternalErrorResponseSchema.model_validate_json(

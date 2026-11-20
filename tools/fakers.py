@@ -36,7 +36,8 @@ class Fake:
 
         :return: Случайный email.
         """
-        return self.faker.email(domain=domain)
+        unique_part = self.random_string(16)
+        return f"{unique_part}@{domain or 'example.com'}"
 
     def sentence(self) -> str:
         """
@@ -111,6 +112,12 @@ class Fake:
         :return: Случайный балл.
         """
         return self.integer(1, 30)
+
+    def random_string(self, length: int) -> str:
+        """
+        Генерирует случайную строку заданной длины.
+        """
+        return self.faker.pystr(min_chars=length, max_chars=length)
 
 
 # Создаем экземпляр класса Fake с использованием Faker

@@ -1,3 +1,5 @@
+from typing import Sized
+
 from clients.errors_schema import ValidationErrorSchema, ValidationErrorResponseSchema, InternalErrorResponseSchema
 from tools.assertions.base import assert_equal, assert_length
 import allure
@@ -37,7 +39,7 @@ def assert_validation_error_response(
     :raises AssertionError: Если значения полей не совпадают.
     """
     logger.info("Check validation error response")
-    
+
     assert_length(actual.details, expected.details, "details")
 
     for index, detail in enumerate(expected.details):
@@ -58,3 +60,18 @@ def assert_internal_error_response(
     logger.info("Check internal error response")
 
     assert_equal(actual.details, expected.details, "details")
+
+@allure.step("Check validation error for field: {field}")
+def assert_validation_error_for_field(
+        actual: ValidationErrorResponseSchema,
+        field: str) -> None:
+    """
+    Проверяет, что ошибка валидации соответствует полю
+    :param actual: Фактический ответ API.
+    :param field: поле, вызывающее ошибку
+    :raises: AssertionError: если ошибка не соответствует полю
+    """
+    logger.info(f"Check validation error in field: {field}")
+
+    assert_length(actual.details, [None], "details")
+    assert_equal(actual.details[0].location[-1], field, "validation error field")

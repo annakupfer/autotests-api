@@ -1,5 +1,3 @@
-import logging
-
 import allure
 
 from clients.errors_schema import InternalErrorResponseSchema
@@ -85,10 +83,25 @@ def assert_user_not_found_response(actual: InternalErrorResponseSchema):
     """
     Функция для проверки ошибки, если пользователь не найден
 
-        :param actual: Фактический ответ.
-        :raises AssertionError: Если фактический ответ не соответствует ошибке "User not found"
-        """
+    :param actual: Фактический ответ.
+    :raises AssertionError: Если фактический ответ не соответствует ошибке "User not found"
+    """
     logger.info("Check user not found response")
 
     expected = InternalErrorResponseSchema(details="User not found")
     assert_internal_error_response(actual, expected)
+
+@allure.step("Check create user with existing email response")
+def assert_create_user_with_existing_email_response(email: str, actual: InternalErrorResponseSchema):
+    """
+    Функция для проверки ошибки создания пользователя с существующим email
+
+    :param actual: Фактический ответ
+    :param email: email запроса
+    :raises AssertionError: Если фактический ответ не соответствует ожидаемому тексту ошибки
+    """
+    logger.info("Check create user with existing email response")
+
+    expected = InternalErrorResponseSchema(details=f"User with email {email} already exists")
+    assert_internal_error_response(actual, expected)
+

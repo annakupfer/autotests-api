@@ -1,6 +1,5 @@
 from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema, UpdateUserResponseSchema, \
     UpdateUserRequestSchema
-from fixtures.users import private_users_client
 
 from http import HTTPStatus
 
@@ -13,11 +12,12 @@ from clients.users.private_users_client import PrivateUsersClient
 from clients.users.public_users_client import PublicUsersClient
 
 from fixtures.users import UserFixture
-from testdata.users.factory import build_update_user, build_create_user
+from testdata.users.factory import build_update_user, build_create_user, build_value_with_length
 from tools.allure.features import AllureFeature
 from tools.allure.stories import AllureStory
 from tools.allure.tags import AllureTag
 from tools.assertions.base import assert_status_code
+from tools.assertions.errors import assert_validation_error_for_field
 from tools.assertions.schema import validate_json_schema
 from tools.assertions.users import assert_create_user_response, assert_update_user_response
 
@@ -28,14 +28,6 @@ from tools.assertions.users import assert_create_user_response, assert_update_us
 @allure.feature(AllureFeature.USERS)
 class TestUsersValidation:
 
-    @staticmethod
-    def build_value_with_length(field: str, max_length: int) -> str:
-        if field == "email":
-            domain = "@example.com"
-            return f"{'a' * (max_length - len(domain))}{domain}"
-
-        return "a" * max_length
-
     # Create user
     CREATE_FIELDS = [
         "email",
@@ -45,20 +37,19 @@ class TestUsersValidation:
         "middleName",
     ]
 
-    CREATE_EMPTY_FIELDS = CREATE_FIELDS
-
-    CREATE_BOUNDARY_LENGTH_FIELDS = [
+    CREATE_MAX_LENGTH_FIELDS = [
+        ("email", 250),
         ("password", 250),
         ("lastName", 50),
         ("firstName", 50),
         ("middleName", 50),
     ]
 
-    CREATE_MAX_LENGTH_FIELDS = [
-        ("password", 251),
-        ("lastName", 51),
-        ("firstName", 51),
-        ("middleName", 51),
+    CREATE_MIN_LENGTH_FIELDS = [
+        ("password", 1),
+        ("lastName", 1),
+        ("firstName", 1),
+        ("middleName", 1),
     ]
 
     # Update user
@@ -69,21 +60,19 @@ class TestUsersValidation:
         "middleName",
     ]
 
-    UPDATE_EMPTY_FIELDS = UPDATE_FIELDS
-
-    UPDATE_BOUNDARY_LENGTH_FIELDS = [
+    UPDATE_MAX_LENGTH_FIELDS = [
+        ("email", 250),
         ("lastName", 50),
         ("firstName", 50),
         ("middleName", 50),
     ]
 
-    UPDATE_MAX_LENGTH_FIELDS = [
-        ("lastName", 51),
-        ("firstName", 51),
-        ("middleName", 51),
+    UPDATE_MIN_LENGTH_FIELDS = [
+        ("lastName", 1),
+        ("firstName", 1),
+        ("middleName", 1),
     ]
-
-    #Get user
+    # Get user
     INVALID_USER_IDS = [
         "invalid_uuid",
         "123",
@@ -97,6 +86,7 @@ class TestUsersValidation:
         "@example.com",
         "user example.com",
     ]
+
     @pytest.mark.parametrize("email", INVALID_EMAILS)
     @allure.tag(AllureTag.CREATE_ENTITY)
     @allure.story(AllureStory.CREATE_ENTITY)
@@ -107,19 +97,22 @@ class TestUsersValidation:
             public_users_client: PublicUsersClient,
             email: str
     ):
-        request = build_create_user(email=email)
+        request_data = build_create_user(email=email)
+        request = CreateUserRequestSchema.model_construct(**request_data)
 
         response = public_users_client.create_user_api(request)
         response_data = ValidationErrorResponseSchema.model_validate_json(response.text)
 
         assert_status_code(response.status_code, HTTPStatus.UNPROCESSABLE_ENTITY)
+        assert_validation_error_for_field(response_data, "email")
 
         validate_json_schema(response.json(), response_data.model_json_schema())
+
 
     @pytest.mark.parametrize("email", INVALID_EMAILS)
     @allure.tag(AllureTag.UPDATE_ENTITY)
     @allure.story(AllureStory.UPDATE_ENTITY)
-    @allure.title("Update user with invalid email")
+    @allure.title("Update user with invalid email: {email}")
     @allure.severity(Severity.NORMAL)
     def test_update_user_with_invalid_email(
         self,
@@ -129,16 +122,19 @@ class TestUsersValidation:
     ):
         user_id = function_user.response.user.id
 
-        request = build_update_user(email=email)
+        request_data = build_update_user(email=email)
+        request = UpdateUserRequestSchema.model_construct(**request_data)
 
         response = private_users_client.update_user_api(user_id, request)
         response_data = ValidationErrorResponseSchema.model_validate_json(response.text)
 
         assert_status_code(response.status_code, HTTPStatus.UNPROCESSABLE_ENTITY)
+        assert_validation_error_for_field(response_data, "email")
 
         validate_json_schema(response.json(), response_data.model_json_schema())
 
-    @pytest.mark.parametrize("field", CREATE_EMPTY_FIELDS)
+
+    @pytest.mark.parametrize("field", CREATE_FIELDS)
     @allure.tag(AllureTag.CREATE_ENTITY)
     @allure.story(AllureStory.CREATE_ENTITY)
     @allure.title("Create user with empty {field}")
@@ -147,14 +143,17 @@ class TestUsersValidation:
             self,
             public_users_client: PublicUsersClient,
             field: str):
-        request = build_create_user(**{field: ""})
 
-        response = public_users_client.create_user_api(request)
+        request_data = build_create_user(**{field: ""})
+
+        response = public_users_client.create_user_api(request_data)
         response_data = ValidationErrorResponseSchema.model_validate_json(response.text)
 
         assert_status_code(response.status_code, HTTPStatus.UNPROCESSABLE_ENTITY)
+        assert_validation_error_for_field(response_data, field)
 
         validate_json_schema(response.json(), response_data.model_json_schema())
+
 
     @pytest.mark.parametrize("field", CREATE_FIELDS)
     @allure.tag(AllureTag.CREATE_ENTITY)
@@ -165,30 +164,33 @@ class TestUsersValidation:
             self,
             public_users_client: PublicUsersClient,
             field: str):
-        request = build_create_user(**{field: None})
 
-        response = public_users_client.create_user_api(request)
+        request_data = build_create_user(**{field: None})
+
+        response = public_users_client.create_user_api(request_data)
         response_data = ValidationErrorResponseSchema.model_validate_json(response.text)
 
         assert_status_code(response.status_code, HTTPStatus.UNPROCESSABLE_ENTITY)
+        assert_validation_error_for_field(response_data, field)
 
         validate_json_schema(response.json(), response_data.model_json_schema())
 
-    @pytest.mark.parametrize(("field", "max_length"), CREATE_BOUNDARY_LENGTH_FIELDS)
+
+    @pytest.mark.parametrize(("field", "min_length"), CREATE_MIN_LENGTH_FIELDS)
     @allure.tag(AllureTag.CREATE_ENTITY)
     @allure.story(AllureStory.CREATE_ENTITY)
-    @allure.title("Create user with boundary {field} length")
+    @allure.title("Create user with minimum {field} length")
     @allure.severity(Severity.NORMAL)
-    @allure.sub_suite(AllureStory.CREATE_ENTITY)
-    def test_create_user_with_boundary_length(
+    def test_create_user_with_min_length(
             self,
-            field: str,
-            max_length: int,
             public_users_client: PublicUsersClient,
+            field: str,
+            min_length: int
     ):
-        value = self.build_value_with_length(field, max_length)
+        value = "a" * min_length
 
-        request = CreateUserRequestSchema(**{field: value})
+        request_data = build_create_user(**{field: value})
+        request = CreateUserRequestSchema(**request_data)
 
         response = public_users_client.create_user_api(request)
         response_data = CreateUserResponseSchema.model_validate_json(response.text)
@@ -199,20 +201,28 @@ class TestUsersValidation:
         validate_json_schema(response.json(), response_data.model_json_schema())
 
 
+    @pytest.mark.parametrize(("field", "max_length"), CREATE_MAX_LENGTH_FIELDS)
     @allure.tag(AllureTag.CREATE_ENTITY)
     @allure.story(AllureStory.CREATE_ENTITY)
-    @allure.title("Create user with email exceeding max length")
+    @allure.title("Create user with max {field} length")
     @allure.severity(Severity.NORMAL)
-    def test_create_user_with_email_exceeding_max_length(
+    @allure.sub_suite(AllureStory.CREATE_ENTITY)
+    def test_create_user_with_max_length(
             self,
-            public_users_client: PublicUsersClient
+            field: str,
+            max_length: int,
+            public_users_client: PublicUsersClient,
     ):
-        request = build_create_user(email=f"{'a' * 240}@example.com")
+        value = build_value_with_length(field, max_length)
+
+        request_data = build_create_user(**{field: value})
+        request = CreateUserRequestSchema(**request_data)
 
         response = public_users_client.create_user_api(request)
-        response_data = ValidationErrorResponseSchema.model_validate_json(response.text)
+        response_data = CreateUserResponseSchema.model_validate_json(response.text)
 
-        assert_status_code(response.status_code, HTTPStatus.UNPROCESSABLE_ENTITY)
+        assert_status_code(response.status_code, HTTPStatus.OK)
+        assert_create_user_response(request, response_data)
 
         validate_json_schema(response.json(), response_data.model_json_schema())
 
@@ -228,12 +238,16 @@ class TestUsersValidation:
             field: str,
             max_length: int
     ):
-        request = build_create_user(**{field: "a" * max_length})
+        value = build_value_with_length(field, max_length + 1)
+
+        request_data = build_create_user(**{field: value})
+        request = CreateUserRequestSchema(**request_data)
 
         response = public_users_client.create_user_api(request)
         response_data = ValidationErrorResponseSchema.model_validate_json(response.text)
 
         assert_status_code(response.status_code, HTTPStatus.UNPROCESSABLE_ENTITY)
+        assert_validation_error_for_field(response_data, field)
 
         validate_json_schema(response.json(), response_data.model_json_schema())
 
@@ -247,13 +261,14 @@ class TestUsersValidation:
             public_users_client: PublicUsersClient,
             field: str
     ):
-        request = build_create_user()
-        request.pop(field)
+        request_data = build_create_user()
+        request_data.pop(field)
 
-        response = public_users_client.create_user_api(request)
+        response = public_users_client.create_user_api(request_data)
         response_data = ValidationErrorResponseSchema.model_validate_json(response.text)
 
         assert_status_code(response.status_code, HTTPStatus.UNPROCESSABLE_ENTITY)
+        assert_validation_error_for_field(response_data, field)
 
         validate_json_schema(response.json(), response_data.model_json_schema())
 
@@ -269,12 +284,15 @@ class TestUsersValidation:
             field: str,
     ):
         user_id = function_user.response.user.id
-        request = build_update_user(**{field: ""})
+
+        request_data = build_update_user(**{field: ""})
+        request = UpdateUserRequestSchema.model_construct(**request_data)
 
         response = private_users_client.update_user_api(user_id, request)
         response_data = ValidationErrorResponseSchema.model_validate_json(response.text)
 
         assert_status_code(response.status_code, HTTPStatus.UNPROCESSABLE_ENTITY)
+        assert_validation_error_for_field(response_data, field)
 
         validate_json_schema(response.json(), response_data.model_json_schema())
 
@@ -291,22 +309,53 @@ class TestUsersValidation:
             field: str,
     ):
         user_id = function_user.response.user.id
-        request = UpdateUserRequestSchema(**build_update_user(**{field: None}))
+
+        request_data = build_update_user(**{field: None})
+        request = UpdateUserRequestSchema.model_construct(**request_data)
 
         response = private_users_client.update_user_api(user_id, request)
         response_data = UpdateUserResponseSchema.model_validate_json(response.text)
 
         assert_status_code(response.status_code, HTTPStatus.OK)
         assert_update_user_response(response_data, request)
+
         validate_json_schema(response.json(), response_data.model_json_schema())
 
-    @pytest.mark.parametrize(("field", "max_length"), UPDATE_BOUNDARY_LENGTH_FIELDS)
+
+    @pytest.mark.parametrize(("field", "min_length"), UPDATE_MIN_LENGTH_FIELDS)
+    @allure.tag(AllureTag.UPDATE_ENTITY)
+    @allure.story(AllureStory.UPDATE_ENTITY)
+    @allure.title("Update user with minimum {field} length")
+    @allure.severity(Severity.NORMAL)
+    def test_update_user_with_min_length(
+            self,
+            private_users_client: PrivateUsersClient,
+            function_user: UserFixture,
+            field: str,
+            min_length: int
+    ):
+        user_id = function_user.response.user.id
+        value = "a" * min_length
+
+        request_data = build_update_user(**{field: value})
+        request = UpdateUserRequestSchema(**request_data)
+
+        response = private_users_client.update_user_api(user_id, request)
+        response_data = UpdateUserResponseSchema.model_validate_json(response.text)
+
+        assert_status_code(response.status_code, HTTPStatus.OK)
+        assert_update_user_response(response_data, request)
+
+        validate_json_schema(response.json(), response_data.model_json_schema())
+
+
+    @pytest.mark.parametrize(("field", "max_length"), UPDATE_MAX_LENGTH_FIELDS)
     @allure.tag(AllureTag.UPDATE_ENTITY)
     @allure.story(AllureStory.UPDATE_ENTITY)
     @allure.title("Update user with boundary {field} length")
     @allure.severity(Severity.NORMAL)
     @allure.sub_suite(AllureStory.UPDATE_ENTITY)
-    def test_update_user_with_boundary_length(
+    def test_update_user_with_max_length(
             self,
             private_users_client: PrivateUsersClient,
             function_user: UserFixture,
@@ -315,8 +364,10 @@ class TestUsersValidation:
     ):
 
         user_id = function_user.response.user.id
-        value = self.build_value_with_length(field, max_length)
-        request = UpdateUserRequestSchema(**build_update_user(**{field: value}))
+        value = build_value_with_length(field, max_length)
+
+        request_data = build_update_user(**{field: value})
+        request = UpdateUserRequestSchema(**request_data)
 
         response = private_users_client.update_user_api(user_id, request)
         response_data = UpdateUserResponseSchema.model_validate_json(response.text)
@@ -341,13 +392,16 @@ class TestUsersValidation:
     ):
 
         user_id = function_user.response.user.id
-        value = self.build_value_with_length(field, max_length)
-        request = build_update_user(**{field: value})
+        value = build_value_with_length(field, max_length + 1)
+
+        request_data = build_update_user(**{field: value})
+        request = UpdateUserRequestSchema(**request_data)
 
         response = private_users_client.update_user_api(user_id, request)
         response_data = ValidationErrorResponseSchema.model_validate_json(response.text)
 
         assert_status_code(response.status_code, HTTPStatus.UNPROCESSABLE_ENTITY)
+        assert_validation_error_for_field(response_data, field)
 
         validate_json_schema(response.json(), response_data.model_json_schema())
 

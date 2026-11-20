@@ -58,7 +58,7 @@ def assert_is_true(actual: Any, name: str):
     )
 
 
-def assert_length(actual: Sized,expected: Sized, name: str):
+def assert_length(actual: Sized, expected: Sized, name: str):
     """
         Проверяет, что длины двух объектов совпадают.
 
