@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTIwVDEwOjM2OjU1LjM0MjM4MyIsInVzZXJfaWQiOiI4YTQ3YTJiYi00Y2U0LTRjZTEtOTllZi02ZTJlZDU0YjFjM2EifQ.pFlN1VlN4UcL99IgalOZc-6MAge-2ul67ygvHLq88aY' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Save letter paper medical tend.","maxScore":56,"minScore":29,"description":"Chair tree positive always western night. Cause growth various answer. Author can speak major data.\nExplain yes push hand score. Current factor rich executive analysis kind.","estimatedTime":"1 weeks","previewFileId":"501ec004-f7ba-4b1b-b5ac-5159bf878fe5","createdByUserId":"8a47a2bb-4ce4-4ce1-99ef-6e2ed54b1c3a"}'

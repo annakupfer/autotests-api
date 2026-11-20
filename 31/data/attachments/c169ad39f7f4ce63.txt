@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTIwVDEwOjM2OjUzLjYyNTg5MCIsInVzZXJfaWQiOiJjNmQ5NWVhOS1lMzQ2LTQwNTAtOTQ2Mi1iMGQxMTcxYjE0NTQifQ.EDvhHP4DkloL7d1njXqUsEiOCJ_uxI1TtGYKCtqIS_s' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Animal grow six past product television data its.","maxScore":92,"minScore":17,"description":"Area commercial human most. Reflect admit off.\nRich foreign role economy accept own either. Watch practice including half use executive set start. It sure raise activity focus.","estimatedTime":"6 weeks","previewFileId":"0ac571a7-8fc9-4b4f-a7a2-34751547b258","createdByUserId":"c6d95ea9-e346-4050-9462-b0d1171b1454"}'

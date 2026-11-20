@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/a94e24e1-c74b-491a-b4e9-d1b1bcee68cf' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTIwVDEwOjM2OjQ4LjYwMTYxOCIsInVzZXJfaWQiOiJkNWRlOTFiZS02ZGMwLTQzNDYtYmI3MS1mMDNlZThkYTExNTMifQ.664mflUy8HXCqh012ePrEWVLnzra6Sra750T0Fy3Hb8' \
+  -H 'content-length: 261' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Manager part another culture data what.","maxScore":62,"minScore":17,"description":"Pm leave loss more compare. Huge opportunity threat exactly.\nFast property term such. Husband particular hotel may often into spring door.","estimatedTime":"9 weeks"}'

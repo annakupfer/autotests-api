@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTIwVDEwOjM2OjQ4LjYwMTYxOCIsInVzZXJfaWQiOiJkNWRlOTFiZS02ZGMwLTQzNDYtYmI3MS1mMDNlZThkYTExNTMifQ.664mflUy8HXCqh012ePrEWVLnzra6Sra750T0Fy3Hb8' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"View leave we wonder song series agreement.","maxScore":69,"minScore":4,"description":"If little huge here clearly leg. Thus morning here quality.\nBenefit similar professional as how imagine. Guess enter standard walk never still.","estimatedTime":"1 weeks","previewFileId":"dd56c69c-7bff-4774-be7d-1efb2bb9c045","createdByUserId":"d5de91be-6dc0-4346-bb71-f03ee8da1153"}'

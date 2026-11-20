@@ -1,0 +1,13 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make PATCHrequest to http://localhost:8000/api/v1/users/bf6f0af9-61f3-4ec0-97c6-290bc26602ec
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     USERS_ASSERTIONS:users.py:73 Check update user response
+INFO     BASE_ASSERTIONS:base.py:35 Check, that email equals to pRkXJEAhcGKkQDbM@example.com
+INFO     BASE_ASSERTIONS:base.py:35 Check, that last_name equals to Meadows
+INFO     BASE_ASSERTIONS:base.py:35 Check, that first_name equals to a
+INFO     BASE_ASSERTIONS:base.py:35 Check, that middle_name equals to Justin
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

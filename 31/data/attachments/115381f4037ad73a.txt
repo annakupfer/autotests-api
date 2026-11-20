@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTIwVDEwOjM2OjU4LjM1MDEzOSIsInVzZXJfaWQiOiIyN2IxM2FjNi1hOTRiLTQzNWQtOGU4OC1lYTc3YWI1NTJlZjYifQ.jtaMNywJcBfeZ0uvd9uzEeHSXm83FYZs81JlyRcxYec' \
+  -H 'content-length: 317' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Market south key short reach power.","maxScore":80,"minScore":9,"description":"Manage range soon sign while face word. Western beautiful question even record probably.","estimatedTime":"2 weeks","previewFileId":"387ad9e9-a63f-49e9-9138-5def4e6f45fa","createdByUserId":"27b13ac6-a94b-435d-8e88-ea77ab552ef6"}'

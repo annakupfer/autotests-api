@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/users/8b269f92-7180-4efd-80ad-03af48c53e43' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTIwVDEwOjM3OjEyLjY3ODQ1MCIsInVzZXJfaWQiOiI4YjI2OWY5Mi03MTgwLTRlZmQtODBhZC0wM2FmNDhjNTNlNDMifQ.xEG7Sv797KN9DAyrBB-f74v2Ty8Y3D9GZkGOH-79UFo' \
+  -H 'content-length: 150' \
+  -H 'content-type: application/json' \
+  -d '{"email":"oaEBfkWKLkeAQvPH@example.com","lastName":"Johnson","firstName":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa","middleName":"William"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTIwVDEwOjM2OjQ3LjA4NjI1MiIsInVzZXJfaWQiOiJmYzdkYmJkMS03Yzk0LTQyNDYtODQ5Ni05YzFiMjA5MjNiMmQifQ.iKNNF8_r5JcGAklHCvyfZggpuuUyk3HcEs5QvVXJUa8' \
+  -H 'content-length: 319' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Remember risk technology answer because discuss trip.","maxScore":67,"minScore":10,"description":"Age likely face bad participant of. Color wait method while themselves.","estimatedTime":"9 weeks","previewFileId":"757f2a8e-1c43-47c6-b48d-2e5ab4766fd6","createdByUserId":"fc7dbbd1-7c94-4246-8496-9c1b20923b2d"}'
