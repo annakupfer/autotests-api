@@ -1,0 +1,23 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make PATCHrequest to http://localhost:8000/api/v1/exercises/39c071c5-6cc1-4954-adfe-c8595af7fde3
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:101 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Until a ten yourself.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that course_id equals to 04f5a3e3-a43c-4ead-8f4b-4add3fca4989
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 96
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 6
+INFO     BASE_ASSERTIONS:base.py:35 Check, that order_index equals to 69
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Country trial important news important home. Last down firm message.
+Type development door key upon. Majority management watch media build plan deal.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 2 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

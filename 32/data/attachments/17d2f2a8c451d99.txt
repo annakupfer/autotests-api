@@ -1,0 +1,6 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 422 Unprocessable Entity response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 422
+INFO     AUTHENTICATION_ASSERTIONS:authentication.py:47 Check login without required fields response
+INFO     BASE_ASSERTIONS:base.py:71 Check, that length of details equals to 2
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

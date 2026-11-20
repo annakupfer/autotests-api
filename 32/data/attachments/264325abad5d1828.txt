@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTIwVDE5OjA5OjM4LjU1NjA3OSIsInVzZXJfaWQiOiJlZDZkOTk5OC03NTAwLTQ5YmUtODA1MS0yYmQ2ZjRmYmVmZTQifQ.E9hSqJnHYHciOfA7FC9YViVZ1GzkgiVNPUFgjKriF7A' \
+  -H 'content-length: 344' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Activity improve address.","maxScore":60,"minScore":30,"description":"Admit amount detail third provide receive. Require model both available mention receive. True those value rule watch travel.","estimatedTime":"7 weeks","previewFileId":"cb05256d-82e9-42c0-97cd-3f67d743b0dd","createdByUserId":"ed6d9998-7500-49be-8051-2bd6f4fbefe4"}'

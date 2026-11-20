@@ -1,0 +1,34 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make GETrequest to http://localhost:8000/api/v1/courses?userId=c3f787c7-c745-46ef-aab6-b41ceef54eab
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:65 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:71 Check, that length of courses equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:41 Check course
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to 211fca4e-a184-49f9-92d9-32aa7bb8c828
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to House difference morning hand.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 73
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 26
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Cell unit discussion physical sea. Only dog when half usually.
+President everyone sound ever oil none break.
+Always series bank.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 3 weeks
+INFO     FILES_ASSERTIONS:files.py:40 Check file
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to d9c5bbf5-1f7b-4beb-b630-d4a8a28bf430
+INFO     BASE_ASSERTIONS:base.py:35 Check, that url equals to http://localhost:8000/static/tests/f8cbb75e-2251-46df-83d7-2102877bf12f.png
+INFO     BASE_ASSERTIONS:base.py:35 Check, that filename equals to f8cbb75e-2251-46df-83d7-2102877bf12f.png
+INFO     BASE_ASSERTIONS:base.py:35 Check, that directory equals to tests
+INFO     USERS_ASSERTIONS:users.py:39 Check user
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to c3f787c7-c745-46ef-aab6-b41ceef54eab
+INFO     BASE_ASSERTIONS:base.py:35 Check, that email equals to BUPPpqBseVVXwzbl@example.com
+INFO     BASE_ASSERTIONS:base.py:35 Check, that last_name equals to Larsen
+INFO     BASE_ASSERTIONS:base.py:35 Check, that first_name equals to Jerry
+INFO     BASE_ASSERTIONS:base.py:35 Check, that middle_name equals to Bruce
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/users/5b485155-ed01-4481-bcee-47fdb96b464d' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTIwVDE5OjA5OjUxLjExNjU5MyIsInVzZXJfaWQiOiI1YjQ4NTE1NS1lZDAxLTQ0ODEtYmNlZS00N2ZkYjk2YjQ2NGQifQ.eJPT2Z9w_Jc1hUHLerHlo9g2ohHyJubkr6B0p9Z3tJ8' \
+  -H 'content-length: 325' \
+  -H 'content-type: application/json' \
+  -d '{"email":"nJUjdRzYuPRBzTTcQhoXoUaLniAHBzEhluPaOfMjSlPOAEprcuOgXMuUxkJuvBtX@bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb.ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc.dddddddddddddddddddddddddddddddddddddddddddddddddddddddddd","lastName":"Wood","firstName":"Candice","middleName":"Amanda"}'

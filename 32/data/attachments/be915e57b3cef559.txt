@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTIwVDE5OjA5OjM4LjU1NjA3OSIsInVzZXJfaWQiOiJlZDZkOTk5OC03NTAwLTQ5YmUtODA1MS0yYmQ2ZjRmYmVmZTQifQ.E9hSqJnHYHciOfA7FC9YViVZ1GzkgiVNPUFgjKriF7A' \
+  -H 'content-length: 325' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Recently teacher policy sing agree finish population.","courseId":"203ff62b-74ac-4778-980c-a739a0736087","maxScore":90,"minScore":24,"orderIndex":38,"description":"Church sure degree attention history make surface happy. Interview popular drug professional fill especially alone officer.","estimatedTime":"7 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTIwVDE5OjA5OjQwLjQ1OTY2NSIsInVzZXJfaWQiOiJlMmQxY2ZiYi1hYmRjLTQwYzQtYTY0Yy1jZmM4MTkwZjE5OTEifQ.5gi4VM_RPU3U-7p5zS4qYahPKdM-z91KG4ycHaqp8TI' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pick still film minute bit parent.","maxScore":70,"minScore":19,"description":"Next us year together high now. Wrong choice about red three rule.\nBeyond view seek ability stock. Interesting land short community subject near nothing. Billion media wish no.","estimatedTime":"9 weeks","previewFileId":"27e37c2f-4783-4f66-b77a-ec507a12d192","createdByUserId":"e2d1cfbb-abdc-40c4-a64c-cfc8190f1991"}'

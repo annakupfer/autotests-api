@@ -1,0 +1,8 @@
+curl -X 'GET' \
+  'http://localhost:8000/api/v1/users/invalid_uuid' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTIwVDE5OjA5OjUzLjMxMzQ3MSIsInVzZXJfaWQiOiI2Nzc2NDMxOS1iYmM4LTQ0ZjgtOWRkZS1jYmU3ZTk4ZWQzOTkifQ.QhUVJgw-U5Cq8YYNSAK3aHSzPm0XeGvprg80gV9cwiE'

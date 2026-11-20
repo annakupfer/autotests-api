@@ -1,0 +1,25 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make GETrequest to http://localhost:8000/api/v1/exercises?courseId=203ff62b-74ac-4778-980c-a739a0736087
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:82 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:71 Check, that length of exercises equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:43 Check exercise
+INFO     BASE_ASSERTIONS:base.py:35 Check, that id equals to 00368867-1a8b-4c18-84b8-44ef5c16c666
+INFO     BASE_ASSERTIONS:base.py:35 Check, that title equals to Recently teacher policy sing agree finish population.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that course_id equals to 203ff62b-74ac-4778-980c-a739a0736087
+INFO     BASE_ASSERTIONS:base.py:35 Check, that max_score equals to 90
+INFO     BASE_ASSERTIONS:base.py:35 Check, that min_score equals to 24
+INFO     BASE_ASSERTIONS:base.py:35 Check, that order_index equals to 38
+INFO     BASE_ASSERTIONS:base.py:35 Check, that description equals to Church sure degree attention history make surface happy. Interview popular drug professional fill especially alone officer.
+INFO     BASE_ASSERTIONS:base.py:35 Check, that estimated_time equals to 7 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

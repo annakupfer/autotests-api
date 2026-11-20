@@ -1,0 +1,7 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 401 Unauthorized response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 401
+INFO     AUTHENTICATION_ASSERTIONS:authentication.py:32 Check login with invalid credentials error response
+INFO     ERRORS_ASSERTIONS:errors.py:58 Check internal error response
+INFO     BASE_ASSERTIONS:base.py:35 Check, that details equals to Invalid credentials
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema

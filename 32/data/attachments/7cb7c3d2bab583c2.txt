@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/39c071c5-6cc1-4954-adfe-c8595af7fde3' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTIwVDE5OjA5OjM5LjA4NDIwMCIsInVzZXJfaWQiOiI3NmUyNjc4My0yYzM3LTQ2NTYtOGVkMy1iZDI5ZjkxMDY5MmMifQ.8n_i0mi2GmPNb5FHzNB7OWn6meLV6KpuVgDzx_Sbaww' \
+  -H 'content-length: 319' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Until a ten yourself.","courseId":"04f5a3e3-a43c-4ead-8f4b-4add3fca4989","maxScore":96,"minScore":6,"orderIndex":69,"description":"Country trial important news important home. Last down firm message.\nType development door key upon. Majority management watch media build plan deal.","estimatedTime":"2 weeks"}'

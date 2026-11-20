@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTIwVDE5OjA5OjM1Ljg2MjgxOCIsInVzZXJfaWQiOiJiMGZkOGZjYy0yMGM0LTQzOWYtOTRiOC05M2VhZjYzNmFiN2UifQ.doKGtkJPEE8GPB2tYLKeZaK7iDEsCmi-_25Ktqm-5K8' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Year act appear assume success carry room.","maxScore":62,"minScore":4,"description":"Manager site officer write accept movement. Senior book sort myself.\nDog grow vote. Particularly structure wait very. Particular campaign response.","estimatedTime":"6 weeks","previewFileId":"2a2b770c-eb47-4e38-afb6-06a83455ee51","createdByUserId":"b0fd8fcc-20c4-439f-94b8-93eaf636ab7e"}'

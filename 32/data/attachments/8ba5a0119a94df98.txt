@@ -1,0 +1,11 @@
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make POSTrequest to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 200 OK response
+INFO     HTTP_LOGGER:event_hooks.py:23 Make PATCHrequest to http://localhost:8000/api/v1/users/b66485a5-666d-47c9-b010-1ffae46f1a80
+INFO     HTTP_LOGGER:event_hooks.py:26 Got 422 Unprocessable Entity response
+INFO     BASE_ASSERTIONS:base.py:16 Check, that response status code equals to 422
+INFO     ERRORS_ASSERTIONS:errors.py:72 Check validation error in fields: lastName
+INFO     BASE_ASSERTIONS:base.py:71 Check, that length of details equals to 1
+INFO     BASE_ASSERTIONS:base.py:35 Check, that validation error field equals to lastName
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validate JSON schema
